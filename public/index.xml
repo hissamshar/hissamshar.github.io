@@ -1,32 +1,32 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
-    <title></title>
-    <link>//localhost:1313/</link>
-    <description>Recent content on </description>
+    <title>Hisam Shar</title>
+    <link>http://localhost:1313/</link>
+    <description>Recent content on Hisam Shar</description>
     <generator>Hugo -- 0.140.2</generator>
-    <language>en</language>
+    <language>en-us</language>
     <lastBuildDate>Wed, 15 Jan 2025 19:20:33 +0500</lastBuildDate>
-    <atom:link href="//localhost:1313/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="http://localhost:1313/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>3rd</title>
-      <link>//localhost:1313/posts/3rd/</link>
+      <link>http://localhost:1313/posts/3rd/</link>
       <pubDate>Wed, 15 Jan 2025 19:20:33 +0500</pubDate>
-      <guid>//localhost:1313/posts/3rd/</guid>
+      <guid>http://localhost:1313/posts/3rd/</guid>
       <description></description>
     </item>
     <item>
       <title>New_post</title>
-      <link>//localhost:1313/posts/new_post/</link>
+      <link>http://localhost:1313/posts/new_post/</link>
       <pubDate>Wed, 15 Jan 2025 19:20:17 +0500</pubDate>
-      <guid>//localhost:1313/posts/new_post/</guid>
+      <guid>http://localhost:1313/posts/new_post/</guid>
       <description></description>
     </item>
     <item>
       <title>Qemu/Kvm</title>
-      <link>//localhost:1313/posts/my-first-post/</link>
+      <link>http://localhost:1313/posts/my-first-post/</link>
       <pubDate>Wed, 15 Jan 2025 19:17:14 +0500</pubDate>
-      <guid>//localhost:1313/posts/my-first-post/</guid>
+      <guid>http://localhost:1313/posts/my-first-post/</guid>
       <description>&lt;p&gt;Hisam My post&lt;/p&gt;</description>
     </item>
   </channel>
