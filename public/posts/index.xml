@@ -6,10 +6,24 @@
     <description>Recent content in Posts on </description>
     <generator>Hugo -- 0.140.2</generator>
     <language>en</language>
-    <lastBuildDate>Wed, 15 Jan 2025 19:17:14 +0500</lastBuildDate>
+    <lastBuildDate>Wed, 15 Jan 2025 19:20:33 +0500</lastBuildDate>
     <atom:link href="//localhost:1313/posts/index.xml" rel="self" type="application/rss+xml" />
     <item>
-      <title>My First Post</title>
+      <title>3rd</title>
+      <link>//localhost:1313/posts/3rd/</link>
+      <pubDate>Wed, 15 Jan 2025 19:20:33 +0500</pubDate>
+      <guid>//localhost:1313/posts/3rd/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>New_post</title>
+      <link>//localhost:1313/posts/new_post/</link>
+      <pubDate>Wed, 15 Jan 2025 19:20:17 +0500</pubDate>
+      <guid>//localhost:1313/posts/new_post/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Qemu/Kvm</title>
       <link>//localhost:1313/posts/my-first-post/</link>
       <pubDate>Wed, 15 Jan 2025 19:17:14 +0500</pubDate>
       <guid>//localhost:1313/posts/my-first-post/</guid>
