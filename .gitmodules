@@ -4,3 +4,9 @@
 [submodule "themes/hugo-book"]
 	path = themes/hugo-book
 	url = https://github.com/alex-shpak/hugo-book
+[submodule "hugo-theme-nostyleplease"]
+	path = hugo-theme-nostyleplease
+	url = https://github.com/hanwenguo/hugo-theme-nostyleplease.git
+[submodule "themes/hugo-theme-nostyleplease"]
+	path = themes/hugo-theme-nostyleplease
+	url = https://github.com/hanwenguo/hugo-theme-nostyleplease.git
