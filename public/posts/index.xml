@@ -6,14 +6,44 @@
     <description>Recent content in Posts on Hisam Shar</description>
     <generator>Hugo -- 0.140.2</generator>
     <language>en-us</language>
-    <lastBuildDate>Wed, 15 Jan 2025 19:20:33 +0500</lastBuildDate>
+    <lastBuildDate>Thu, 16 Jan 2025 15:00:06 +0500</lastBuildDate>
     <atom:link href="http://localhost:1313/posts/index.xml" rel="self" type="application/rss+xml" />
     <item>
-      <title>3rd</title>
-      <link>http://localhost:1313/posts/3rd/</link>
+      <title>Host a website on Github Pages with Hugo</title>
+      <link>http://localhost:1313/posts/my-first-post1/</link>
+      <pubDate>Thu, 16 Jan 2025 15:00:06 +0500</pubDate>
+      <guid>http://localhost:1313/posts/my-first-post1/</guid>
+      <description>&lt;p&gt;Hosting a website on GitHub Pages with Hugo involves the following steps:&lt;/p&gt;
+&lt;h1 id=&#34;creating-a-website&#34;&gt;Creating a website&lt;/h1&gt;
+&lt;p&gt;&lt;strong&gt;1. Install Hugo and git&lt;/strong&gt;&lt;/p&gt;
+&lt;pre&gt;&lt;code&gt;&amp;gt; sudo pacman -S Hugo
+&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;&lt;strong&gt;2. Create a new Hugo site&lt;/strong&gt;&lt;/p&gt;
+&lt;pre&gt;&lt;code&gt;&amp;gt; hugo new site your-website
+&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;&lt;strong&gt;3. Add a Theme&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;Navigate to your website directory and add a theme. You can choose one from the &lt;a href=&#34;https://themes.gohugo.io/&#34;&gt;Hugo Themes&lt;/a&gt; .&lt;/p&gt;
+&lt;pre&gt;&lt;code&gt;&amp;gt; cd your-website
+&amp;gt; git init 
+&amp;gt; git submodule add https://github.com/adityatelange/hugo-PaperMod.git themes/hugo-PaperMod
+&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;Now you will need to update the hugo.toml file for them to take effect. To do so you can either &lt;em&gt;echo&lt;/em&gt; or addd it in the file.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>archlinux installation in hypervisor through QEMU/KVM</title>
+      <link>http://localhost:1313/posts/arch_kvm/</link>
       <pubDate>Wed, 15 Jan 2025 19:20:33 +0500</pubDate>
-      <guid>http://localhost:1313/posts/3rd/</guid>
-      <description></description>
+      <guid>http://localhost:1313/posts/arch_kvm/</guid>
+      <description>&lt;h1 id=&#34;kvm&#34;&gt;KVM&lt;/h1&gt;
+&lt;p&gt;Kernel-based Virtual Machine is a free and open-source virtualization module in the Linux kernel that allows the kernel to function as a hypervisor.&lt;/p&gt;
+&lt;h2 id=&#34;installation&#34;&gt;Installation&lt;/h2&gt;
+&lt;p&gt;For updates, run the following command:&lt;/p&gt;
+&lt;pre tabindex=&#34;0&#34;&gt;&lt;code&gt;$ sudo pacman -Syu
+&lt;/code&gt;&lt;/pre&gt;&lt;h3 id=&#34;qemukvm-installation&#34;&gt;QEMU/KVM installation:&lt;/h3&gt;
+&lt;p&gt;We&amp;rsquo;ll install qemu and all the utils required:&lt;/p&gt;
+&lt;pre tabindex=&#34;0&#34;&gt;&lt;code&gt;$ sudo pacman -S qemu vde2 ebtables iptables-nft nftables dms masq bridge-utils ovmf swptm
+&lt;/code&gt;&lt;/pre&gt;&lt;h3 id=&#34;virtual-machine-manager-installation&#34;&gt;Virtual Machine Manager installation:&lt;/h3&gt;
+&lt;p&gt;The virt-manager application is a graphical user interface for managing virtual machines through libvirt. It primarily targets KVM VMs.&lt;/p&gt;</description>
     </item>
   </channel>
 </rss>
