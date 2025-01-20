@@ -1,6 +1,6 @@
 ---
-date: '2025-01-16T15:00:06+05:00'
-title: 'Host a website on Github Pages with Hugo'
+date: '2025-01-20T12:08:01+05:00'
+title: 'Hosting a Website on Github Pages With Hugo'
 ---
 
 Hosting a website on GitHub Pages with Hugo involves the following steps:
