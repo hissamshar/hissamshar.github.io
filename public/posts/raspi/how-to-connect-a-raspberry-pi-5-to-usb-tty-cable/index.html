@@ -5,11 +5,20 @@
 <meta http-equiv="X-UA-Compatible" content="IE=edge">
 <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 <meta name="robots" content="noindex, nofollow">
-<title>Posts | Hisam Shar</title>
+<title>How to Connect a Raspberry PI 5 to USB TTY Cable | Hisam Shar</title>
 <meta name="keywords" content="">
-<meta name="description" content="Posts - Hisam Shar">
+<meta name="description" content="Connecting a Raspberry Pi 5 to a USB TTY cable is a common way to interact with it through a serial connection, especially for debugging or setting up the device without using a display.
+Prerequists
+
+Raspberry Pi 5.
+USB TTY (serial) cable.
+Computer with a terminal emulator (minicom/screen).
+GPIO pinout diagram of Raspberry Pi 5 (for reference).
+Power source for Raspberry Pi (optional if USB TTY can power it, though not recommended).
+
+How to Connect">
 <meta name="author" content="">
-<link rel="canonical" href="http://localhost:1313/posts/">
+<link rel="canonical" href="http://localhost:1313/posts/raspi/how-to-connect-a-raspberry-pi-5-to-usb-tty-cable/">
 <link crossorigin="anonymous" href="/assets/css/stylesheet.45e028aa8ce0961349adf411b013ee39406be2c0bc80d4ea3fc04555f7f4611a.css" integrity="sha256-ReAoqozglhNJrfQRsBPuOUBr4sC8gNTqP8BFVff0YRo=" rel="preload stylesheet" as="style">
 <link rel="icon" href="http://localhost:1313/favicon.ico">
 <link rel="icon" type="image/png" sizes="16x16" href="http://localhost:1313/favicon-16x16.png">
@@ -18,8 +27,7 @@
 <link rel="mask-icon" href="http://localhost:1313/safari-pinned-tab.svg">
 <meta name="theme-color" content="#2e2e33">
 <meta name="msapplication-TileColor" content="#2e2e33">
-<link rel="alternate" type="application/rss+xml" href="http://localhost:1313/posts/index.xml">
-<link rel="alternate" hreflang="en" href="http://localhost:1313/posts/">
+<link rel="alternate" hreflang="en" href="http://localhost:1313/posts/raspi/how-to-connect-a-raspberry-pi-5-to-usb-tty-cable/">
 <noscript>
     <style>
         #theme-toggle,
@@ -59,7 +67,7 @@
 </noscript>
 </head>
 
-<body class="list" id="top">
+<body class="" id="top">
 <script>
     if (localStorage.getItem("pref-theme") === "dark") {
         document.body.classList.add('dark');
@@ -102,66 +110,46 @@
         </ul>
     </nav>
 </header>
-<main class="main"> 
-<header class="page-header">
-  <h1>
-    Posts
-  </h1>
-</header>
+<main class="main">
 
-<article class="post-entry"> 
-  <header class="entry-header">
-    <h2 class="entry-hint-parent">How to Connect a Raspberry PI 5 to USB TTY Cable
-      <span class="entry-hint" title="Draft">
-        <svg xmlns="http://www.w3.org/2000/svg" height="20" viewBox="0 -960 960 960" fill="currentColor">
-          <path
-            d="M160-410v-60h300v60H160Zm0-165v-60h470v60H160Zm0-165v-60h470v60H160Zm360 580v-123l221-220q9-9 20-13t22-4q12 0 23 4.5t20 13.5l37 37q9 9 13 20t4 22q0 11-4.5 22.5T862.09-380L643-160H520Zm300-263-37-37 37 37ZM580-220h38l121-122-18-19-19-18-122 121v38Zm141-141-19-18 37 37-18-19Z" />
-        </svg>
-      </span>
-    </h2>
-  </header>
-  <div class="entry-content">
-    <p>Connecting a Raspberry Pi 5 to a USB TTY cable is a common way to interact with it through a serial connection, especially for debugging or setting up the device without using a display.
-Prerequists
-Raspberry Pi 5. USB TTY (serial) cable. Computer with a terminal emulator (minicom/screen). GPIO pinout diagram of Raspberry Pi 5 (for reference). Power source for Raspberry Pi (optional if USB TTY can power it, though not recommended). How to Connect
-...</p>
-  </div>
-  <footer class="entry-footer"><span title='2025-01-20 15:12:09 +0500 PKT'>January 20, 2025</span></footer>
-  <a class="entry-link" aria-label="post link to How to Connect a Raspberry PI 5 to USB TTY Cable" href="http://localhost:1313/posts/how-to-connect-a-raspberry-pi-5-to-usb-tty-cable/"></a>
-</article>
+<article class="post-single">
+  <header class="post-header">
+    
+    <h1 class="post-title entry-hint-parent">
+      How to Connect a Raspberry PI 5 to USB TTY Cable
+    </h1>
+    <div class="post-meta"><span title='2025-01-20 15:12:09 +0500 PKT'>January 20, 2025</span>
 
-<article class="post-entry"> 
-  <header class="entry-header">
-    <h2 class="entry-hint-parent">Hosting a Website on Github Pages With Hugo
-    </h2>
-  </header>
-  <div class="entry-content">
-    <p>Hosting a website on GitHub Pages with Hugo involves the following steps:
-Creating a website 1. Install Hugo and git
-&gt; sudo pacman -S Hugo 2. Create a new Hugo site
-&gt; hugo new site your-website 3. Add a Theme
-Navigate to your website directory and add a theme. You can choose one from the Hugo Themes .
-&gt; cd your-website &gt; git init &gt; git submodule add https://github.com/adityatelange/hugo-PaperMod.git themes/hugo-PaperMod Now you will need to update the hugo.toml file for them to take effect. To do so you can either echo or addd it in the file.
-...</p>
-  </div>
-  <footer class="entry-footer"><span title='2025-01-20 12:08:01 +0500 PKT'>January 20, 2025</span></footer>
-  <a class="entry-link" aria-label="post link to Hosting a Website on Github Pages With Hugo" href="http://localhost:1313/posts/hosting-a-website-on-github-pages-with-hugo/"></a>
-</article>
+</div>
+  </header> 
+  <div class="post-content"><p>Connecting a Raspberry Pi 5 to a USB TTY cable is a common way to interact with it through a serial connection, especially for debugging or setting up the device without using a display.</p>
+<p><strong>Prerequists</strong></p>
+<ol>
+<li>Raspberry Pi 5.</li>
+<li>USB TTY (serial) cable.</li>
+<li>Computer with a terminal emulator (minicom/screen).</li>
+<li>GPIO pinout diagram of Raspberry Pi 5 (for reference).</li>
+<li>Power source for Raspberry Pi (optional if USB TTY can power it, though not recommended).</li>
+</ol>
+<p><strong>How to Connect</strong></p>
+<ul>
+<li>Locate the GPIO Pins</li>
+<li>Find the GPIO header on the Raspberry Pi 5.</li>
+<li>Identify the following pins:</li>
+</ul>
+<p><strong>GND (Ground): Usually black wire on the USB TTY cable.
+TX (Transmit): Sends data from the Pi to the computer.
+RX (Receive): Receives data from the computer to the Pi.</strong></p>
+<p>Use a GPIO pinout chart to locate these pins. For Raspberry Pi 5, it will likely be similar to previous models.
+<img alt="GPIO Pinout" loading="lazy" src="/RPI5_PINOUT.png"></p>
 
-<article class="post-entry"> 
-  <header class="entry-header">
-    <h2 class="entry-hint-parent">archlinux installation in hypervisor through QEMU/KVM
-    </h2>
-  </header>
-  <div class="entry-content">
-    <p>KVM Kernel-based Virtual Machine is a free and open-source virtualization module in the Linux kernel that allows the kernel to function as a hypervisor.
-Installation For updates, run the following command:
-$ sudo pacman -Syu QEMU/KVM installation: We’ll install qemu and all the utils required:
-$ sudo pacman -S qemu vde2 ebtables iptables-nft nftables dms masq bridge-utils ovmf swptm Virtual Machine Manager installation: The virt-manager application is a graphical user interface for managing virtual machines through libvirt. It primarily targets KVM VMs.
-...</p>
+
   </div>
-  <footer class="entry-footer"><span title='2025-01-15 19:20:33 +0500 PKT'>January 15, 2025</span></footer>
-  <a class="entry-link" aria-label="post link to archlinux installation in hypervisor through QEMU/KVM" href="http://localhost:1313/posts/arch_kvm/"></a>
+
+  <footer class="post-footer">
+    <ul class="post-tags">
+    </ul>
+  </footer>
 </article>
     </main>
     
