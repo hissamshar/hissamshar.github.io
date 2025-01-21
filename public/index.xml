@@ -22,7 +22,9 @@
 &lt;li&gt;GPIO pinout diagram of Raspberry Pi 5 (for reference).&lt;/li&gt;
 &lt;li&gt;Power source for Raspberry Pi (optional if USB TTY can power it, though not recommended).&lt;/li&gt;
 &lt;/ol&gt;
-&lt;p&gt;&lt;strong&gt;How to Connect&lt;/strong&gt;&lt;/p&gt;</description>
+&lt;h3 id=&#34;before-starting&#34;&gt;&lt;strong&gt;Before Starting!&lt;/strong&gt;&lt;/h3&gt;
+&lt;h3 id=&#34;issuse-with-firmwarehttpsforumsraspberrypicomviewtopicphpt361397p2171244&#34;&gt;&lt;strong&gt;&lt;a href=&#34;https://forums.raspberrypi.com/viewtopic.php?t=361397#p2171244&#34;&gt;Issuse with firmware&lt;/a&gt;&lt;/strong&gt;&lt;/h3&gt;
+&lt;p&gt;UART does NOT work on the RPI5 from the factory. We will need a firmware update to fix this that prevents the dtoverlays for UARTs from working.&lt;/p&gt;</description>
     </item>
     <item>
       <title>How to Connect a Raspberry PI 5 to USB TTY Cable</title>

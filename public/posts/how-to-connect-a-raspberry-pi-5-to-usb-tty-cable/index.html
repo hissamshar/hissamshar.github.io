@@ -16,7 +16,9 @@ Computer with a terminal emulator (minicom/screen).
 GPIO pinout diagram of Raspberry Pi 5 (for reference).
 Power source for Raspberry Pi (optional if USB TTY can power it, though not recommended).
 
-How to Connect">
+Before Starting!
+Issuse with firmware
+UART does NOT work on the RPI5 from the factory. We will need a firmware update to fix this that prevents the dtoverlays for UARTs from working.">
 <meta name="author" content="">
 <link rel="canonical" href="http://localhost:1313/posts/how-to-connect-a-raspberry-pi-5-to-usb-tty-cable/">
 <link crossorigin="anonymous" href="/assets/css/stylesheet.45e028aa8ce0961349adf411b013ee39406be2c0bc80d4ea3fc04555f7f4611a.css" integrity="sha256-ReAoqozglhNJrfQRsBPuOUBr4sC8gNTqP8BFVff0YRo=" rel="preload stylesheet" as="style">
@@ -131,7 +133,22 @@ How to Connect">
 <li>GPIO pinout diagram of Raspberry Pi 5 (for reference).</li>
 <li>Power source for Raspberry Pi (optional if USB TTY can power it, though not recommended).</li>
 </ol>
-<p><strong>How to Connect</strong></p>
+<h3 id="before-starting"><strong>Before Starting!</strong><a hidden class="anchor" aria-hidden="true" href="#before-starting">#</a></h3>
+<h3 id="issuse-with-firmwarehttpsforumsraspberrypicomviewtopicphpt361397p2171244"><strong><a href="https://forums.raspberrypi.com/viewtopic.php?t=361397#p2171244">Issuse with firmware</a></strong><a hidden class="anchor" aria-hidden="true" href="#issuse-with-firmwarehttpsforumsraspberrypicomviewtopicphpt361397p2171244">#</a></h3>
+<p>UART does NOT work on the RPI5 from the factory. We will need a firmware update to fix this that prevents the dtoverlays for UARTs from working.</p>
+<ul>
+<li>
+<p>Install rpi-update with the following commands:</p>
+<pre><code>&gt; sudo curl -L --output /usr/bin/rpi-update https://raw.githubusercontent.com/Hexxeh/rpi-update/master/rpi-update &amp;&amp; sudo chmod +x /usr/bin/rpi-update
+</code></pre>
+</li>
+<li>
+<p>Then update the firmware on your RPI5 with:</p>
+<pre><code>  &gt; sudo rpi-update
+</code></pre>
+</li>
+</ul>
+<h3 id="how-to-connect"><strong>How to Connect</strong><a hidden class="anchor" aria-hidden="true" href="#how-to-connect">#</a></h3>
 <ul>
 <li>Locate the GPIO Pins</li>
 <li>Find the GPIO header on the Raspberry Pi 5.</li>

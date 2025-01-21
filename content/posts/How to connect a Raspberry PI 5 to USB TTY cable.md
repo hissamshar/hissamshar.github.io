@@ -12,7 +12,24 @@ Connecting a Raspberry Pi 5 to a USB TTY cable is a common way to interact with 
 4. GPIO pinout diagram of Raspberry Pi 5 (for reference).
 4. Power source for Raspberry Pi (optional if USB TTY can power it, though not recommended).
 
-**How to Connect**
+### **Before Starting!**
+
+### **[Issuse with firmware](https://forums.raspberrypi.com/viewtopic.php?t=361397#p2171244)**
+ 
+
+UART does NOT work on the RPI5 from the factory. We will need a firmware update to fix this that prevents the dtoverlays for UARTs from working.
+
+- Install rpi-update with the following commands:
+
+      > sudo curl -L --output /usr/bin/rpi-update https://raw.githubusercontent.com/Hexxeh/rpi-update/master/rpi-update && sudo chmod +x /usr/bin/rpi-update
+
+- Then update the firmware on your RPI5 with:
+
+        > sudo rpi-update
+
+
+
+### **How to Connect**
 
 - Locate the GPIO Pins
 - Find the GPIO header on the Raspberry Pi 5.
