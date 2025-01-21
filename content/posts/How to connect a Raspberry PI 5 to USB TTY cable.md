@@ -27,6 +27,12 @@ UART does NOT work on the RPI5 from the factory. We will need a firmware update 
 
         > sudo rpi-update
 
+### **Enable UART**
+
+To manually configure UART, you can edit the config.txt file.
+>Edit */boot/firmware/config.txt* and add:
+
+    > enable_uart=1     
 
 
 ### **How to Connect**

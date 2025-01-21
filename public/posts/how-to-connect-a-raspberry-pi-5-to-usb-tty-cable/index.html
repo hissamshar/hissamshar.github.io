@@ -148,6 +148,13 @@ UART does NOT work on the RPI5 from the factory. We will need a firmware update 
 </code></pre>
 </li>
 </ul>
+<h3 id="enable-uart"><strong>Enable UART</strong><a hidden class="anchor" aria-hidden="true" href="#enable-uart">#</a></h3>
+<p>To manually configure UART, you can edit the config.txt file.</p>
+<blockquote>
+<p>Edit <em>/boot/firmware/config.txt</em> and add:</p>
+</blockquote>
+<pre><code>&gt; enable_uart=1     
+</code></pre>
 <h3 id="how-to-connect"><strong>How to Connect</strong><a hidden class="anchor" aria-hidden="true" href="#how-to-connect">#</a></h3>
 <ul>
 <li>Locate the GPIO Pins</li>
