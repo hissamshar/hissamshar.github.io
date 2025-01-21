@@ -117,12 +117,6 @@ How to Connect">
     
     <h1 class="post-title entry-hint-parent">
       How to Connect a Raspberry PI 5 to USB TTY Cable
-      <span class="entry-hint" title="Draft">
-        <svg xmlns="http://www.w3.org/2000/svg" height="35" viewBox="0 -960 960 960" fill="currentColor">
-          <path
-            d="M160-410v-60h300v60H160Zm0-165v-60h470v60H160Zm0-165v-60h470v60H160Zm360 580v-123l221-220q9-9 20-13t22-4q12 0 23 4.5t20 13.5l37 37q9 9 13 20t4 22q0 11-4.5 22.5T862.09-380L643-160H520Zm300-263-37-37 37 37ZM580-220h38l121-122-18-19-19-18-122 121v38Zm141-141-19-18 37 37-18-19Z" />
-        </svg>
-      </span>
     </h1>
     <div class="post-meta"><span title='2025-01-20 15:12:09 +0500 PKT'>January 20, 2025</span>
 
@@ -143,11 +137,50 @@ How to Connect">
 <li>Find the GPIO header on the Raspberry Pi 5.</li>
 <li>Identify the following pins:</li>
 </ul>
+<p><img alt="USBTTY" loading="lazy" src="/rpiotty.png#center"></p>
 <p><strong>GND (Ground): Usually black wire on the USB TTY cable.
 TX (Transmit): Sends data from the Pi to the computer.
 RX (Receive): Receives data from the computer to the Pi.</strong></p>
 <p>Use a GPIO pinout chart to locate these pins. For Raspberry Pi 5, it will likely be similar to previous models.
-<img alt="GPIO Pinout" loading="lazy" src="/RPI5_PINOUT.png"></p>
+<img alt="GPIO Pinout" loading="lazy" src="/RPI5_PINOUT.png#center"></p>
+<h3 id="making-connections"><strong>Making connections</strong><a hidden class="anchor" aria-hidden="true" href="#making-connections">#</a></h3>
+<p>You will need to connect:</p>
+<ul>
+<li><strong>GND</strong> with <strong>Ground</strong> - <strong>Pin# 06</strong></li>
+<li><strong>TX</strong> with <strong>GPIO14</strong> - <strong>Pin# 08</strong></li>
+<li><strong>RX</strong> with <strong>GPIO15</strong> - <strong>Pin# 10</strong></li>
+</ul>
+<p><img alt="GPIO Connection" loading="lazy" src="/hpio.png#center"></p>
+<p><strong>Plug the USB TTY Cable into the Computer</strong></p>
+<ul>
+<li>Insert the USB end of the TTY cable into your computer.</li>
+<li>The cable will create a virtual COM port (e.g /dev/ttyUSB0).</li>
+</ul>
+<p><strong>Configure and Access Serial Console</strong></p>
+<ul>
+<li>
+<p>Open a terminal.</p>
+</li>
+<li>
+<p>Identify the port with:</p>
+<pre><code>  &gt; ls /dev/ttyUSB*
+</code></pre>
+</li>
+<li>
+<p>Use a terminal emulator like screen or minicom to connect:</p>
+<pre><code>  &gt; screen /dev/ttyUSB0 115200
+</code></pre>
+</li>
+</ul>
+<p>*Replace /dev/ttyUSB0 with the actual port name.</p>
+<ul>
+<li>Turn on the Raspberry Pi.</li>
+<li>If everything is set up correctly, you should see boot messages in the terminal.</li>
+<li>Log in to the Pi using the default username (pi) and password (raspberry), or your custom credentials.</li>
+</ul>
+<p><strong>You should see something similar to this.</strong></p>
+<p><img alt="GPIO Pinout" loading="lazy" src="/pic-selected-250120-1633-59.png"></p>
+<p><strong>This is it! You have done it. Congrats!</strong></p>
 
 
   </div>
