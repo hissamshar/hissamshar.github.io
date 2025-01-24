@@ -4,10 +4,39 @@
     <title>Hisam Shar</title>
     <link>http://localhost:1313/</link>
     <description>Recent content on Hisam Shar</description>
-    <generator>Hugo -- 0.140.2</generator>
+    <generator>Hugo -- 0.142.0</generator>
     <language>en-us</language>
-    <lastBuildDate>Mon, 20 Jan 2025 15:12:09 +0500</lastBuildDate>
+    <lastBuildDate>Thu, 23 Jan 2025 15:45:33 +0500</lastBuildDate>
     <atom:link href="http://localhost:1313/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>How to Write a Custom Kernel Module</title>
+      <link>http://localhost:1313/posts/how-to-write-a-custom-kernel-module/</link>
+      <pubDate>Thu, 23 Jan 2025 15:45:33 +0500</pubDate>
+      <guid>http://localhost:1313/posts/how-to-write-a-custom-kernel-module/</guid>
+      <description>&lt;h2 id=&#34;linux-kernal&#34;&gt;Linux Kernal&lt;/h2&gt;
+&lt;p&gt;The Linux kernel is a free and open-source, Unix-like kernel widely used in computer systems around the world. Developed by Linus Torvalds in 1991, it was soon adopted as the kernel for the GNU operating system (OS), designed as a free alternative to Unix. Since the late 1990s, the Linux kernel has been included in numerous operating system distributions, many of which are referred to as Linux. One prominent example is Android, a Linux-based operating system widely used in mobile and embedded devices.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>GitHub CLI: GitHub&#39;s Official Command Line Tools</title>
+      <link>http://localhost:1313/posts/github-cli-githubs-official-command-line-tools/</link>
+      <pubDate>Thu, 23 Jan 2025 14:49:19 +0500</pubDate>
+      <guid>http://localhost:1313/posts/github-cli-githubs-official-command-line-tools/</guid>
+      <description>&lt;h2 id=&#34;what-is-it&#34;&gt;What is it?&lt;/h2&gt;
+&lt;p&gt;&lt;strong&gt;gh&lt;/strong&gt; is GitHub&amp;rsquo;s official command-line tool designed to extend Git&amp;rsquo;s functionality with GitHub-specific features.&lt;/p&gt;
+&lt;h2 id=&#34;purpose&#34;&gt;Purpose:&lt;/h2&gt;
+&lt;p&gt;Simplifies interaction with GitHub&amp;rsquo;s ecosystem directly from the terminal. Allows you to manage repositories and use GitHub features like issues, pull requests, and workflows.&lt;/p&gt;
+&lt;h2 id=&#34;key-features&#34;&gt;Key Features:&lt;/h2&gt;
+&lt;p&gt;GitHub-specific tasks:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Authentication: Easier login (gh auth login) without dealing with tokens manually.&lt;/li&gt;
+&lt;li&gt;Repository Management: Create, fork, or clone repositories.&lt;/li&gt;
+&lt;li&gt;Issues &amp;amp; Pull Requests: Manage issues, PRs, and comments directly.&lt;/li&gt;
+&lt;li&gt;Actions: Manage and view GitHub Actions workflows.&lt;/li&gt;
+&lt;li&gt;Works alongside Git for basic version control tasks.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;use-case&#34;&gt;Use Case:&lt;/h2&gt;
+&lt;p&gt;Best for developers heavily using GitHub and its features (for example: pull requests, issues, and actions).&lt;/p&gt;</description>
+    </item>
     <item>
       <title>How to Connect a Raspberry PI 5 to USB TTY Cable</title>
       <link>http://localhost:1313/posts/how-to-connect-a-raspberry-pi-5-to-usb-tty-cable/</link>
@@ -25,22 +54,6 @@
 &lt;h3 id=&#34;before-starting&#34;&gt;&lt;strong&gt;Before Starting!&lt;/strong&gt;&lt;/h3&gt;
 &lt;h3 id=&#34;issuse-with-firmwarehttpsforumsraspberrypicomviewtopicphpt361397p2171244&#34;&gt;&lt;strong&gt;&lt;a href=&#34;https://forums.raspberrypi.com/viewtopic.php?t=361397#p2171244&#34;&gt;Issuse with firmware&lt;/a&gt;&lt;/strong&gt;&lt;/h3&gt;
 &lt;p&gt;UART does NOT work on the RPI5 from the factory. We will need a firmware update to fix this that prevents the dtoverlays for UARTs from working.&lt;/p&gt;</description>
-    </item>
-    <item>
-      <title>How to Connect a Raspberry PI 5 to USB TTY Cable</title>
-      <link>http://localhost:1313/posts/raspi/how-to-connect-a-raspberry-pi-5-to-usb-tty-cable/</link>
-      <pubDate>Mon, 20 Jan 2025 15:12:09 +0500</pubDate>
-      <guid>http://localhost:1313/posts/raspi/how-to-connect-a-raspberry-pi-5-to-usb-tty-cable/</guid>
-      <description>&lt;p&gt;Connecting a Raspberry Pi 5 to a USB TTY cable is a common way to interact with it through a serial connection, especially for debugging or setting up the device without using a display.&lt;/p&gt;
-&lt;p&gt;&lt;strong&gt;Prerequists&lt;/strong&gt;&lt;/p&gt;
-&lt;ol&gt;
-&lt;li&gt;Raspberry Pi 5.&lt;/li&gt;
-&lt;li&gt;USB TTY (serial) cable.&lt;/li&gt;
-&lt;li&gt;Computer with a terminal emulator (minicom/screen).&lt;/li&gt;
-&lt;li&gt;GPIO pinout diagram of Raspberry Pi 5 (for reference).&lt;/li&gt;
-&lt;li&gt;Power source for Raspberry Pi (optional if USB TTY can power it, though not recommended).&lt;/li&gt;
-&lt;/ol&gt;
-&lt;p&gt;&lt;strong&gt;How to Connect&lt;/strong&gt;&lt;/p&gt;</description>
     </item>
     <item>
       <title>Hosting a Website on Github Pages With Hugo</title>
@@ -78,6 +91,13 @@
 &lt;pre tabindex=&#34;0&#34;&gt;&lt;code&gt;$ sudo pacman -S qemu vde2 ebtables iptables-nft nftables dms masq bridge-utils ovmf swptm
 &lt;/code&gt;&lt;/pre&gt;&lt;h3 id=&#34;virtual-machine-manager-installation&#34;&gt;Virtual Machine Manager installation:&lt;/h3&gt;
 &lt;p&gt;The virt-manager application is a graphical user interface for managing virtual machines through libvirt. It primarily targets KVM VMs.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title></title>
+      <link>http://localhost:1313/posts/github-cli-githubs-official-command-line-tool/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/posts/github-cli-githubs-official-command-line-tool/</guid>
+      <description></description>
     </item>
   </channel>
 </rss>
