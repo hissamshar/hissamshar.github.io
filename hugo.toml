@@ -6,7 +6,7 @@ theme = 'hugo-PaperMod'
 [params.profileMode]
 enabled = true
 title = "Hisam Mehboob"
-imageUrl = "!(Cropped_Image.png)"
+imageUrl = "https://media.licdn.com/dms/image/v2/D4D03AQE8umejFElsEA/profile-displayphoto-shrink_800_800/B4DZSdLXoNG8Ac-/0/1737803791985?e=1743033600&v=beta&t=44obSsRvTRep2EuC2Pthg89_OOkYTK3Px1edTrkn_U4"
 imageTitle = "Profile Picture"
 imageWidth = 170
 imageHeight = 170
