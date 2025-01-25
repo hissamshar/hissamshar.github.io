@@ -25,7 +25,11 @@
   </url><url>
     <loc>http://localhost:1313/posts/github-cli-githubs-official-command-line-tool/</loc>
   </url><url>
+    <loc>http://localhost:1313/archives/</loc>
+  </url><url>
     <loc>http://localhost:1313/categories/</loc>
+  </url><url>
+    <loc>http://localhost:1313/search/</loc>
   </url><url>
     <loc>http://localhost:1313/tags/</loc>
   </url>

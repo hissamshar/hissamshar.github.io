@@ -6,18 +6,19 @@ theme = 'hugo-PaperMod'
 [params.profileMode]
 enabled = true
 title = "Hisam Mehboob"
-imageUrl = "https://media.licdn.com/dms/image/v2/D4D03AQE8umejFElsEA/profile-displayphoto-shrink_800_800/B4DZSdLXoNG8Ac-/0/1737803791985?e=1743033600&v=beta&t=44obSsRvTRep2EuC2Pthg89_OOkYTK3Px1edTrkn_U4"
+subtitle = "Aspiring Software Engineer · Passionate about C/C++, Open Source, and Linux"
+imageUrl = "https://raw.githubusercontent.com/hissamshar/hissamshar.github.io/refs/heads/master/Cropped_Image.png"
 imageTitle = "Profile Picture"
-imageWidth = 170
-imageHeight = 170
+imageWidth = 200
+imageHeight = 200
 
 [[params.profileMode.buttons]]
   name = "Posts"
-  url = "/content/posts"
+  url = "/posts"
 
 [[params.profileMode.buttons]]
   name = "Archive"
-  url = "/archive"
+  url = "/archives"
 
 [[params.profileMode.buttons]]
   name = "Github"
@@ -31,3 +32,21 @@ url = "https://github.com/hissamshar"
 name = "LinkedIn"
 url = "https://www.linkedin.com/in/hisam-mehboob-a0880b213/"
 
+[outputs]
+home = [ "HTML", "RSS", "JSON" ]
+
+[params.fuseOpts]
+isCaseSensitive = false
+shouldSort = true
+location = 0
+distance = 1_000
+threshold = 0.4
+minMatchCharLength = 0
+keys = [ "title", "permalink", "summary", "content" ]
+
+[params]
+ShowShareButtons = true
+ShowToc =  true
+ShowReadingTime = true
+ShowBreadCrumbs = true
+ShowCodeCopyButtons = true
