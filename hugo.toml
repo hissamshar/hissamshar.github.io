@@ -2,3 +2,32 @@ baseURL = 'https://hissamshar.github.io/'
 languageCode = 'en-us'
 title = 'Hisam Shar'
 theme = 'hugo-PaperMod'
+
+[params.profileMode]
+enabled = true
+title = "Hisam Mehboob"
+imageUrl = "!(Cropped_Image.png)"
+imageTitle = "Profile Picture"
+imageWidth = 170
+imageHeight = 170
+
+[[params.profileMode.buttons]]
+  name = "Posts"
+  url = "/content/posts"
+
+[[params.profileMode.buttons]]
+  name = "Archive"
+  url = "/archive"
+
+[[params.profileMode.buttons]]
+  name = "Github"
+  url = "https://github.com/hissamshar"
+
+[[params.socialIcons]]
+name = "<Github>"
+url = "https://github.com/hissamshar"
+
+[[params.socialIcons]]
+name = "LinkedIn"
+url = "https://www.linkedin.com/in/hisam-mehboob-a0880b213/"
+
