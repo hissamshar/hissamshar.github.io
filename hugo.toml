@@ -21,16 +21,21 @@ imageHeight = 200
   url = "/archives"
 
 [[params.profileMode.buttons]]
-  name = "Github"
-  url = "https://github.com/hissamshar"
+  name = "Search"
+  url = "/search"
 
 [[params.socialIcons]]
-name = "<Github>"
+name = "Github"
 url = "https://github.com/hissamshar"
 
 [[params.socialIcons]]
 name = "LinkedIn"
 url = "https://www.linkedin.com/in/hisam-mehboob-a0880b213/"
+
+[[params.socialIcons]]
+name = "Twitter"
+url = "https://twitter.com/hisam_shar"
+
 
 [outputs]
 home = [ "HTML", "RSS", "JSON" ]
