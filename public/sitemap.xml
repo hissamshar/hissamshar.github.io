@@ -23,6 +23,12 @@
     <loc>http://localhost:1313/posts/arch_kvm/</loc>
     <lastmod>2025-01-15T19:20:33+05:00</lastmod>
   </url><url>
+    <loc>http://localhost:1313/tags/linux/</loc>
+    <lastmod>2025-01-15T19:20:33+05:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/tags/</loc>
+    <lastmod>2025-01-15T19:20:33+05:00</lastmod>
+  </url><url>
     <loc>http://localhost:1313/posts/github-cli-githubs-official-command-line-tool/</loc>
   </url><url>
     <loc>http://localhost:1313/archives/</loc>
@@ -30,7 +36,5 @@
     <loc>http://localhost:1313/categories/</loc>
   </url><url>
     <loc>http://localhost:1313/search/</loc>
-  </url><url>
-    <loc>http://localhost:1313/tags/</loc>
   </url>
 </urlset>
