@@ -2,25 +2,17 @@
 date: '2025-02-01T15:33:56+05:00'
 title: "Setting Up Neovim: A Beginner's Guide"
 ---
-# Setting Up Neovim on Arch Linux: A Beginner's Guide
+# Setting Up Neovim: An Easy and Beginner's Guide
 
-Neovim is a modern and extensible text editor that enhances Vim’s capabilities. If you're using Arch Linux, setting up Neovim can be a rewarding experience, allowing you to customize it for an efficient workflow. In this guide, we'll cover installing Neovim, setting up a basic configuration, and enhancing it with essential plugins to turn it into a full-fledged IDE.
+Neovim is a modern and extensible text editor that enhances Vim’s capabilities. If you're using Linux, setting up Neovim can be a rewarding experience, allowing you to customize it for an efficient workflow. In this guide, we'll cover installing Neovim, setting up a basic configuration, and enhancing it with essential plugins to turn it into a full-fledged IDE.
 
 ---
 
-## **1. Installing Neovim on Arch Linux**
-Neovim is available in the official Arch Linux repositories. You can install it using `pacman`:
+## **1. Installing Neovim**
 
 ```sh
 sudo pacman -S neovim
 ```
-
-For the latest nightly version, install it from the AUR using an AUR helper like `yay`:
-
-```sh
-yay -S neovim-nightly-bin
-```
-
 ---
 
 ## **2. Setting Up Neovim Configuration**
@@ -186,28 +178,12 @@ cmp.setup({
   }
 })
 ```
-
----
-
-## **8. Custom Keybindings**
-To make Neovim easier to use, add custom keybindings:
-
-```lua
-vim.g.mapleader = " " -- Set space as the leader key
-
--- Open Telescope with leader + f
-vim.api.nvim_set_keymap('n', '<leader>f', ":Telescope find_files<CR>", { noremap = true, silent = true })
-
--- Map jk to escape
-vim.api.nvim_set_keymap('i', 'jk', '<Esc>', { noremap = true })
-```
-
 ---
 
 ## **9. Final Thoughts**
-Congratulations! You now have a powerful, customized Neovim setup on Arch Linux that functions as a full-fledged IDE. With features like Treesitter, LSP support, auto-completion, syntax highlighting, Git integration, and a file explorer, your development workflow will be much smoother.
+Congratulations! You now have a powerful, customized Neovim setup that functions as a full-fledged IDE. With features like Treesitter, LSP support, auto-completion, syntax highlighting, Git integration, and a file explorer, your development workflow will be much smoother.
 
-If you’d like to further improve your Neovim experience, explore more plugins and tweak your settings. Happy coding!
+If you’d like to further improve your Neovim experience, explore more plugins and tweak your settings. Good luck with that!
 
 ---
 

@@ -2,36 +2,39 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
     <title>Posts on Hisam Shar</title>
-    <link>https://hissamshar.github.io/posts/</link>
+    <link>http://localhost:1313/posts/</link>
     <description>Recent content in Posts on Hisam Shar</description>
     <generator>Hugo -- 0.142.0</generator>
     <language>en-us</language>
     <lastBuildDate>Sat, 01 Feb 2025 15:33:56 +0500</lastBuildDate>
-    <atom:link href="https://hissamshar.github.io/posts/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="http://localhost:1313/posts/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Setting Up Neovim: A Beginner&#39;s Guide</title>
-      <link>https://hissamshar.github.io/posts/setting-up-neovim-on-arch-linux-a-beginners-guide/</link>
+      <link>http://localhost:1313/posts/setting-up-neovim-on-arch-linux-a-beginners-guide/</link>
       <pubDate>Sat, 01 Feb 2025 15:33:56 +0500</pubDate>
-      <guid>https://hissamshar.github.io/posts/setting-up-neovim-on-arch-linux-a-beginners-guide/</guid>
-      <description>&lt;h1 id=&#34;setting-up-neovim-on-arch-linux-a-beginners-guide&#34;&gt;Setting Up Neovim on Arch Linux: A Beginner&amp;rsquo;s Guide&lt;/h1&gt;
-&lt;p&gt;Neovim is a modern and extensible text editor that enhances Vim’s capabilities. If you&amp;rsquo;re using Arch Linux, setting up Neovim can be a rewarding experience, allowing you to customize it for an efficient workflow. In this guide, we&amp;rsquo;ll cover installing Neovim, setting up a basic configuration, and enhancing it with essential plugins to turn it into a full-fledged IDE.&lt;/p&gt;
+      <guid>http://localhost:1313/posts/setting-up-neovim-on-arch-linux-a-beginners-guide/</guid>
+      <description>&lt;h1 id=&#34;setting-up-neovim-an-easy-and-beginners-guide&#34;&gt;Setting Up Neovim: An Easy and Beginner&amp;rsquo;s Guide&lt;/h1&gt;
+&lt;p&gt;Neovim is a modern and extensible text editor that enhances Vim’s capabilities. If you&amp;rsquo;re using Linux, setting up Neovim can be a rewarding experience, allowing you to customize it for an efficient workflow. In this guide, we&amp;rsquo;ll cover installing Neovim, setting up a basic configuration, and enhancing it with essential plugins to turn it into a full-fledged IDE.&lt;/p&gt;
 &lt;hr&gt;
-&lt;h2 id=&#34;1-installing-neovim-on-arch-linux&#34;&gt;&lt;strong&gt;1. Installing Neovim on Arch Linux&lt;/strong&gt;&lt;/h2&gt;
-&lt;p&gt;Neovim is available in the official Arch Linux repositories. You can install it using &lt;code&gt;pacman&lt;/code&gt;:&lt;/p&gt;</description>
+&lt;h2 id=&#34;1-installing-neovim&#34;&gt;&lt;strong&gt;1. Installing Neovim&lt;/strong&gt;&lt;/h2&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;&#34;&gt;&lt;code class=&#34;language-sh&#34; data-lang=&#34;sh&#34;&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;sudo pacman -S neovim
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;hr&gt;
+&lt;h2 id=&#34;2-setting-up-neovim-configuration&#34;&gt;&lt;strong&gt;2. Setting Up Neovim Configuration&lt;/strong&gt;&lt;/h2&gt;
+&lt;p&gt;Neovim’s configuration is stored in &lt;code&gt;~/.config/nvim/&lt;/code&gt;. Create the directory and initialize a basic configuration:&lt;/p&gt;</description>
     </item>
     <item>
       <title>How to Write a Custom Kernel Module</title>
-      <link>https://hissamshar.github.io/posts/how-to-write-a-custom-kernel-module/</link>
+      <link>http://localhost:1313/posts/how-to-write-a-custom-kernel-module/</link>
       <pubDate>Thu, 23 Jan 2025 15:45:33 +0500</pubDate>
-      <guid>https://hissamshar.github.io/posts/how-to-write-a-custom-kernel-module/</guid>
+      <guid>http://localhost:1313/posts/how-to-write-a-custom-kernel-module/</guid>
       <description>&lt;h2 id=&#34;linux-kernal&#34;&gt;Linux Kernal&lt;/h2&gt;
 &lt;p&gt;The Linux kernel is a free and open-source, Unix-like kernel widely used in computer systems around the world. Developed by Linus Torvalds in 1991, it was soon adopted as the kernel for the GNU operating system (OS), designed as a free alternative to Unix. Since the late 1990s, the Linux kernel has been included in numerous operating system distributions, many of which are referred to as Linux. One prominent example is Android, a Linux-based operating system widely used in mobile and embedded devices.&lt;/p&gt;</description>
     </item>
     <item>
       <title>GitHub CLI: GitHub&#39;s Official Command Line Tools</title>
-      <link>https://hissamshar.github.io/posts/github-cli-githubs-official-command-line-tools/</link>
+      <link>http://localhost:1313/posts/github-cli-githubs-official-command-line-tools/</link>
       <pubDate>Thu, 23 Jan 2025 14:49:19 +0500</pubDate>
-      <guid>https://hissamshar.github.io/posts/github-cli-githubs-official-command-line-tools/</guid>
+      <guid>http://localhost:1313/posts/github-cli-githubs-official-command-line-tools/</guid>
       <description>&lt;h2 id=&#34;what-is-it&#34;&gt;What is it?&lt;/h2&gt;
 &lt;p&gt;&lt;strong&gt;gh&lt;/strong&gt; is GitHub&amp;rsquo;s official command-line tool designed to extend Git&amp;rsquo;s functionality with GitHub-specific features.&lt;/p&gt;
 &lt;h2 id=&#34;purpose&#34;&gt;Purpose:&lt;/h2&gt;
@@ -50,9 +53,9 @@
     </item>
     <item>
       <title>How to Connect a Raspberry PI 5 to USB TTY Cable</title>
-      <link>https://hissamshar.github.io/posts/how-to-connect-a-raspberry-pi-5-to-usb-tty-cable/</link>
+      <link>http://localhost:1313/posts/how-to-connect-a-raspberry-pi-5-to-usb-tty-cable/</link>
       <pubDate>Mon, 20 Jan 2025 15:12:09 +0500</pubDate>
-      <guid>https://hissamshar.github.io/posts/how-to-connect-a-raspberry-pi-5-to-usb-tty-cable/</guid>
+      <guid>http://localhost:1313/posts/how-to-connect-a-raspberry-pi-5-to-usb-tty-cable/</guid>
       <description>&lt;p&gt;Connecting a Raspberry Pi 5 to a USB TTY cable is a common way to interact with it through a serial connection, especially for debugging or setting up the device without using a display.&lt;/p&gt;
 &lt;p&gt;&lt;strong&gt;Prerequists&lt;/strong&gt;&lt;/p&gt;
 &lt;ol&gt;
@@ -68,9 +71,9 @@
     </item>
     <item>
       <title>Hosting a Website on Github Pages With Hugo</title>
-      <link>https://hissamshar.github.io/posts/hosting-a-website-on-github-pages-with-hugo/</link>
+      <link>http://localhost:1313/posts/hosting-a-website-on-github-pages-with-hugo/</link>
       <pubDate>Mon, 20 Jan 2025 12:08:01 +0500</pubDate>
-      <guid>https://hissamshar.github.io/posts/hosting-a-website-on-github-pages-with-hugo/</guid>
+      <guid>http://localhost:1313/posts/hosting-a-website-on-github-pages-with-hugo/</guid>
       <description>&lt;p&gt;Hosting a website on GitHub Pages with Hugo involves the following steps:&lt;/p&gt;
 &lt;h1 id=&#34;creating-a-website&#34;&gt;Creating a website&lt;/h1&gt;
 &lt;p&gt;&lt;strong&gt;1. Install Hugo and git&lt;/strong&gt;&lt;/p&gt;
@@ -89,9 +92,9 @@
     </item>
     <item>
       <title>archlinux installation in hypervisor through QEMU/KVM</title>
-      <link>https://hissamshar.github.io/posts/arch_kvm/</link>
+      <link>http://localhost:1313/posts/arch_kvm/</link>
       <pubDate>Wed, 15 Jan 2025 19:20:33 +0500</pubDate>
-      <guid>https://hissamshar.github.io/posts/arch_kvm/</guid>
+      <guid>http://localhost:1313/posts/arch_kvm/</guid>
       <description>&lt;h1 id=&#34;kvm&#34;&gt;KVM&lt;/h1&gt;
 &lt;p&gt;Kernel-based Virtual Machine is a free and open-source virtualization module in the Linux kernel that allows the kernel to function as a hypervisor.&lt;/p&gt;
 &lt;h2 id=&#34;installation&#34;&gt;Installation&lt;/h2&gt;
@@ -105,9 +108,9 @@
     </item>
     <item>
       <title></title>
-      <link>https://hissamshar.github.io/posts/github-cli-githubs-official-command-line-tool/</link>
+      <link>http://localhost:1313/posts/github-cli-githubs-official-command-line-tool/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>https://hissamshar.github.io/posts/github-cli-githubs-official-command-line-tool/</guid>
+      <guid>http://localhost:1313/posts/github-cli-githubs-official-command-line-tool/</guid>
       <description></description>
     </item>
   </channel>
