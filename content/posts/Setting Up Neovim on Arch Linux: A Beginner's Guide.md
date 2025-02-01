@@ -2,16 +2,13 @@
 date: '2025-02-01T15:33:56+05:00'
 title: "Setting Up Neovim: A Beginner's Guide"
 ---
+# Setting Up Neovim on Arch Linux: A Beginner's Guide
 
-
-
-# Setting Up Neovim: A Beginner's Guide
-
-Neovim is a modern and extensible text editor that enhances Vim’s capabilities. If you're using Linux, setting up Neovim can be a rewarding experience, allowing you to customize it for an efficient workflow. In this guide, we'll cover installing Neovim, setting up a basic configuration, and enhancing it with essential plugins.
+Neovim is a modern and extensible text editor that enhances Vim’s capabilities. If you're using Arch Linux, setting up Neovim can be a rewarding experience, allowing you to customize it for an efficient workflow. In this guide, we'll cover installing Neovim, setting up a basic configuration, and enhancing it with essential plugins to turn it into a full-fledged IDE.
 
 ---
 
-## **1. Installing Neovim**
+## **1. Installing Neovim on Arch Linux**
 Neovim is available in the official Arch Linux repositories. You can install it using `pacman`:
 
 ```sh
@@ -90,8 +87,18 @@ require("lazy").setup({
   "nvim-telescope/telescope.nvim",   -- Fuzzy finder
   "neovim/nvim-lspconfig",           -- LSP support
   "hrsh7th/nvim-cmp",                -- Auto-completion
+  "hrsh7th/cmp-nvim-lsp",            -- LSP completion source
+  "hrsh7th/cmp-buffer",              -- Buffer completion
+  "hrsh7th/cmp-path",                -- Path completion
+  "hrsh7th/cmp-nvim-lua",            -- Neovim Lua API completion
+  "L3MON4D3/LuaSnip",                -- Snippet engine
+  "saadparwaiz1/cmp_luasnip",        -- Snippet completion
+  "nvim-lualine/lualine.nvim",       -- Status line
+  "nvim-tree/nvim-tree.lua",         -- File explorer
   "tpope/vim-surround",              -- Surround text objects
   "tpope/vim-commentary",            -- Commenting shortcuts
+  "lewis6991/gitsigns.nvim",         -- Git integration
+  "akinsho/toggleterm.nvim",         -- Terminal management
 })
 ```
 
@@ -105,7 +112,30 @@ This will install the plugins automatically.
 
 ---
 
-## **5. Setting Up LSP (Language Server Protocol)**
+## **5. Setting Up Treesitter**
+Treesitter provides better syntax highlighting and code parsing. Install it by adding the following to your `init.lua`:
+
+```lua
+require'nvim-treesitter.configs'.setup {
+  ensure_installed = "all",
+  highlight = {
+    enable = true,
+  },
+  indent = {
+    enable = true,
+  },
+}
+```
+
+Then, update Treesitter by running:
+
+```vim
+:TSUpdate
+```
+
+---
+
+## **6. Setting Up LSP (Language Server Protocol)**
 LSP enables features like code completion and linting. Install LSP servers for your language:
 
 ```sh
@@ -125,7 +155,7 @@ Then, enable LSP support in Neovim:
 local lspconfig = require("lspconfig")
 
 lspconfig.pyright.setup({})  -- Python
-lspconfig.tsserver.setup({})  -- JavaScript/TypeScript
+lspconfig.ts_ls.setup({})  -- JavaScript/TypeScript
 lspconfig.clangd.setup({})    -- C++
 ```
 
@@ -137,7 +167,7 @@ Restart Neovim and check LSP status:
 
 ---
 
-## **6. Enhancing Auto-Completion with `nvim-cmp`**
+## **7. Enhancing Auto-Completion with `nvim-cmp`**
 To enable code auto-completion, update your `init.lua`:
 
 ```lua
@@ -150,13 +180,16 @@ cmp.setup({
   sources = {
     { name = 'nvim_lsp' },
     { name = 'buffer' },
+    { name = 'path' },
+    { name = 'luasnip' },
+    { name = 'nvim_lua' },
   }
 })
 ```
 
 ---
 
-## **7. Custom Keybindings**
+## **8. Custom Keybindings**
 To make Neovim easier to use, add custom keybindings:
 
 ```lua
@@ -171,8 +204,8 @@ vim.api.nvim_set_keymap('i', 'jk', '<Esc>', { noremap = true })
 
 ---
 
-## **8. Final Thoughts**
-Congratulations! You now have a powerful, customized Neovim setup on Arch Linux. From syntax highlighting to LSP support and fuzzy finding, your development workflow will be much smoother.
+## **9. Final Thoughts**
+Congratulations! You now have a powerful, customized Neovim setup on Arch Linux that functions as a full-fledged IDE. With features like Treesitter, LSP support, auto-completion, syntax highlighting, Git integration, and a file explorer, your development workflow will be much smoother.
 
 If you’d like to further improve your Neovim experience, explore more plugins and tweak your settings. Happy coding!
 
