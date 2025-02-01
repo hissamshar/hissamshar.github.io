@@ -6,8 +6,19 @@
     <description>Recent content on Hisam Shar</description>
     <generator>Hugo -- 0.142.0</generator>
     <language>en-us</language>
-    <lastBuildDate>Thu, 23 Jan 2025 15:45:33 +0500</lastBuildDate>
+    <lastBuildDate>Sat, 01 Feb 2025 15:33:56 +0500</lastBuildDate>
     <atom:link href="http://localhost:1313/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Setting Up Neovim: A Beginner&#39;s Guide</title>
+      <link>http://localhost:1313/posts/setting-up-neovim-on-arch-linux-a-beginners-guide/</link>
+      <pubDate>Sat, 01 Feb 2025 15:33:56 +0500</pubDate>
+      <guid>http://localhost:1313/posts/setting-up-neovim-on-arch-linux-a-beginners-guide/</guid>
+      <description>&lt;h1 id=&#34;setting-up-neovim-a-beginners-guide&#34;&gt;Setting Up Neovim: A Beginner&amp;rsquo;s Guide&lt;/h1&gt;
+&lt;p&gt;Neovim is a modern and extensible text editor that enhances Vim’s capabilities. If you&amp;rsquo;re using Arch Linux, setting up Neovim can be a rewarding experience, allowing you to customize it for an efficient workflow. In this guide, we&amp;rsquo;ll cover installing Neovim, setting up a basic configuration, and enhancing it with essential plugins.&lt;/p&gt;
+&lt;hr&gt;
+&lt;h2 id=&#34;1-installing-neovim&#34;&gt;&lt;strong&gt;1. Installing Neovim&lt;/strong&gt;&lt;/h2&gt;
+&lt;p&gt;Neovim is available in the official Arch Linux repositories. You can install it using &lt;code&gt;pacman&lt;/code&gt;:&lt;/p&gt;</description>
+    </item>
     <item>
       <title>How to Write a Custom Kernel Module</title>
       <link>http://localhost:1313/posts/how-to-write-a-custom-kernel-module/</link>
