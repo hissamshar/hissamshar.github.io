@@ -67,7 +67,6 @@ curl -fsSL https://ollama.com/install.sh | sh
 This will download and install Ollama.
 
 *Example installation screen:*
-![Ollama Installation](/mnt/data/rpi5.png)
 ![](/rpi4.png)
 
 ## Step 4: Enable and Start Ollama Service
@@ -86,7 +85,6 @@ The output will indicate success:
 ```
 
 *Example setup screen:*
-![Ollama Service](/mnt/data/rpi4.png)
 ![](/rpi5.png)
 
 ## Step 5: Pull and Run DeepSeek-R1 1.5B
@@ -99,7 +97,6 @@ ollama run deepseek-r1:1.5b
 This will download the model, which is about **1.1 GB** in size.
 
 *Example download screen:*
-![DeepSeek-R1 Download](/mnt/data/rpi3.png)
 ![](/rpi6.png)
 
 Once downloaded, the model is ready to run.
@@ -119,14 +116,13 @@ Hello! How can I assist you today? 😊
 ```
 
 *Example interaction:*
-![DeepSeek Running](/mnt/data/rpi2.png)
 ![](/rpi7.png)
 
 ## Final Setup Image
 ![](/rpi9.png)
 
 ## Video Demonstration
-![Watch Video](/rpi8.mp4)
+[Watch Video](https://github.com/hissamshar/hissamshar.github.io/raw/refs/heads/master/static/rpi8.mp4)
 
 ## Conclusion
 You have successfully installed and executed DeepSeek-R1 1.5B on your Raspberry Pi 5. This demonstrates the power of **open-source AI**, making it possible to run advanced models on small-scale devices. If you encounter performance issues, consider optimizing your setup or offloading computations.
