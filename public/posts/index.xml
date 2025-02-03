@@ -6,8 +6,31 @@
     <description>Recent content in Posts on Hisam Shar</description>
     <generator>Hugo -- 0.142.0</generator>
     <language>en-us</language>
-    <lastBuildDate>Sat, 01 Feb 2025 15:33:56 +0500</lastBuildDate>
+    <lastBuildDate>Mon, 03 Feb 2025 22:18:13 +0500</lastBuildDate>
     <atom:link href="http://localhost:1313/posts/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>DeepSEEK</title>
+      <link>http://localhost:1313/posts/deepseek/</link>
+      <pubDate>Mon, 03 Feb 2025 22:18:13 +0500</pubDate>
+      <guid>http://localhost:1313/posts/deepseek/</guid>
+      <description>&lt;h1 id=&#34;running-deepseek-r1-15b-on-raspberry-pi-5&#34;&gt;Running DeepSeek-R1 1.5B on Raspberry Pi 5&lt;/h1&gt;
+&lt;h2 id=&#34;technical-insights&#34;&gt;Technical Insights&lt;/h2&gt;
+&lt;h3 id=&#34;why-can-we-run-this-on-raspberry-pi-5&#34;&gt;Why Can We Run This on Raspberry Pi 5?&lt;/h3&gt;
+&lt;p&gt;Thanks to open-source advancements, we can now run large-scale AI models on small devices like the Raspberry Pi 5. Key factors enabling this include:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;Optimized lightweight models&lt;/strong&gt;: DeepSeek-R1 1.5B is built efficiently to run on limited hardware.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;ARM64 Support&lt;/strong&gt;: Modern AI frameworks support ARM-based architectures, enabling their use on RPi5.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Open-source software&lt;/strong&gt;: Platforms like Ollama make AI deployment accessible to all.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3 id=&#34;performance-considerations&#34;&gt;Performance Considerations&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;Running this model on an RPi5 &lt;strong&gt;without a GPU&lt;/strong&gt; will be CPU-intensive.&lt;/li&gt;
+&lt;li&gt;Consider &lt;strong&gt;reducing active processes&lt;/strong&gt; to free up memory.&lt;/li&gt;
+&lt;li&gt;If performance lags, use a &lt;strong&gt;lighter model&lt;/strong&gt; or &lt;strong&gt;external processing (cloud inference).&lt;/strong&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;hr&gt;
+&lt;p&gt;This guide covers the installation and execution of DeepSeek-R1 1.5B on a Raspberry Pi 5, following the steps demonstrated in your images.&lt;/p&gt;</description>
+    </item>
     <item>
       <title>Setting Up Neovim: A Beginner&#39;s Guide</title>
       <link>http://localhost:1313/posts/setting-up-neovim-on-arch-linux-a-beginners-guide/</link>
