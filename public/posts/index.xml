@@ -6,14 +6,24 @@
     <description>Recent content in Posts on Hisam Shar</description>
     <generator>Hugo -- 0.142.0</generator>
     <language>en-us</language>
-    <lastBuildDate>Mon, 03 Feb 2025 22:18:13 +0500</lastBuildDate>
+    <lastBuildDate>Wed, 05 Feb 2025 23:22:04 +0500</lastBuildDate>
     <atom:link href="http://localhost:1313/posts/index.xml" rel="self" type="application/rss+xml" />
     <item>
-      <title>DeepSEEK</title>
+      <title>Running Large Language Models on Mobile: DeepSeek R1 on iPhone 12</title>
+      <link>http://localhost:1313/posts/llmonmobile/</link>
+      <pubDate>Wed, 05 Feb 2025 23:22:04 +0500</pubDate>
+      <guid>http://localhost:1313/posts/llmonmobile/</guid>
+      <description>&lt;h1 id=&#34;running-a-local-llm-on-mobile-testing-pocketpal-on-iphone-12&#34;&gt;Running a Local LLM on Mobile: Testing PocketPal on iPhone 12&lt;/h1&gt;
+&lt;p&gt;With the increasing accessibility of large language models (LLMs), running them locally on mobile devices is an exciting prospect. I recently tested &lt;strong&gt;PocketPal&lt;/strong&gt;, a mobile LLM interface, on my &lt;strong&gt;iPhone 12&lt;/strong&gt;, using a &lt;strong&gt;distilled 4-bit quantized model&lt;/strong&gt;. Here’s a breakdown of my experience, covering installation, performance, and overall usability.&lt;/p&gt;
+&lt;h2 id=&#34;why-run-an-llm-on-mobile&#34;&gt;Why Run an LLM on Mobile?&lt;/h2&gt;
+&lt;p&gt;Running an LLM locally on a mobile device comes with several advantages:&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>DeepSeek-R1 on Raspberry Pi 5: Open-Source AI Without a GPU</title>
       <link>http://localhost:1313/posts/deepseek/</link>
       <pubDate>Mon, 03 Feb 2025 22:18:13 +0500</pubDate>
       <guid>http://localhost:1313/posts/deepseek/</guid>
-      <description>&lt;h1 id=&#34;running-deepseek-r1-15b-on-raspberry-pi-5&#34;&gt;Running DeepSeek-R1 1.5B on Raspberry Pi 5&lt;/h1&gt;
+      <description>&lt;h1 id=&#34;running-deepseek-r1-15b-on-raspberry-pi-5-cpu-only&#34;&gt;Running DeepSeek-R1 1.5B on Raspberry Pi 5 (CPU-Only)&lt;/h1&gt;
 &lt;h2 id=&#34;technical-insights&#34;&gt;Technical Insights&lt;/h2&gt;
 &lt;h3 id=&#34;why-can-we-run-this-on-raspberry-pi-5&#34;&gt;Why Can We Run This on Raspberry Pi 5?&lt;/h3&gt;
 &lt;p&gt;Thanks to open-source advancements, we can now run large-scale AI models on small devices like the Raspberry Pi 5. Key factors enabling this include:&lt;/p&gt;
@@ -27,6 +37,7 @@
 &lt;li&gt;Running this model on an RPi5 &lt;strong&gt;without a GPU&lt;/strong&gt; will be CPU-intensive.&lt;/li&gt;
 &lt;li&gt;Consider &lt;strong&gt;reducing active processes&lt;/strong&gt; to free up memory.&lt;/li&gt;
 &lt;li&gt;If performance lags, use a &lt;strong&gt;lighter model&lt;/strong&gt; or &lt;strong&gt;external processing (cloud inference).&lt;/strong&gt;&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;No GPU acceleration was used&lt;/strong&gt; in this setup, meaning all computations rely solely on the CPU, which may affect inference speeds.&lt;/li&gt;
 &lt;/ul&gt;
 &lt;hr&gt;
 &lt;p&gt;This guide covers the installation and execution of DeepSeek-R1 1.5B on a Raspberry Pi 5, following the steps demonstrated in your images.&lt;/p&gt;</description>
