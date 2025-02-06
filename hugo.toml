@@ -2,6 +2,7 @@ baseURL = 'https://hissamshar.github.io/'
 languageCode = 'en-us'
 title = 'Hisam Shar'
 theme = 'hugo-PaperMod'
+unsafe = true
 
 [params.profileMode]
 enabled = true
