@@ -6,8 +6,16 @@
     <description>Recent content in Posts on Hisam Shar</description>
     <generator>Hugo -- 0.142.0</generator>
     <language>en-us</language>
-    <lastBuildDate>Wed, 05 Feb 2025 23:22:04 +0500</lastBuildDate>
+    <lastBuildDate>Sun, 09 Feb 2025 17:03:03 +0500</lastBuildDate>
     <atom:link href="http://localhost:1313/posts/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Exception_Handling_In_Python</title>
+      <link>http://localhost:1313/posts/exception_handling_in_python/</link>
+      <pubDate>Sun, 09 Feb 2025 17:03:03 +0500</pubDate>
+      <guid>http://localhost:1313/posts/exception_handling_in_python/</guid>
+      <description>&lt;h1 id=&#34;exception-handling-in-python-a-comprehensive-guide&#34;&gt;Exception Handling in Python: A Comprehensive Guide&lt;/h1&gt;
+&lt;p&gt;Exception handling is a crucial aspect of writing robust and reliable Python code. Whether you&amp;rsquo;re a beginner or an experienced developer, getting an error, or exception, in your Python program means the entire program will crash. You don’t want this to happen in real-world programs. Instead, you want the program to detect errors, handle them, and then continue to run. In this blog, we&amp;rsquo;ll explore the fundamentals of exception handling in Python, including syntax, best practices, and advanced techniques.&lt;/p&gt;</description>
+    </item>
     <item>
       <title>Running Large Language Models on Mobile: DeepSeek R1 on iPhone 12</title>
       <link>http://localhost:1313/posts/llmonmobile/</link>
