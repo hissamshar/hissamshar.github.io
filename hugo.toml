@@ -1,4 +1,4 @@
-baseURL = 'https://hissamshar.github.io/'
+baseURL = 'www.hisamshar.com/'
 languageCode = 'en-us'
 title = 'Hisam Shar'
 theme = 'hugo-PaperMod'
