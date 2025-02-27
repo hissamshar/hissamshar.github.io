@@ -2,17 +2,17 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
     <title>Tags on Hisam Shar</title>
-    <link>https://hissamshar.github.io/tags/</link>
+    <link>www.hisamshar.com/tags/</link>
     <description>Recent content in Tags on Hisam Shar</description>
-    <generator>Hugo -- 0.142.0</generator>
+    <generator>Hugo -- 0.144.2</generator>
     <language>en-us</language>
     <lastBuildDate>Tue, 17 Sep 2024 19:20:33 +0500</lastBuildDate>
-    <atom:link href="https://hissamshar.github.io/tags/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="www.hisamshar.com/tags/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Linux</title>
-      <link>https://hissamshar.github.io/tags/linux/</link>
+      <link>www.hisamshar.com/tags/linux/</link>
       <pubDate>Tue, 17 Sep 2024 19:20:33 +0500</pubDate>
-      <guid>https://hissamshar.github.io/tags/linux/</guid>
+      <guid>www.hisamshar.com/tags/linux/</guid>
       <description></description>
     </item>
   </channel>
