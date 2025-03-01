@@ -1,1 +1,4 @@
-hisamshar.tech
+Host: www.hisamshar.tech
+Type: CNAME
+Value: hissamshar.github.io
+TTL: Automatic

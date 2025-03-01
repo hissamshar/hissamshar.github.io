@@ -2,54 +2,54 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
-    <loc>http://localhost:1313/posts/customdomain/</loc>
+    <loc>https://www.hisamshar.tech/posts/customdomain/</loc>
     <lastmod>2025-02-28T23:14:21+05:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/</loc>
+    <loc>https://www.hisamshar.tech/</loc>
     <lastmod>2025-02-28T23:14:21+05:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/posts/</loc>
+    <loc>https://www.hisamshar.tech/posts/</loc>
     <lastmod>2025-02-28T23:14:21+05:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/posts/exception_handling_in_python/</loc>
+    <loc>https://www.hisamshar.tech/posts/exception_handling_in_python/</loc>
     <lastmod>2025-02-09T17:03:03+05:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/posts/llmonmobile/</loc>
+    <loc>https://www.hisamshar.tech/posts/llmonmobile/</loc>
     <lastmod>2025-02-05T23:22:04+05:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/posts/deepseek/</loc>
+    <loc>https://www.hisamshar.tech/posts/deepseek/</loc>
     <lastmod>2025-02-03T22:18:13+05:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/posts/setting-up-neovim-on-arch-linux-a-beginners-guide/</loc>
+    <loc>https://www.hisamshar.tech/posts/setting-up-neovim-on-arch-linux-a-beginners-guide/</loc>
     <lastmod>2025-02-01T15:33:56+05:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/posts/how-to-write-a-custom-kernel-module/</loc>
+    <loc>https://www.hisamshar.tech/posts/how-to-write-a-custom-kernel-module/</loc>
     <lastmod>2025-01-23T15:45:33+05:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/posts/github-cli-githubs-official-command-line-tools/</loc>
+    <loc>https://www.hisamshar.tech/posts/github-cli-githubs-official-command-line-tools/</loc>
     <lastmod>2025-01-23T14:49:19+05:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/posts/how-to-connect-a-raspberry-pi-5-to-usb-tty-cable/</loc>
+    <loc>https://www.hisamshar.tech/posts/how-to-connect-a-raspberry-pi-5-to-usb-tty-cable/</loc>
     <lastmod>2025-01-20T15:12:09+05:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/posts/hosting-a-website-on-github-pages-with-hugo/</loc>
+    <loc>https://www.hisamshar.tech/posts/hosting-a-website-on-github-pages-with-hugo/</loc>
     <lastmod>2025-01-20T12:08:01+05:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/posts/arch_kvm/</loc>
+    <loc>https://www.hisamshar.tech/posts/arch_kvm/</loc>
     <lastmod>2024-09-17T19:20:33+05:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/tags/linux/</loc>
+    <loc>https://www.hisamshar.tech/tags/linux/</loc>
     <lastmod>2024-09-17T19:20:33+05:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/tags/</loc>
+    <loc>https://www.hisamshar.tech/tags/</loc>
     <lastmod>2024-09-17T19:20:33+05:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/posts/github-cli-githubs-official-command-line-tool/</loc>
+    <loc>https://www.hisamshar.tech/posts/github-cli-githubs-official-command-line-tool/</loc>
   </url><url>
-    <loc>http://localhost:1313/archives/</loc>
+    <loc>https://www.hisamshar.tech/archives/</loc>
   </url><url>
-    <loc>http://localhost:1313/categories/</loc>
+    <loc>https://www.hisamshar.tech/categories/</loc>
   </url><url>
-    <loc>http://localhost:1313/search/</loc>
+    <loc>https://www.hisamshar.tech/search/</loc>
   </url>
 </urlset>

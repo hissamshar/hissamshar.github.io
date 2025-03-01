@@ -2,31 +2,31 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
     <title>Posts on Hisam Shar</title>
-    <link>http://localhost:1313/posts/</link>
+    <link>https://www.hisamshar.tech/posts/</link>
     <description>Recent content in Posts on Hisam Shar</description>
     <generator>Hugo -- 0.144.2</generator>
     <language>en-us</language>
     <lastBuildDate>Fri, 28 Feb 2025 23:14:21 +0500</lastBuildDate>
-    <atom:link href="http://localhost:1313/posts/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="https://www.hisamshar.tech/posts/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>CustomDomain</title>
-      <link>http://localhost:1313/posts/customdomain/</link>
+      <link>https://www.hisamshar.tech/posts/customdomain/</link>
       <pubDate>Fri, 28 Feb 2025 23:14:21 +0500</pubDate>
-      <guid>http://localhost:1313/posts/customdomain/</guid>
+      <guid>https://www.hisamshar.tech/posts/customdomain/</guid>
       <description>&lt;h1 id=&#34;how-to-set-up-custom-domain&#34;&gt;How to set up custom domain&lt;/h1&gt;</description>
     </item>
     <item>
       <title>Exception Handling in Python: A Comprehensive Guide</title>
-      <link>http://localhost:1313/posts/exception_handling_in_python/</link>
+      <link>https://www.hisamshar.tech/posts/exception_handling_in_python/</link>
       <pubDate>Sun, 09 Feb 2025 17:03:03 +0500</pubDate>
-      <guid>http://localhost:1313/posts/exception_handling_in_python/</guid>
+      <guid>https://www.hisamshar.tech/posts/exception_handling_in_python/</guid>
       <description>&lt;p&gt;Exception handling is a crucial aspect of writing robust and reliable Python code. Whether you&amp;rsquo;re a beginner or an experienced developer, getting an error, or exception, in your Python program means the entire program will crash. You don’t want this to happen in real-world programs. Instead, you want the program to detect errors, handle them, and then continue to run. In this blog, we&amp;rsquo;ll explore the fundamentals of exception handling in Python, including syntax, best practices, and advanced techniques.&lt;/p&gt;</description>
     </item>
     <item>
       <title>Running Large Language Models on Mobile: DeepSeek R1 on iPhone 12</title>
-      <link>http://localhost:1313/posts/llmonmobile/</link>
+      <link>https://www.hisamshar.tech/posts/llmonmobile/</link>
       <pubDate>Wed, 05 Feb 2025 23:22:04 +0500</pubDate>
-      <guid>http://localhost:1313/posts/llmonmobile/</guid>
+      <guid>https://www.hisamshar.tech/posts/llmonmobile/</guid>
       <description>&lt;h1 id=&#34;running-a-local-llm-on-mobile-testing-pocketpal-on-iphone-12&#34;&gt;Running a Local LLM on Mobile: Testing PocketPal on iPhone 12&lt;/h1&gt;
 &lt;p&gt;With the increasing accessibility of large language models (LLMs), running them locally on mobile devices is an exciting prospect. I recently tested &lt;strong&gt;PocketPal&lt;/strong&gt;, a mobile LLM interface, on my &lt;strong&gt;iPhone 12&lt;/strong&gt;, using a &lt;strong&gt;distilled 4-bit quantized model&lt;/strong&gt;. Here’s a breakdown of my experience, covering installation, performance, and overall usability.&lt;/p&gt;
 &lt;h2 id=&#34;why-run-an-llm-on-mobile&#34;&gt;Why Run an LLM on Mobile?&lt;/h2&gt;
@@ -34,9 +34,9 @@
     </item>
     <item>
       <title>DeepSeek-R1 on Raspberry Pi 5: Open-Source AI Without a GPU</title>
-      <link>http://localhost:1313/posts/deepseek/</link>
+      <link>https://www.hisamshar.tech/posts/deepseek/</link>
       <pubDate>Mon, 03 Feb 2025 22:18:13 +0500</pubDate>
-      <guid>http://localhost:1313/posts/deepseek/</guid>
+      <guid>https://www.hisamshar.tech/posts/deepseek/</guid>
       <description>&lt;h1 id=&#34;running-deepseek-r1-15b-on-raspberry-pi-5-cpu-only&#34;&gt;Running DeepSeek-R1 1.5B on Raspberry Pi 5 (CPU-Only)&lt;/h1&gt;
 &lt;h2 id=&#34;technical-insights&#34;&gt;Technical Insights&lt;/h2&gt;
 &lt;h3 id=&#34;why-can-we-run-this-on-raspberry-pi-5&#34;&gt;Why Can We Run This on Raspberry Pi 5?&lt;/h3&gt;
@@ -58,9 +58,9 @@
     </item>
     <item>
       <title>Setting Up Neovim: A Beginner&#39;s Guide</title>
-      <link>http://localhost:1313/posts/setting-up-neovim-on-arch-linux-a-beginners-guide/</link>
+      <link>https://www.hisamshar.tech/posts/setting-up-neovim-on-arch-linux-a-beginners-guide/</link>
       <pubDate>Sat, 01 Feb 2025 15:33:56 +0500</pubDate>
-      <guid>http://localhost:1313/posts/setting-up-neovim-on-arch-linux-a-beginners-guide/</guid>
+      <guid>https://www.hisamshar.tech/posts/setting-up-neovim-on-arch-linux-a-beginners-guide/</guid>
       <description>&lt;h1 id=&#34;setting-up-neovim-an-easy-and-beginners-guide&#34;&gt;Setting Up Neovim: An Easy and Beginner&amp;rsquo;s Guide&lt;/h1&gt;
 &lt;p&gt;Neovim is a modern and extensible text editor that enhances Vim’s capabilities. If you&amp;rsquo;re using Linux, setting up Neovim can be a rewarding experience, allowing you to customize it for an efficient workflow. In this guide, we&amp;rsquo;ll cover installing Neovim, setting up a basic configuration, and enhancing it with essential plugins to turn it into a full-fledged IDE.&lt;/p&gt;
 &lt;hr&gt;
@@ -72,17 +72,17 @@
     </item>
     <item>
       <title>How to Write a Custom Kernel Module</title>
-      <link>http://localhost:1313/posts/how-to-write-a-custom-kernel-module/</link>
+      <link>https://www.hisamshar.tech/posts/how-to-write-a-custom-kernel-module/</link>
       <pubDate>Thu, 23 Jan 2025 15:45:33 +0500</pubDate>
-      <guid>http://localhost:1313/posts/how-to-write-a-custom-kernel-module/</guid>
+      <guid>https://www.hisamshar.tech/posts/how-to-write-a-custom-kernel-module/</guid>
       <description>&lt;h1 id=&#34;linux-kernal&#34;&gt;Linux Kernal&lt;/h1&gt;
 &lt;p&gt;The majority of the kernel&amp;rsquo;s code is written in C, leveraging extensions provided by the GNU Compiler Collection (GCC) beyond standard C. Additionally, it includes assembly code for architecture-specific functions, such as optimizing memory usage and task execution. Architecturally, the Linux kernel is monolithic, meaning the entire OS operates within kernel space. However, it features a modular design, allowing software components to be integrated as modules, including dynamic loading.&lt;/p&gt;</description>
     </item>
     <item>
       <title>GitHub CLI: GitHub&#39;s Official Command Line Tools</title>
-      <link>http://localhost:1313/posts/github-cli-githubs-official-command-line-tools/</link>
+      <link>https://www.hisamshar.tech/posts/github-cli-githubs-official-command-line-tools/</link>
       <pubDate>Thu, 23 Jan 2025 14:49:19 +0500</pubDate>
-      <guid>http://localhost:1313/posts/github-cli-githubs-official-command-line-tools/</guid>
+      <guid>https://www.hisamshar.tech/posts/github-cli-githubs-official-command-line-tools/</guid>
       <description>&lt;h2 id=&#34;what-is-it&#34;&gt;What is it?&lt;/h2&gt;
 &lt;p&gt;&lt;strong&gt;gh&lt;/strong&gt; is GitHub&amp;rsquo;s official command-line tool designed to extend Git&amp;rsquo;s functionality with GitHub-specific features.&lt;/p&gt;
 &lt;h2 id=&#34;purpose&#34;&gt;Purpose:&lt;/h2&gt;
@@ -101,9 +101,9 @@
     </item>
     <item>
       <title>How to Connect a Raspberry PI 5 to USB TTY Cable</title>
-      <link>http://localhost:1313/posts/how-to-connect-a-raspberry-pi-5-to-usb-tty-cable/</link>
+      <link>https://www.hisamshar.tech/posts/how-to-connect-a-raspberry-pi-5-to-usb-tty-cable/</link>
       <pubDate>Mon, 20 Jan 2025 15:12:09 +0500</pubDate>
-      <guid>http://localhost:1313/posts/how-to-connect-a-raspberry-pi-5-to-usb-tty-cable/</guid>
+      <guid>https://www.hisamshar.tech/posts/how-to-connect-a-raspberry-pi-5-to-usb-tty-cable/</guid>
       <description>&lt;p&gt;Connecting a Raspberry Pi 5 to a USB TTY cable is a common way to interact with it through a serial connection, especially for debugging or setting up the device without using a display.&lt;/p&gt;
 &lt;p&gt;&lt;strong&gt;Prerequists&lt;/strong&gt;&lt;/p&gt;
 &lt;ol&gt;
@@ -119,9 +119,9 @@
     </item>
     <item>
       <title>Hosting a Website on Github Pages With Hugo</title>
-      <link>http://localhost:1313/posts/hosting-a-website-on-github-pages-with-hugo/</link>
+      <link>https://www.hisamshar.tech/posts/hosting-a-website-on-github-pages-with-hugo/</link>
       <pubDate>Mon, 20 Jan 2025 12:08:01 +0500</pubDate>
-      <guid>http://localhost:1313/posts/hosting-a-website-on-github-pages-with-hugo/</guid>
+      <guid>https://www.hisamshar.tech/posts/hosting-a-website-on-github-pages-with-hugo/</guid>
       <description>&lt;p&gt;Hosting a website on GitHub Pages with Hugo involves the following steps:&lt;/p&gt;
 &lt;h1 id=&#34;creating-a-website&#34;&gt;Creating a website&lt;/h1&gt;
 &lt;p&gt;&lt;strong&gt;1. Install Hugo and git&lt;/strong&gt;&lt;/p&gt;
@@ -140,9 +140,9 @@
     </item>
     <item>
       <title>archlinux installation in hypervisor through QEMU/KVM</title>
-      <link>http://localhost:1313/posts/arch_kvm/</link>
+      <link>https://www.hisamshar.tech/posts/arch_kvm/</link>
       <pubDate>Tue, 17 Sep 2024 19:20:33 +0500</pubDate>
-      <guid>http://localhost:1313/posts/arch_kvm/</guid>
+      <guid>https://www.hisamshar.tech/posts/arch_kvm/</guid>
       <description>&lt;h1 id=&#34;kvm&#34;&gt;KVM&lt;/h1&gt;
 &lt;p&gt;Kernel-based Virtual Machine is a free and open-source virtualization module in the Linux kernel that allows the kernel to function as a hypervisor.&lt;/p&gt;
 &lt;h2 id=&#34;installation&#34;&gt;Installation&lt;/h2&gt;
@@ -156,9 +156,9 @@
     </item>
     <item>
       <title></title>
-      <link>http://localhost:1313/posts/github-cli-githubs-official-command-line-tool/</link>
+      <link>https://www.hisamshar.tech/posts/github-cli-githubs-official-command-line-tool/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/posts/github-cli-githubs-official-command-line-tool/</guid>
+      <guid>https://www.hisamshar.tech/posts/github-cli-githubs-official-command-line-tool/</guid>
       <description></description>
     </item>
   </channel>
