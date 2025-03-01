@@ -2,17 +2,17 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
     <title>Linux on Hisam Shar</title>
-    <link>www.hisamshar.com/tags/linux/</link>
+    <link>http://localhost:1313/tags/linux/</link>
     <description>Recent content in Linux on Hisam Shar</description>
     <generator>Hugo -- 0.144.2</generator>
     <language>en-us</language>
     <lastBuildDate>Tue, 17 Sep 2024 19:20:33 +0500</lastBuildDate>
-    <atom:link href="www.hisamshar.com/tags/linux/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="http://localhost:1313/tags/linux/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>archlinux installation in hypervisor through QEMU/KVM</title>
-      <link>www.hisamshar.com/posts/arch_kvm/</link>
+      <link>http://localhost:1313/posts/arch_kvm/</link>
       <pubDate>Tue, 17 Sep 2024 19:20:33 +0500</pubDate>
-      <guid>www.hisamshar.com/posts/arch_kvm/</guid>
+      <guid>http://localhost:1313/posts/arch_kvm/</guid>
       <description>&lt;h1 id=&#34;kvm&#34;&gt;KVM&lt;/h1&gt;
 &lt;p&gt;Kernel-based Virtual Machine is a free and open-source virtualization module in the Linux kernel that allows the kernel to function as a hypervisor.&lt;/p&gt;
 &lt;h2 id=&#34;installation&#34;&gt;Installation&lt;/h2&gt;
