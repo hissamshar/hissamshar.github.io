@@ -6,8 +6,18 @@
     <description>Recent content on Hisam Shar</description>
     <generator>Hugo -- 0.147.0</generator>
     <language>en-us</language>
-    <lastBuildDate>Thu, 08 May 2025 02:26:10 +0500</lastBuildDate>
+    <lastBuildDate>Sun, 11 May 2025 22:45:10 +0500</lastBuildDate>
     <atom:link href="http://localhost:1313/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>QEMU-KVM on Arch Linux: Running Tiny Core Linux in a Lightweight VM</title>
+      <link>http://localhost:1313/posts/qemu/</link>
+      <pubDate>Sun, 11 May 2025 22:45:10 +0500</pubDate>
+      <guid>http://localhost:1313/posts/qemu/</guid>
+      <description>&lt;h1 id=&#34;qemu-kvm-on-arch-linux-running-tiny-core-linux-in-a-lightweight-vm&#34;&gt;QEMU-KVM on Arch Linux: Running Tiny Core Linux in a Lightweight VM&lt;/h1&gt;
+&lt;p&gt;Virtualization is a powerful tool for developers, sysadmins, and tinkerers alike. On Linux, &lt;strong&gt;QEMU-KVM&lt;/strong&gt; stands out as a robust, high-performance virtualization stack. In this blog, well walk through setting up QEMU-KVM on &lt;strong&gt;Arch Linux&lt;/strong&gt; and using it to run &lt;strong&gt;Tiny Core Linux&lt;/strong&gt;a super-lightweight distro perfect for testing and experimentation.&lt;/p&gt;
+&lt;h2 id=&#34;what-is-qemu-kvm&#34;&gt;What is QEMU-KVM&lt;/h2&gt;
+&lt;p&gt;&lt;strong&gt;QEMU (Quick Emulator)&lt;/strong&gt; is a generic and open-source machine emulator. On its own, it can emulate various hardware systems. However, when paired with **KVM (Kernel-based Virtual Machine)**a Linux kernel module for virtualizationit can run virtual machines with near-native performance.&lt;/p&gt;</description>
+    </item>
     <item>
       <title>How to build Linux Kernal: Step by Step Guide</title>
       <link>http://localhost:1313/posts/kernal_compilation/</link>
