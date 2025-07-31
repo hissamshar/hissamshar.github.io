@@ -1,7 +1,7 @@
 baseURL = 'https://www.hisamshar.tech'
 languageCode = 'en-us'
 title = 'Hisam Shar'
-theme = 'hugo-PaperMod'
+theme = 'PaperMod'
 unsafe = true
 
 [params.profileMode]
@@ -60,11 +60,10 @@ imageHeight = 200
 
 
 [params]
-  ShowShareButtons = true 
+  ShowShareButtons = true
   ShowToc =  true
   ShowReadingTime = true
   ShowBreadCrumbs = true
   ShowCodeCopyButtons = true
   defaultTheme = 'light'
   tags = true
-

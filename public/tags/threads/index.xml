@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Threads on Hisam Shar</title>
+    <link>http://localhost:1313/tags/threads/</link>
+    <description>Recent content in Threads on Hisam Shar</description>
+    <generator>Hugo</generator>
+    <language>en-us</language>
+    <lastBuildDate>Wed, 05 Feb 2025 23:22:04 +0500</lastBuildDate>
+    <atom:link href="http://localhost:1313/tags/threads/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Multithreading in Python</title>
+      <link>http://localhost:1313/posts/multithreading/</link>
+      <pubDate>Wed, 05 Feb 2025 23:22:04 +0500</pubDate>
+      <guid>http://localhost:1313/posts/multithreading/</guid>
+      <description>&lt;p&gt;Have you ever wanted your Python program to do multiple things at once? For example, downloading files while updating the UI, or processing data while listening for user input? That’s where &lt;strong&gt;multithreading&lt;/strong&gt; comes in.&lt;/p&gt;&#xA;&lt;p&gt;In this post, we’ll explore multithreading in Python — what it is, when to use it, and how to use it with simple examples.&lt;/p&gt;&#xA;&lt;h2 id=&#34;-what-is-multithreading&#34;&gt;🧠 What is Multithreading?&lt;/h2&gt;&#xA;&lt;p&gt;Multithreading is a way to run multiple threads (smaller units of a process) at the same time. It helps make your program more responsive or perform tasks in parallel, especially when tasks are I/O-bound (e.g., network calls, file reading, etc.).&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>
