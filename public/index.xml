@@ -6,8 +6,41 @@
     <description>Recent content in Home on Hisam Shar</description>
     <generator>Hugo -- 0.148.2</generator>
     <language>en-us</language>
-    <lastBuildDate>Sun, 11 May 2025 22:45:10 +0500</lastBuildDate>
+    <lastBuildDate>Sun, 10 Aug 2025 19:55:22 +0500</lastBuildDate>
     <atom:link href="http://localhost:1313/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Creating Whatsapp Ai Assistant Using N8n</title>
+      <link>http://localhost:1313/posts/creating-whatsapp-ai-assistant-using-n8n2/</link>
+      <pubDate>Sun, 10 Aug 2025 19:55:22 +0500</pubDate>
+      <guid>http://localhost:1313/posts/creating-whatsapp-ai-assistant-using-n8n2/</guid>
+      <description>&lt;h1 id=&#34;creating-a-whatsapp-ai-assistant-using-n8n-a-step-by-step-guide&#34;&gt;Creating a WhatsApp AI Assistant Using n8n: A Step-by-Step Guide&lt;/h1&gt;
+&lt;p&gt;Build your own AI-powered WhatsApp chatbot using &lt;strong&gt;n8n&lt;/strong&gt;, &lt;strong&gt;WhatsApp Business Cloud API&lt;/strong&gt;, and &lt;strong&gt;OpenAI&lt;/strong&gt;. This guide walks you through every step—from setup to testing—with real-world error handling, solutions, and an example production-ready workflow.&lt;/p&gt;
+&lt;h2 id=&#34;1-introduction&#34;&gt;1. Introduction&lt;/h2&gt;
+&lt;p&gt;Want to chat with an AI on WhatsApp? In this tutorial, you&amp;rsquo;ll learn how to build a &lt;strong&gt;WhatsApp AI Assistant&lt;/strong&gt; using:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;n8n&lt;/strong&gt; (automation tool)&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;WhatsApp Business Cloud API&lt;/strong&gt;&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;OpenAI&lt;/strong&gt; (for generating intelligent replies)&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;By the end, you&amp;rsquo;ll have a working chatbot and gain hands-on experience with APIs, webhooks, and automation.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>IntroductiontoValgrind</title>
+      <link>http://localhost:1313/posts/introductiontovalgrind/</link>
+      <pubDate>Fri, 01 Aug 2025 00:06:37 +0500</pubDate>
+      <guid>http://localhost:1313/posts/introductiontovalgrind/</guid>
+      <description>&lt;h1 id=&#34;detecting-and-fixing-memory-leaks-in-c-with-valgrind&#34;&gt;Detecting and Fixing Memory Leaks in C with Valgrind&lt;/h1&gt;
+&lt;h2 id=&#34;introduction&#34;&gt;Introduction&lt;/h2&gt;
+&lt;p&gt;A &lt;strong&gt;memory leak&lt;/strong&gt; occurs when a program allocates memory dynamically (e.g., using &lt;code&gt;malloc&lt;/code&gt;) and fails to release it using &lt;code&gt;free&lt;/code&gt;. This leftover allocation can lead to wasted memory resources, eventually causing slowdowns or system crashes in long-running programs.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Valgrind&lt;/strong&gt; is a powerful command-line tool available on Linux systems. It helps developers detect:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Memory leaks&lt;/li&gt;
+&lt;li&gt;Invalid memory access&lt;/li&gt;
+&lt;li&gt;Uninitialized memory usage&lt;/li&gt;
+&lt;li&gt;Mismatched memory management&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;In this guide, we&amp;rsquo;ll walk through examples in C to learn how to detect and fix memory leaks using Valgrind.&lt;/p&gt;</description>
+    </item>
     <item>
       <title>QEMU-KVM on Arch Linux: Running Tiny Core Linux in a Lightweight VM</title>
       <link>http://localhost:1313/posts/qemu/</link>

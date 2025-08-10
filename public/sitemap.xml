@@ -3,10 +3,16 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
     <loc>http://localhost:1313/</loc>
-    <lastmod>2025-05-11T22:45:10+05:00</lastmod>
+    <lastmod>2025-08-17T19:20:33+05:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/posts/</loc>
-    <lastmod>2025-05-11T22:45:10+05:00</lastmod>
+    <lastmod>2025-08-17T19:20:33+05:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/posts/creating-whatsapp-ai-assistant-using-n8n2/</loc>
+    <lastmod>2025-08-10T19:55:22+05:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/posts/introductiontovalgrind/</loc>
+    <lastmod>2025-08-01T00:06:37+05:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/posts/qemu/</loc>
     <lastmod>2025-05-11T22:45:10+05:00</lastmod>

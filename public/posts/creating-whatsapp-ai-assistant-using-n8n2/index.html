@@ -1,0 +1,601 @@
+<!DOCTYPE html>
+<html lang="en" dir="auto">
+
+<head><script src="/livereload.js?mindelay=10&amp;v=2&amp;port=1313&amp;path=livereload" data-no-instant defer></script><meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+<meta name="robots" content="noindex, nofollow">
+<title>Creating Whatsapp Ai Assistant Using N8n | Hisam Shar</title>
+<meta name="keywords" content="">
+<meta name="description" content="Creating a WhatsApp AI Assistant Using n8n: A Step-by-Step Guide
+Build your own AI-powered WhatsApp chatbot using n8n, WhatsApp Business Cloud API, and OpenAI. This guide walks you through every step—from setup to testing—with real-world error handling, solutions, and an example production-ready workflow.
+1. Introduction
+Want to chat with an AI on WhatsApp? In this tutorial, you&rsquo;ll learn how to build a WhatsApp AI Assistant using:
+
+n8n (automation tool)
+WhatsApp Business Cloud API
+OpenAI (for generating intelligent replies)
+
+By the end, you&rsquo;ll have a working chatbot and gain hands-on experience with APIs, webhooks, and automation.">
+<meta name="author" content="">
+<link rel="canonical" href="http://localhost:1313/posts/creating-whatsapp-ai-assistant-using-n8n2/">
+<link crossorigin="anonymous" href="/assets/css/stylesheet.8fe10233a706bc87f2e08b3cf97b8bd4c0a80f10675a143675d59212121037c0.css" integrity="sha256-j&#43;ECM6cGvIfy4Is8&#43;XuL1MCoDxBnWhQ2ddWSEhIQN8A=" rel="preload stylesheet" as="style">
+<link rel="icon" href="http://localhost:1313/favicon.ico">
+<link rel="icon" type="image/png" sizes="16x16" href="http://localhost:1313/favicon-16x16.png">
+<link rel="icon" type="image/png" sizes="32x32" href="http://localhost:1313/favicon-32x32.png">
+<link rel="apple-touch-icon" href="http://localhost:1313/apple-touch-icon.png">
+<link rel="mask-icon" href="http://localhost:1313/safari-pinned-tab.svg">
+<meta name="theme-color" content="#2e2e33">
+<meta name="msapplication-TileColor" content="#2e2e33">
+<link rel="alternate" hreflang="en" href="http://localhost:1313/posts/creating-whatsapp-ai-assistant-using-n8n2/">
+<noscript>
+    <style>
+        #theme-toggle,
+        .top-link {
+            display: none;
+        }
+
+    </style>
+</noscript>
+</head>
+
+<body class="" id="top">
+<script>
+    if (localStorage.getItem("pref-theme") === "dark") {
+        document.body.classList.add('dark');
+    }
+
+</script>
+
+<header class="header">
+    <nav class="nav">
+        <div class="logo">
+            <a href="http://localhost:1313/" accesskey="h" title="Hisam Shar (Alt + H)">Hisam Shar</a>
+            <div class="logo-switches">
+                <button id="theme-toggle" accesskey="t" title="(Alt + T)" aria-label="Toggle theme">
+                    <svg id="moon" xmlns="http://www.w3.org/2000/svg" width="24" height="18" viewBox="0 0 24 24"
+                        fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
+                        stroke-linejoin="round">
+                        <path d="M21 12.79A9 9 0 1 1 11.21 3 7 7 0 0 0 21 12.79z"></path>
+                    </svg>
+                    <svg id="sun" xmlns="http://www.w3.org/2000/svg" width="24" height="18" viewBox="0 0 24 24"
+                        fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
+                        stroke-linejoin="round">
+                        <circle cx="12" cy="12" r="5"></circle>
+                        <line x1="12" y1="1" x2="12" y2="3"></line>
+                        <line x1="12" y1="21" x2="12" y2="23"></line>
+                        <line x1="4.22" y1="4.22" x2="5.64" y2="5.64"></line>
+                        <line x1="18.36" y1="18.36" x2="19.78" y2="19.78"></line>
+                        <line x1="1" y1="12" x2="3" y2="12"></line>
+                        <line x1="21" y1="12" x2="23" y2="12"></line>
+                        <line x1="4.22" y1="19.78" x2="5.64" y2="18.36"></line>
+                        <line x1="18.36" y1="5.64" x2="19.78" y2="4.22"></line>
+                    </svg>
+                </button>
+            </div>
+        </div>
+        <ul id="menu">
+            <li>
+                <a href="http://localhost:1313/tags/" title="Tags">
+                    <span>Tags</span>
+                </a>
+            </li>
+            <li>
+                <a href="http://localhost:1313/search" title="Search (Alt &#43; /)" accesskey=/>
+                    <span>Search</span>
+                </a>
+            </li>
+        </ul>
+    </nav>
+</header>
+<main class="main">
+
+<article class="post-single">
+  <header class="post-header">
+    <div class="breadcrumbs"><a href="http://localhost:1313/">Home</a>&nbsp;»&nbsp;<a href="http://localhost:1313/posts/">Posts</a></div>
+    <h1 class="post-title entry-hint-parent">
+      Creating Whatsapp Ai Assistant Using N8n
+    </h1>
+    <div class="post-meta"><span title='2025-08-10 19:55:22 +0500 PKT'>August 10, 2025</span>&nbsp;·&nbsp;4 min
+
+</div>
+  </header> <div class="toc">
+    <details >
+        <summary accesskey="c" title="(Alt + C)">
+            <span class="details">Table of Contents</span>
+        </summary>
+
+        <div class="inner"><ul>
+                <li>
+                    <a href="#creating-a-whatsapp-ai-assistant-using-n8n-a-step-by-step-guide" aria-label="Creating a WhatsApp AI Assistant Using n8n: A Step-by-Step Guide">Creating a WhatsApp AI Assistant Using n8n: A Step-by-Step Guide</a><ul>
+                        
+                <li>
+                    <a href="#1-introduction" aria-label="1. Introduction">1. Introduction</a></li>
+                <li>
+                    <a href="#2-prerequisites" aria-label="2. Prerequisites">2. Prerequisites</a></li>
+                <li>
+                    <a href="#3-registering-your-whatsapp-business-app" aria-label="3. Registering Your WhatsApp Business App">3. Registering Your WhatsApp Business App</a><ul>
+                        
+                <li>
+                    <a href="#a-create-whatsapp-app-in-meta-developer" aria-label="A. Create WhatsApp App in Meta Developer">A. Create WhatsApp App in Meta Developer</a></li>
+                <li>
+                    <a href="#b-obtain-testing-credentials" aria-label="B. Obtain Testing Credentials">B. Obtain Testing Credentials</a></li>
+                <li>
+                    <a href="#c-add-recipients-to-test-list" aria-label="C. Add Recipients to Test List">C. Add Recipients to Test List</a></li></ul>
+                </li>
+                <li>
+                    <a href="#4-configuring-your-webhook-in-n8n" aria-label="4. Configuring Your Webhook in n8n">4. Configuring Your Webhook in n8n</a><ul>
+                        
+                <li>
+                    <a href="#a-create-a-webhook-node" aria-label="A. Create a Webhook Node">A. Create a Webhook Node</a></li>
+                <li>
+                    <a href="#b-verify-the-webhook-with-meta" aria-label="B. Verify the Webhook with Meta">B. Verify the Webhook with Meta</a></li>
+                <li>
+                    <a href="#c-echo-back-metas-challenge" aria-label="C. Echo Back Meta’s Challenge">C. Echo Back Meta’s Challenge</a></li></ul>
+                </li>
+                <li>
+                    <a href="#5-processing-incoming-messages" aria-label="5. Processing Incoming Messages">5. Processing Incoming Messages</a></li>
+                <li>
+                    <a href="#6-integrating-openai-for-responses" aria-label="6. Integrating OpenAI for Responses">6. Integrating OpenAI for Responses</a></li>
+                <li>
+                    <a href="#7-sending-replies-via-whatsapp" aria-label="7. Sending Replies via WhatsApp">7. Sending Replies via WhatsApp</a></li>
+                <li>
+                    <a href="#8-example-n8n-workflow" aria-label="8. Example n8n Workflow">8. Example n8n Workflow</a><ul>
+                        
+                <li>
+                    <a href="#step-by-step-breakdown" aria-label="Step-by-Step Breakdown:">Step-by-Step Breakdown:</a><ul>
+                        
+                <li>
+                    <a href="#1-download-product-brochure-pdf" aria-label="1. Download Product Brochure PDF">1. Download Product Brochure PDF</a></li>
+                <li>
+                    <a href="#2-create-product-brochure-vector-store" aria-label="2. Create Product Brochure Vector Store">2. Create Product Brochure Vector Store</a></li>
+                <li>
+                    <a href="#3-use-the-whatsapp-trigger" aria-label="3. Use the WhatsApp Trigger">3. Use the WhatsApp Trigger</a></li>
+                <li>
+                    <a href="#3a-handle-unsupported-messages" aria-label="3a. Handle Unsupported Messages">3a. Handle Unsupported Messages</a></li>
+                <li>
+                    <a href="#4-sales-ai-agent-responds" aria-label="4. Sales AI Agent Responds">4. Sales AI Agent Responds</a></li>
+                <li>
+                    <a href="#5-reply-to-whatsapp-user" aria-label="5. Reply to WhatsApp User">5. Reply to WhatsApp User</a></li></ul>
+                </li></ul>
+                </li>
+                <li>
+                    <a href="#9-common-errors--fixes" aria-label="9. Common Errors &amp; Fixes">9. Common Errors &amp; Fixes</a></li>
+                <li>
+                    <a href="#10-going-live" aria-label="10. Going Live">10. Going Live</a></li>
+                <li>
+                    <a href="#11-conclusion--next-steps" aria-label="11. Conclusion &amp; Next Steps">11. Conclusion &amp; Next Steps</a><ul>
+                        
+                <li>
+                    <a href="#where-to-go-from-here" aria-label="Where to go from here:">Where to go from here:</a>
+                </li>
+            </ul>
+            </li>
+            </ul>
+            </li>
+            </ul>
+        </div>
+    </details>
+</div>
+
+  <div class="post-content"><h1 id="creating-a-whatsapp-ai-assistant-using-n8n-a-step-by-step-guide">Creating a WhatsApp AI Assistant Using n8n: A Step-by-Step Guide<a hidden class="anchor" aria-hidden="true" href="#creating-a-whatsapp-ai-assistant-using-n8n-a-step-by-step-guide">#</a></h1>
+<p>Build your own AI-powered WhatsApp chatbot using <strong>n8n</strong>, <strong>WhatsApp Business Cloud API</strong>, and <strong>OpenAI</strong>. This guide walks you through every step—from setup to testing—with real-world error handling, solutions, and an example production-ready workflow.</p>
+<h2 id="1-introduction">1. Introduction<a hidden class="anchor" aria-hidden="true" href="#1-introduction">#</a></h2>
+<p>Want to chat with an AI on WhatsApp? In this tutorial, you&rsquo;ll learn how to build a <strong>WhatsApp AI Assistant</strong> using:</p>
+<ul>
+<li><strong>n8n</strong> (automation tool)</li>
+<li><strong>WhatsApp Business Cloud API</strong></li>
+<li><strong>OpenAI</strong> (for generating intelligent replies)</li>
+</ul>
+<p>By the end, you&rsquo;ll have a working chatbot and gain hands-on experience with APIs, webhooks, and automation.</p>
+<hr>
+<h2 id="2-prerequisites">2. Prerequisites<a hidden class="anchor" aria-hidden="true" href="#2-prerequisites">#</a></h2>
+<ul>
+<li>n8n account (Cloud or self-hosted)</li>
+<li>Meta Developer account with WhatsApp Business Cloud API access</li>
+<li>OpenAI API key</li>
+<li>Basic understanding of APIs and webhook workflows</li>
+</ul>
+<hr>
+<h2 id="3-registering-your-whatsapp-business-app">3. Registering Your WhatsApp Business App<a hidden class="anchor" aria-hidden="true" href="#3-registering-your-whatsapp-business-app">#</a></h2>
+<h3 id="a-create-whatsapp-app-in-meta-developer">A. Create WhatsApp App in Meta Developer<a hidden class="anchor" aria-hidden="true" href="#a-create-whatsapp-app-in-meta-developer">#</a></h3>
+<ol>
+<li>Visit <a href="https://developers.facebook.com/apps/">Meta for Developers</a></li>
+<li>Create a new app: choose <strong>Business</strong> → <strong>WhatsApp</strong></li>
+<li>Link or create a WhatsApp Business Account</li>
+</ol>
+<h3 id="b-obtain-testing-credentials">B. Obtain Testing Credentials<a hidden class="anchor" aria-hidden="true" href="#b-obtain-testing-credentials">#</a></h3>
+<p>Your app dashboard will show:</p>
+<ul>
+<li><strong>Test phone number</strong></li>
+<li><strong>Phone Number ID</strong></li>
+<li><strong>Temporary access token</strong> (valid for only 24 hours)</li>
+</ul>
+<blockquote>
+<p>Tip: For long-term use, generate a 60-day system-user token later.</p></blockquote>
+<h3 id="c-add-recipients-to-test-list">C. Add Recipients to Test List<a hidden class="anchor" aria-hidden="true" href="#c-add-recipients-to-test-list">#</a></h3>
+<p>By default, only approved numbers can receive messages:</p>
+<ol>
+<li>Navigate to <strong>WhatsApp → API Setup</strong></li>
+<li>Add numbers in E.164 format (e.g., <code>+923001234567</code>)</li>
+<li>Users must accept the invite via WhatsApp to become valid recipients</li>
+</ol>
+<hr>
+<h2 id="4-configuring-your-webhook-in-n8n">4. Configuring Your Webhook in n8n<a hidden class="anchor" aria-hidden="true" href="#4-configuring-your-webhook-in-n8n">#</a></h2>
+<h3 id="a-create-a-webhook-node">A. Create a Webhook Node<a hidden class="anchor" aria-hidden="true" href="#a-create-a-webhook-node">#</a></h3>
+<ul>
+<li>Method: <strong>GET</strong> (for initial verification)</li>
+<li>Endpoint example:
+<pre tabindex="0"><code>https://yourname.app.n8n.cloud/webhook/your-unique-id/webhook
+</code></pre></li>
+</ul>
+<h3 id="b-verify-the-webhook-with-meta">B. Verify the Webhook with Meta<a hidden class="anchor" aria-hidden="true" href="#b-verify-the-webhook-with-meta">#</a></h3>
+<p>In your app’s <strong>Webhook</strong> section:</p>
+<ul>
+<li><strong>Callback URL</strong>: your n8n webhook URL</li>
+<li><strong>Verify Token</strong>: any secret string you choose (e.g., <code>mySecret2025</code>)</li>
+</ul>
+<h3 id="c-echo-back-metas-challenge">C. Echo Back Meta’s Challenge<a hidden class="anchor" aria-hidden="true" href="#c-echo-back-metas-challenge">#</a></h3>
+<p>Configure n8n&rsquo;s Webhook node response:</p>
+<table>
+  <thead>
+      <tr>
+          <th>Field</th>
+          <th>Value</th>
+      </tr>
+  </thead>
+  <tbody>
+      <tr>
+          <td>Response Mode</td>
+          <td>On Received</td>
+      </tr>
+      <tr>
+          <td>Response Body</td>
+          <td><code>{{$json[&quot;query&quot;][&quot;hub.challenge&quot;]}}</code></td>
+      </tr>
+  </tbody>
+</table>
+<p>This ensures Meta can verify your endpoint successfully.</p>
+<hr>
+<h2 id="5-processing-incoming-messages">5. Processing Incoming Messages<a hidden class="anchor" aria-hidden="true" href="#5-processing-incoming-messages">#</a></h2>
+<p>WhatsApp sends JSON data with structure like:</p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-json" data-lang="json"><span style="display:flex;"><span>{
+</span></span><span style="display:flex;"><span>  <span style="color:#f92672">&#34;entry&#34;</span>: [
+</span></span><span style="display:flex;"><span>    {
+</span></span><span style="display:flex;"><span>      <span style="color:#f92672">&#34;changes&#34;</span>: [
+</span></span><span style="display:flex;"><span>        {
+</span></span><span style="display:flex;"><span>          <span style="color:#f92672">&#34;value&#34;</span>: {
+</span></span><span style="display:flex;"><span>            <span style="color:#f92672">&#34;messages&#34;</span>: [
+</span></span><span style="display:flex;"><span>              {
+</span></span><span style="display:flex;"><span>                <span style="color:#f92672">&#34;from&#34;</span>: <span style="color:#e6db74">&#34;923001234567&#34;</span>,
+</span></span><span style="display:flex;"><span>                <span style="color:#f92672">&#34;text&#34;</span>: { <span style="color:#f92672">&#34;body&#34;</span>: <span style="color:#e6db74">&#34;Hello bot!&#34;</span> }
+</span></span><span style="display:flex;"><span>              }
+</span></span><span style="display:flex;"><span>            ],
+</span></span><span style="display:flex;"><span>            <span style="color:#f92672">&#34;metadata&#34;</span>: {
+</span></span><span style="display:flex;"><span>              <span style="color:#f92672">&#34;phone_number_id&#34;</span>: <span style="color:#e6db74">&#34;698352170035199&#34;</span>
+</span></span><span style="display:flex;"><span>            }
+</span></span><span style="display:flex;"><span>          }
+</span></span><span style="display:flex;"><span>        }
+</span></span><span style="display:flex;"><span>      ]
+</span></span><span style="display:flex;"><span>    }
+</span></span><span style="display:flex;"><span>  ]
+</span></span><span style="display:flex;"><span>}
+</span></span></code></pre></div><p>Extract:</p>
+<ul>
+<li><code>from</code>: user’s number</li>
+<li><code>text.body</code>: user’s text</li>
+<li><code>metadata.phone_number_id</code>: correct sender ID</li>
+</ul>
+<hr>
+<h2 id="6-integrating-openai-for-responses">6. Integrating OpenAI for Responses<a hidden class="anchor" aria-hidden="true" href="#6-integrating-openai-for-responses">#</a></h2>
+<p>Use an <strong>HTTP Request</strong> node to call OpenAI:</p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-http" data-lang="http"><span style="display:flex;"><span><span style="color:#960050;background-color:#1e0010">POST https://api.openai.com/v1/chat/completions
+</span></span></span><span style="display:flex;"><span><span style="color:#960050;background-color:#1e0010">Authorization: Bearer YOUR_OPENAI_API_KEY
+</span></span></span><span style="display:flex;"><span><span style="color:#960050;background-color:#1e0010">Content-Type: application/json
+</span></span></span><span style="display:flex;"><span><span style="color:#960050;background-color:#1e0010">
+</span></span></span><span style="display:flex;"><span><span style="color:#960050;background-color:#1e0010">{
+</span></span></span><span style="display:flex;"><span><span style="color:#960050;background-color:#1e0010">  &#34;model&#34;: &#34;gpt-4o-mini&#34;,
+</span></span></span><span style="display:flex;"><span><span style="color:#960050;background-color:#1e0010">  &#34;messages&#34;: [
+</span></span></span><span style="display:flex;"><span><span style="color:#960050;background-color:#1e0010">    { &#34;role&#34;: &#34;system&#34;, &#34;content&#34;: &#34;You are a helpful WhatsApp AI assistant.&#34; },
+</span></span></span><span style="display:flex;"><span><span style="color:#960050;background-color:#1e0010">    { &#34;role&#34;: &#34;user&#34;, &#34;content&#34;: &#34;{{ $json[...] }}&#34; }
+</span></span></span><span style="display:flex;"><span><span style="color:#960050;background-color:#1e0010">  ]
+</span></span></span><span style="display:flex;"><span><span style="color:#960050;background-color:#1e0010">}
+</span></span></span></code></pre></div><p>Replace <code>{{ $json[...] }}</code> with the actual path to the user&rsquo;s message text from the Webhook node.</p>
+<hr>
+<h2 id="7-sending-replies-via-whatsapp">7. Sending Replies via WhatsApp<a hidden class="anchor" aria-hidden="true" href="#7-sending-replies-via-whatsapp">#</a></h2>
+<p>Use another <strong>HTTP Request</strong> node to respond:</p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-http" data-lang="http"><span style="display:flex;"><span><span style="color:#960050;background-color:#1e0010">POST https://graph.facebook.com/v21.0/{{ $json[...] }}/messages
+</span></span></span><span style="display:flex;"><span><span style="color:#960050;background-color:#1e0010">Authorization: Bearer YOUR_LONG_LIVED_TOKEN
+</span></span></span><span style="display:flex;"><span><span style="color:#960050;background-color:#1e0010">Content-Type: application/json
+</span></span></span><span style="display:flex;"><span><span style="color:#960050;background-color:#1e0010">
+</span></span></span><span style="display:flex;"><span><span style="color:#960050;background-color:#1e0010">{
+</span></span></span><span style="display:flex;"><span><span style="color:#960050;background-color:#1e0010">  &#34;messaging_product&#34;: &#34;whatsapp&#34;,
+</span></span></span><span style="display:flex;"><span><span style="color:#960050;background-color:#1e0010">  &#34;to&#34;: &#34;{{ $json[...] }}&#34;,
+</span></span></span><span style="display:flex;"><span><span style="color:#960050;background-color:#1e0010">  &#34;text&#34;: {
+</span></span></span><span style="display:flex;"><span><span style="color:#960050;background-color:#1e0010">    &#34;body&#34;: &#34;{{ $node[&#39;OpenAI Response&#39;].json.choices[0].message.content }}&#34;
+</span></span></span><span style="display:flex;"><span><span style="color:#960050;background-color:#1e0010">  }
+</span></span></span><span style="display:flex;"><span><span style="color:#960050;background-color:#1e0010">}
+</span></span></span></code></pre></div><p>Use the metadata’s <code>phone_number_id</code> for the endpoint and <code>from</code> for the recipient. This avoids hardcoding and ensures proper routing.</p>
+<hr>
+<h2 id="8-example-n8n-workflow">8. Example n8n Workflow<a hidden class="anchor" aria-hidden="true" href="#8-example-n8n-workflow">#</a></h2>
+<p>Here’s the actual <strong>n8n workflow</strong> I used for my WhatsApp AI assistant. It integrates a product brochure PDF into a vector store for AI-powered Q&amp;A, and handles WhatsApp message flow.</p>
+<p><img alt="n8n WhatsApp AI Assistant Workflow" loading="lazy" src="/selection.png"></p>
+<h3 id="step-by-step-breakdown"><strong>Step-by-Step Breakdown:</strong><a hidden class="anchor" aria-hidden="true" href="#step-by-step-breakdown">#</a></h3>
+<h4 id="1-download-product-brochure-pdf"><strong>1. Download Product Brochure PDF</strong><a hidden class="anchor" aria-hidden="true" href="#1-download-product-brochure-pdf">#</a></h4>
+<ul>
+<li>Downloads the brochure from a given URL.</li>
+<li>Extracts text from the PDF.</li>
+</ul>
+<h4 id="2-create-product-brochure-vector-store"><strong>2. Create Product Brochure Vector Store</strong><a hidden class="anchor" aria-hidden="true" href="#2-create-product-brochure-vector-store">#</a></h4>
+<ul>
+<li>Splits large text into chunks.</li>
+<li>Generates embeddings using OpenAI.</li>
+<li>Saves them in a vector store for fast semantic search.</li>
+</ul>
+<h4 id="3-use-the-whatsapp-trigger"><strong>3. Use the WhatsApp Trigger</strong><a hidden class="anchor" aria-hidden="true" href="#3-use-the-whatsapp-trigger">#</a></h4>
+<ul>
+<li>Listens for incoming WhatsApp messages.</li>
+<li>Routes them to supported or unsupported handlers.</li>
+</ul>
+<h4 id="3a-handle-unsupported-messages"><strong>3a. Handle Unsupported Messages</strong><a hidden class="anchor" aria-hidden="true" href="#3a-handle-unsupported-messages">#</a></h4>
+<ul>
+<li>Replies with a friendly error if the message type is not text.</li>
+</ul>
+<h4 id="4-sales-ai-agent-responds"><strong>4. Sales AI Agent Responds</strong><a hidden class="anchor" aria-hidden="true" href="#4-sales-ai-agent-responds">#</a></h4>
+<ul>
+<li>Uses OpenAI with memory + vector store retrieval to answer based on brochure content.</li>
+</ul>
+<h4 id="5-reply-to-whatsapp-user"><strong>5. Reply to WhatsApp User</strong><a hidden class="anchor" aria-hidden="true" href="#5-reply-to-whatsapp-user">#</a></h4>
+<ul>
+<li>Sends the AI-generated message back to the sender.</li>
+</ul>
+<p><strong>Why this is effective:</strong></p>
+<ul>
+<li>Context-aware answers via buffer memory.</li>
+<li>Reduced hallucinations thanks to vector store grounding.</li>
+<li>Smooth error handling for unsupported message types.</li>
+</ul>
+<hr>
+<h2 id="9-common-errors--fixes">9. Common Errors &amp; Fixes<a hidden class="anchor" aria-hidden="true" href="#9-common-errors--fixes">#</a></h2>
+<ul>
+<li>
+<p><strong>Recipient phone number not in allowed list</strong><br>
+→ Add as test number or switch to Live mode</p>
+</li>
+<li>
+<p><strong>401 – Session expired</strong><br>
+→ Refresh token via Graph API:</p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-http" data-lang="http"><span style="display:flex;"><span><span style="color:#960050;background-color:#1e0010">GET https://graph.facebook.com/v21.0/oauth/access_token
+</span></span></span><span style="display:flex;"><span><span style="color:#960050;background-color:#1e0010">?grant_type=fb_exchange_token
+</span></span></span><span style="display:flex;"><span><span style="color:#960050;background-color:#1e0010">&amp;client_id=YOUR_APP_ID
+</span></span></span><span style="display:flex;"><span><span style="color:#960050;background-color:#1e0010">&amp;client_secret=YOUR_APP_SECRET
+</span></span></span><span style="display:flex;"><span><span style="color:#960050;background-color:#1e0010">&amp;fb_exchange_token=YOUR_CURRENT_TOKEN
+</span></span></span></code></pre></div></li>
+<li>
+<p><strong>Webhook verification failed</strong><br>
+→ Ensure verify token matches between Meta and n8n and echo <code>hub.challenge</code></p>
+</li>
+<li>
+<p><strong>No execution data available</strong><br>
+→ Trigger workflow via actual WhatsApp message, not manual run</p>
+</li>
+</ul>
+<hr>
+<h2 id="10-going-live">10. Going Live<a hidden class="anchor" aria-hidden="true" href="#10-going-live">#</a></h2>
+<ol>
+<li>Add a <strong>Privacy Policy URL</strong> in Meta App → Settings → Basic (required for live access)</li>
+<li>Switch app to <strong>Live</strong> mode once all compliance items are met</li>
+<li>Remove restricted recipient list</li>
+<li>Use WhatsApp message templates for messages sent after 24 hours of user interaction</li>
+</ol>
+<hr>
+<h2 id="11-conclusion--next-steps">11. Conclusion &amp; Next Steps<a hidden class="anchor" aria-hidden="true" href="#11-conclusion--next-steps">#</a></h2>
+<p>Congrats! You now have a WhatsApp AI Assistant built with n8n and OpenAI.</p>
+<h3 id="where-to-go-from-here">Where to go from here:<a hidden class="anchor" aria-hidden="true" href="#where-to-go-from-here">#</a></h3>
+<ul>
+<li>Wire up custom knowledge (PDFs, documents)</li>
+<li>Implement memory for conversation context</li>
+<li>Launch multilingual support</li>
+<li>Export n8n workflow as JSON for reuse</li>
+</ul>
+<hr>
+<p><strong>Need help?</strong> Join the <a href="https://community.n8n.io/">n8n Community Forum</a> or OpenAI Discord to connect with fellow builders.</p>
+<p>Happy automating!</p>
+
+
+  </div>
+
+  <footer class="post-footer">
+    <ul class="post-tags">
+    </ul>
+
+<ul class="share-buttons">
+    <li>
+        <a target="_blank" rel="noopener noreferrer" aria-label="share Creating Whatsapp Ai Assistant Using N8n on x"
+            href="https://x.com/intent/tweet/?text=Creating%20Whatsapp%20Ai%20Assistant%20Using%20N8n&amp;url=http%3a%2f%2flocalhost%3a1313%2fposts%2fcreating-whatsapp-ai-assistant-using-n8n2%2f&amp;hashtags=">
+            <svg version="1.1" viewBox="0 0 512 512" xml:space="preserve" height="30px" width="30px" fill="currentColor">
+                <path
+                    d="M512 62.554 L 512 449.446 C 512 483.97 483.97 512 449.446 512 L 62.554 512 C 28.03 512 0 483.97 0 449.446 L 0 62.554 C 0 28.03 28.029 0 62.554 0 L 449.446 0 C 483.971 0 512 28.03 512 62.554 Z M 269.951 190.75 L 182.567 75.216 L 56 75.216 L 207.216 272.95 L 63.9 436.783 L 125.266 436.783 L 235.9 310.383 L 332.567 436.783 L 456 436.783 L 298.367 228.367 L 432.367 75.216 L 371.033 75.216 Z M 127.633 110 L 164.101 110 L 383.481 400.065 L 349.5 400.065 Z" />
+            </svg>
+        </a>
+    </li>
+    <li>
+        <a target="_blank" rel="noopener noreferrer" aria-label="share Creating Whatsapp Ai Assistant Using N8n on linkedin"
+            href="https://www.linkedin.com/shareArticle?mini=true&amp;url=http%3a%2f%2flocalhost%3a1313%2fposts%2fcreating-whatsapp-ai-assistant-using-n8n2%2f&amp;title=Creating%20Whatsapp%20Ai%20Assistant%20Using%20N8n&amp;summary=Creating%20Whatsapp%20Ai%20Assistant%20Using%20N8n&amp;source=http%3a%2f%2flocalhost%3a1313%2fposts%2fcreating-whatsapp-ai-assistant-using-n8n2%2f">
+            <svg version="1.1" viewBox="0 0 512 512" xml:space="preserve" height="30px" width="30px" fill="currentColor">
+                <path
+                    d="M449.446,0c34.525,0 62.554,28.03 62.554,62.554l0,386.892c0,34.524 -28.03,62.554 -62.554,62.554l-386.892,0c-34.524,0 -62.554,-28.03 -62.554,-62.554l0,-386.892c0,-34.524 28.029,-62.554 62.554,-62.554l386.892,0Zm-288.985,423.278l0,-225.717l-75.04,0l0,225.717l75.04,0Zm270.539,0l0,-129.439c0,-69.333 -37.018,-101.586 -86.381,-101.586c-39.804,0 -57.634,21.891 -67.617,37.266l0,-31.958l-75.021,0c0.995,21.181 0,225.717 0,225.717l75.02,0l0,-126.056c0,-6.748 0.486,-13.492 2.474,-18.315c5.414,-13.475 17.767,-27.434 38.494,-27.434c27.135,0 38.007,20.707 38.007,51.037l0,120.768l75.024,0Zm-307.552,-334.556c-25.674,0 -42.448,16.879 -42.448,39.002c0,21.658 16.264,39.002 41.455,39.002l0.484,0c26.165,0 42.452,-17.344 42.452,-39.002c-0.485,-22.092 -16.241,-38.954 -41.943,-39.002Z" />
+            </svg>
+        </a>
+    </li>
+    <li>
+        <a target="_blank" rel="noopener noreferrer" aria-label="share Creating Whatsapp Ai Assistant Using N8n on reddit"
+            href="https://reddit.com/submit?url=http%3a%2f%2flocalhost%3a1313%2fposts%2fcreating-whatsapp-ai-assistant-using-n8n2%2f&title=Creating%20Whatsapp%20Ai%20Assistant%20Using%20N8n">
+            <svg version="1.1" viewBox="0 0 512 512" xml:space="preserve" height="30px" width="30px" fill="currentColor">
+                <path
+                    d="M449.446,0c34.525,0 62.554,28.03 62.554,62.554l0,386.892c0,34.524 -28.03,62.554 -62.554,62.554l-386.892,0c-34.524,0 -62.554,-28.03 -62.554,-62.554l0,-386.892c0,-34.524 28.029,-62.554 62.554,-62.554l386.892,0Zm-3.446,265.638c0,-22.964 -18.616,-41.58 -41.58,-41.58c-11.211,0 -21.361,4.457 -28.841,11.666c-28.424,-20.508 -67.586,-33.757 -111.204,-35.278l18.941,-89.121l61.884,13.157c0.756,15.734 13.642,28.29 29.56,28.29c16.407,0 29.706,-13.299 29.706,-29.701c0,-16.403 -13.299,-29.702 -29.706,-29.702c-11.666,0 -21.657,6.792 -26.515,16.578l-69.105,-14.69c-1.922,-0.418 -3.939,-0.042 -5.585,1.036c-1.658,1.073 -2.811,2.761 -3.224,4.686l-21.152,99.438c-44.258,1.228 -84.046,14.494 -112.837,35.232c-7.468,-7.164 -17.589,-11.591 -28.757,-11.591c-22.965,0 -41.585,18.616 -41.585,41.58c0,16.896 10.095,31.41 24.568,37.918c-0.639,4.135 -0.99,8.328 -0.99,12.576c0,63.977 74.469,115.836 166.33,115.836c91.861,0 166.334,-51.859 166.334,-115.836c0,-4.218 -0.347,-8.387 -0.977,-12.493c14.564,-6.47 24.735,-21.034 24.735,-38.001Zm-119.474,108.193c-20.27,20.241 -59.115,21.816 -70.534,21.816c-11.428,0 -50.277,-1.575 -70.522,-21.82c-3.007,-3.008 -3.007,-7.882 0,-10.889c3.003,-2.999 7.882,-3.003 10.885,0c12.777,12.781 40.11,17.317 59.637,17.317c19.522,0 46.86,-4.536 59.657,-17.321c3.016,-2.999 7.886,-2.995 10.885,0.008c3.008,3.011 3.003,7.882 -0.008,10.889Zm-5.23,-48.781c-16.373,0 -29.701,-13.324 -29.701,-29.698c0,-16.381 13.328,-29.714 29.701,-29.714c16.378,0 29.706,13.333 29.706,29.714c0,16.374 -13.328,29.698 -29.706,29.698Zm-160.386,-29.702c0,-16.381 13.328,-29.71 29.714,-29.71c16.369,0 29.689,13.329 29.689,29.71c0,16.373 -13.32,29.693 -29.689,29.693c-16.386,0 -29.714,-13.32 -29.714,-29.693Z" />
+            </svg>
+        </a>
+    </li>
+    <li>
+        <a target="_blank" rel="noopener noreferrer" aria-label="share Creating Whatsapp Ai Assistant Using N8n on facebook"
+            href="https://facebook.com/sharer/sharer.php?u=http%3a%2f%2flocalhost%3a1313%2fposts%2fcreating-whatsapp-ai-assistant-using-n8n2%2f">
+            <svg version="1.1" viewBox="0 0 512 512" xml:space="preserve" height="30px" width="30px" fill="currentColor">
+                <path
+                    d="M449.446,0c34.525,0 62.554,28.03 62.554,62.554l0,386.892c0,34.524 -28.03,62.554 -62.554,62.554l-106.468,0l0,-192.915l66.6,0l12.672,-82.621l-79.272,0l0,-53.617c0,-22.603 11.073,-44.636 46.58,-44.636l36.042,0l0,-70.34c0,0 -32.71,-5.582 -63.982,-5.582c-65.288,0 -107.96,39.569 -107.96,111.204l0,62.971l-72.573,0l0,82.621l72.573,0l0,192.915l-191.104,0c-34.524,0 -62.554,-28.03 -62.554,-62.554l0,-386.892c0,-34.524 28.029,-62.554 62.554,-62.554l386.892,0Z" />
+            </svg>
+        </a>
+    </li>
+    <li>
+        <a target="_blank" rel="noopener noreferrer" aria-label="share Creating Whatsapp Ai Assistant Using N8n on whatsapp"
+            href="https://api.whatsapp.com/send?text=Creating%20Whatsapp%20Ai%20Assistant%20Using%20N8n%20-%20http%3a%2f%2flocalhost%3a1313%2fposts%2fcreating-whatsapp-ai-assistant-using-n8n2%2f">
+            <svg version="1.1" viewBox="0 0 512 512" xml:space="preserve" height="30px" width="30px" fill="currentColor">
+                <path
+                    d="M449.446,0c34.525,0 62.554,28.03 62.554,62.554l0,386.892c0,34.524 -28.03,62.554 -62.554,62.554l-386.892,0c-34.524,0 -62.554,-28.03 -62.554,-62.554l0,-386.892c0,-34.524 28.029,-62.554 62.554,-62.554l386.892,0Zm-58.673,127.703c-33.842,-33.881 -78.847,-52.548 -126.798,-52.568c-98.799,0 -179.21,80.405 -179.249,179.234c-0.013,31.593 8.241,62.428 23.927,89.612l-25.429,92.884l95.021,-24.925c26.181,14.28 55.659,21.807 85.658,21.816l0.074,0c98.789,0 179.206,-80.413 179.247,-179.243c0.018,-47.895 -18.61,-92.93 -52.451,-126.81Zm-126.797,275.782l-0.06,0c-26.734,-0.01 -52.954,-7.193 -75.828,-20.767l-5.441,-3.229l-56.386,14.792l15.05,-54.977l-3.542,-5.637c-14.913,-23.72 -22.791,-51.136 -22.779,-79.287c0.033,-82.142 66.867,-148.971 149.046,-148.971c39.793,0.014 77.199,15.531 105.329,43.692c28.128,28.16 43.609,65.592 43.594,105.4c-0.034,82.149 -66.866,148.983 -148.983,148.984Zm81.721,-111.581c-4.479,-2.242 -26.499,-13.075 -30.604,-14.571c-4.105,-1.495 -7.091,-2.241 -10.077,2.241c-2.986,4.483 -11.569,14.572 -14.182,17.562c-2.612,2.988 -5.225,3.364 -9.703,1.12c-4.479,-2.241 -18.91,-6.97 -36.017,-22.23c-13.314,-11.876 -22.304,-26.542 -24.916,-31.026c-2.612,-4.484 -0.279,-6.908 1.963,-9.14c2.016,-2.007 4.48,-5.232 6.719,-7.847c2.24,-2.615 2.986,-4.484 4.479,-7.472c1.493,-2.99 0.747,-5.604 -0.374,-7.846c-1.119,-2.241 -10.077,-24.288 -13.809,-33.256c-3.635,-8.733 -7.327,-7.55 -10.077,-7.688c-2.609,-0.13 -5.598,-0.158 -8.583,-0.158c-2.986,0 -7.839,1.121 -11.944,5.604c-4.105,4.484 -15.675,15.32 -15.675,37.364c0,22.046 16.048,43.342 18.287,46.332c2.24,2.99 31.582,48.227 76.511,67.627c10.685,4.615 19.028,7.371 25.533,9.434c10.728,3.41 20.492,2.929 28.209,1.775c8.605,-1.285 26.499,-10.833 30.231,-21.295c3.732,-10.464 3.732,-19.431 2.612,-21.298c-1.119,-1.869 -4.105,-2.99 -8.583,-5.232Z" />
+            </svg>
+        </a>
+    </li>
+    <li>
+        <a target="_blank" rel="noopener noreferrer" aria-label="share Creating Whatsapp Ai Assistant Using N8n on telegram"
+            href="https://telegram.me/share/url?text=Creating%20Whatsapp%20Ai%20Assistant%20Using%20N8n&amp;url=http%3a%2f%2flocalhost%3a1313%2fposts%2fcreating-whatsapp-ai-assistant-using-n8n2%2f">
+            <svg version="1.1" xml:space="preserve" viewBox="2 2 28 28" height="30px" width="30px" fill="currentColor">
+                <path
+                    d="M26.49,29.86H5.5a3.37,3.37,0,0,1-2.47-1,3.35,3.35,0,0,1-1-2.47V5.48A3.36,3.36,0,0,1,3,3,3.37,3.37,0,0,1,5.5,2h21A3.38,3.38,0,0,1,29,3a3.36,3.36,0,0,1,1,2.46V26.37a3.35,3.35,0,0,1-1,2.47A3.38,3.38,0,0,1,26.49,29.86Zm-5.38-6.71a.79.79,0,0,0,.85-.66L24.73,9.24a.55.55,0,0,0-.18-.46.62.62,0,0,0-.41-.17q-.08,0-16.53,6.11a.59.59,0,0,0-.41.59.57.57,0,0,0,.43.52l4,1.24,1.61,4.83a.62.62,0,0,0,.63.43.56.56,0,0,0,.4-.17L16.54,20l4.09,3A.9.9,0,0,0,21.11,23.15ZM13.8,20.71l-1.21-4q8.72-5.55,8.78-5.55c.15,0,.23,0,.23.16a.18.18,0,0,1,0,.06s-2.51,2.3-7.52,6.8Z" />
+            </svg>
+        </a>
+    </li>
+    <li>
+        <a target="_blank" rel="noopener noreferrer" aria-label="share Creating Whatsapp Ai Assistant Using N8n on ycombinator"
+            href="https://news.ycombinator.com/submitlink?t=Creating%20Whatsapp%20Ai%20Assistant%20Using%20N8n&u=http%3a%2f%2flocalhost%3a1313%2fposts%2fcreating-whatsapp-ai-assistant-using-n8n2%2f">
+            <svg version="1.1" xml:space="preserve" width="30px" height="30px" viewBox="0 0 512 512" fill="currentColor"
+                xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape">
+                <path
+                    d="M449.446 0C483.971 0 512 28.03 512 62.554L512 449.446C512 483.97 483.97 512 449.446 512L62.554 512C28.03 512 0 483.97 0 449.446L0 62.554C0 28.03 28.029 0 62.554 0L449.446 0ZM183.8767 87.9921H121.8427L230.6673 292.4508V424.0079H281.3328V292.4508L390.1575 87.9921H328.1233L256 238.2489z" />
+            </svg>
+        </a>
+    </li>
+</ul>
+
+  </footer>
+</article>
+    </main>
+    
+<footer class="footer">
+        <span>&copy; 2025 <a href="http://localhost:1313/">Hisam Shar</a></span> · 
+
+    <span>
+        Powered by
+        <a href="https://gohugo.io/" rel="noopener noreferrer" target="_blank">Hugo</a> &
+        <a href="https://github.com/adityatelange/hugo-PaperMod/" rel="noopener" target="_blank">PaperMod</a>
+    </span>
+</footer>
+<a href="#top" aria-label="go to top" title="Go to Top (Alt + G)" class="top-link" id="top-link" accesskey="g">
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 12 6" fill="currentColor">
+        <path d="M12 6H0l6-6z" />
+    </svg>
+</a>
+
+<script>
+    let menu = document.getElementById('menu')
+    if (menu) {
+        menu.scrollLeft = localStorage.getItem("menu-scroll-position");
+        menu.onscroll = function () {
+            localStorage.setItem("menu-scroll-position", menu.scrollLeft);
+        }
+    }
+
+    document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+        anchor.addEventListener("click", function (e) {
+            e.preventDefault();
+            var id = this.getAttribute("href").substr(1);
+            if (!window.matchMedia('(prefers-reduced-motion: reduce)').matches) {
+                document.querySelector(`[id='${decodeURIComponent(id)}']`).scrollIntoView({
+                    behavior: "smooth"
+                });
+            } else {
+                document.querySelector(`[id='${decodeURIComponent(id)}']`).scrollIntoView();
+            }
+            if (id === "top") {
+                history.replaceState(null, null, " ");
+            } else {
+                history.pushState(null, null, `#${id}`);
+            }
+        });
+    });
+
+</script>
+<script>
+    var mybutton = document.getElementById("top-link");
+    window.onscroll = function () {
+        if (document.body.scrollTop > 800 || document.documentElement.scrollTop > 800) {
+            mybutton.style.visibility = "visible";
+            mybutton.style.opacity = "1";
+        } else {
+            mybutton.style.visibility = "hidden";
+            mybutton.style.opacity = "0";
+        }
+    };
+
+</script>
+<script>
+    document.getElementById("theme-toggle").addEventListener("click", () => {
+        if (document.body.className.includes("dark")) {
+            document.body.classList.remove('dark');
+            localStorage.setItem("pref-theme", 'light');
+        } else {
+            document.body.classList.add('dark');
+            localStorage.setItem("pref-theme", 'dark');
+        }
+    })
+
+</script>
+<script>
+    document.querySelectorAll('pre > code').forEach((codeblock) => {
+        const container = codeblock.parentNode.parentNode;
+
+        const copybutton = document.createElement('button');
+        copybutton.classList.add('copy-code');
+        copybutton.innerHTML = 'copy';
+
+        function copyingDone() {
+            copybutton.innerHTML = 'copied!';
+            setTimeout(() => {
+                copybutton.innerHTML = 'copy';
+            }, 2000);
+        }
+
+        copybutton.addEventListener('click', (cb) => {
+            if ('clipboard' in navigator) {
+                navigator.clipboard.writeText(codeblock.textContent);
+                copyingDone();
+                return;
+            }
+
+            const range = document.createRange();
+            range.selectNodeContents(codeblock);
+            const selection = window.getSelection();
+            selection.removeAllRanges();
+            selection.addRange(range);
+            try {
+                document.execCommand('copy');
+                copyingDone();
+            } catch (e) { };
+            selection.removeRange(range);
+        });
+
+        if (container.classList.contains("highlight")) {
+            container.appendChild(copybutton);
+        } else if (container.parentNode.firstChild == container) {
+            
+        } else if (codeblock.parentNode.parentNode.parentNode.parentNode.parentNode.nodeName == "TABLE") {
+            
+            codeblock.parentNode.parentNode.parentNode.parentNode.parentNode.appendChild(copybutton);
+        } else {
+            
+            codeblock.parentNode.appendChild(copybutton);
+        }
+    });
+</script>
+</body>
+
+</html>
