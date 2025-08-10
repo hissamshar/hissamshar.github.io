@@ -96,7 +96,7 @@ By the end, you&rsquo;ll have a working chatbot and gain hands-on experience wit
     <h1 class="post-title entry-hint-parent">
       Creating Whatsapp Ai Assistant Using N8n
     </h1>
-    <div class="post-meta"><span title='2025-08-10 19:55:22 +0500 PKT'>August 10, 2025</span>&nbsp;·&nbsp;4 min
+    <div class="post-meta"><span title='2025-08-10 19:55:22 +0500 PKT'>August 10, 2025</span>&nbsp;·&nbsp;5 min
 
 </div>
   </header> <div class="toc">
@@ -136,7 +136,13 @@ By the end, you&rsquo;ll have a working chatbot and gain hands-on experience wit
                 <li>
                     <a href="#5-processing-incoming-messages" aria-label="5. Processing Incoming Messages">5. Processing Incoming Messages</a></li>
                 <li>
-                    <a href="#6-integrating-openai-for-responses" aria-label="6. Integrating OpenAI for Responses">6. Integrating OpenAI for Responses</a></li>
+                    <a href="#6-integrating-openai-for-responses" aria-label="6. Integrating OpenAI for Responses">6. Integrating OpenAI for Responses</a><ul>
+                        
+                <li>
+                    <a href="#obtaining-your-openai-api-key" aria-label="Obtaining Your OpenAI API Key">Obtaining Your OpenAI API Key</a></li>
+                <li>
+                    <a href="#step-by-step" aria-label="Step-by-Step:">Step-by-Step:</a></li></ul>
+                </li>
                 <li>
                     <a href="#7-sending-replies-via-whatsapp" aria-label="7. Sending Replies via WhatsApp">7. Sending Replies via WhatsApp</a></li>
                 <li>
@@ -288,6 +294,26 @@ By the end, you&rsquo;ll have a working chatbot and gain hands-on experience wit
 </ul>
 <hr>
 <h2 id="6-integrating-openai-for-responses">6. Integrating OpenAI for Responses<a hidden class="anchor" aria-hidden="true" href="#6-integrating-openai-for-responses">#</a></h2>
+<h3 id="obtaining-your-openai-api-key">Obtaining Your OpenAI API Key<a hidden class="anchor" aria-hidden="true" href="#obtaining-your-openai-api-key">#</a></h3>
+<p>Before integrating OpenAI into your n8n workflow, you’ll need to get an API key from OpenAI.</p>
+<p><img alt="OpenAI Dashboard Screenshot" loading="lazy" src="/img.png"></p>
+<h3 id="step-by-step">Step-by-Step:<a hidden class="anchor" aria-hidden="true" href="#step-by-step">#</a></h3>
+<ol>
+<li><strong>Sign up or log in</strong> to <a href="https://platform.openai.com/">OpenAI</a>.</li>
+<li>Navigate to your <a href="https://platform.openai.com/account/api-keys">API Keys page</a>.</li>
+<li>Click <strong>&ldquo;Create new secret key&rdquo;</strong>.</li>
+<li>Optionally name your key, then <strong>copy it immediately</strong> (you won’t be able to view it again).</li>
+<li>In n8n:
+<ul>
+<li>Go to <strong>Credentials</strong> → <strong>Add New</strong> → choose <strong>OpenAI</strong> or <strong>HTTP Request</strong>.</li>
+<li>Paste your API key into the key field.</li>
+<li>Save the credentials.</li>
+</ul>
+</li>
+</ol>
+<blockquote>
+<p><strong>Security Tip:</strong> Keep your key private. Do not share it or commit it to public repositories.</p></blockquote>
+<hr>
 <p>Use an <strong>HTTP Request</strong> node to call OpenAI:</p>
 <div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-http" data-lang="http"><span style="display:flex;"><span><span style="color:#960050;background-color:#1e0010">POST https://api.openai.com/v1/chat/completions
 </span></span></span><span style="display:flex;"><span><span style="color:#960050;background-color:#1e0010">Authorization: Bearer YOUR_OPENAI_API_KEY

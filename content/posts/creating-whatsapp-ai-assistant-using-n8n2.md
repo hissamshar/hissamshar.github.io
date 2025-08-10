@@ -124,6 +124,29 @@ Extract:
 
 ## 6. Integrating OpenAI for Responses
 
+### Obtaining Your OpenAI API Key
+
+Before integrating OpenAI into your n8n workflow, you’ll need to get an API key from OpenAI.
+
+![OpenAI Dashboard Screenshot](/img.png)
+
+### Step-by-Step:
+
+1. **Sign up or log in** to [OpenAI](https://platform.openai.com/).  
+2. Navigate to your [API Keys page](https://platform.openai.com/account/api-keys).  
+3. Click **"Create new secret key"**.  
+4. Optionally name your key, then **copy it immediately** (you won’t be able to view it again).  
+5. In n8n:
+   - Go to **Credentials** → **Add New** → choose **OpenAI** or **HTTP Request**.
+   - Paste your API key into the key field.
+   - Save the credentials.
+
+> **Security Tip:** Keep your key private. Do not share it or commit it to public repositories.
+
+---
+
+
+
 Use an **HTTP Request** node to call OpenAI:
 
 ```http
