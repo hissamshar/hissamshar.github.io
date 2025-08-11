@@ -1,10 +1,10 @@
 ---
 date: '2025-08-01T00:06:37+05:00'
-title: 'IntroductiontoValgrind'
+title: 'Detecting and Fixing Memory Leaks with Valgrind'
 draft: false
 ---
 
-# Detecting and Fixing Memory Leaks in C with Valgrind
+
 
 ## Introduction
 
@@ -37,7 +37,39 @@ sudo apt install valgrind
 sudo dnf install valgrind
 ```
 
+## Troubleshooting: Valgrind "cannot find mandatory redirection" on Arch Linux
+
+If you run Valgrind and get an error like:
+
+**valgrind:  Fatal error at startup: a function redirection**
+
+**valgrind:  which is mandatory for this platform-tool combination**
+
+**valgrind:  cannot be set up.**
+
+…you might be running a **32-bit executable** on a 64-bit Arch Linux system.
+
+## Why this happens
+Valgrind needs to hook into low-level `glibc` functions from your binary’s architecture.  
+If your binary is **32-bit**, Arch requires the **32-bit glibc runtime** (`lib32-glibc`).  
+Without it, Valgrind can’t find the right function symbols and quits.
+
+## Fix
+Install the 32-bit glibc package:
+```bash
+sudo pacman -S lib32-glibc
+```
+
+After installation, re-run:
+```bash
+valgrind ./your-binary
+```
+and it should work.
+
+> **Ubuntu/Debian equivalent:** `sudo apt install libc6-dbg:i386`
+
 ---
+
 
 ## Basic Example: Hello World
 
@@ -61,6 +93,7 @@ gcc main.c -o main.out
 ```sh
 valgrind ./main.out
 ```
+![](/valgrind.png)
 
 You should see no errors or memory leaks in the output.
 
@@ -99,9 +132,11 @@ int main() {
 valgrind ./main.out
 ```
 You should see:
-```
+
+![](/valgrind2.png)
+
 definitely lost: 20 bytes in 1 blocks
-```
+
 
 ---
 
@@ -145,68 +180,6 @@ Explanation:
 - `--leak-check=full`: Display detailed leak info
 - `--show-leak-kinds=all`: Show all kinds of leaks (definitely, indirectly lost, etc.)
 - `--track-origins=yes`: Show where uninitialized values originate
-
----
-
-## File Handling Leak Example
-
-### Leaky Code
-```c
-#include <stdio.h>
-
-int main() {
-    FILE *fptr = fopen("test.txt", "w");
-    fprintf(fptr, "%s", "Hello World");
-    return 0; // Forgot to close file
-}
-```
-
-Valgrind will show a leak due to the unclosed file stream.
-
-### Fix
-```c
-fclose(fptr);
-```
-
----
-
-## Invalid Memory Access
-
-### Buggy Code
-```c
-#include <stdio.h>
-#include <string.h>
-
-int main() {
-    char *str;
-    strcpy(str, "Hello"); // No memory allocated
-    return 0;
-}
-```
-
-Valgrind reports:
-```
-Invalid write of size 4
-```
-
-This error highlights incorrect usage of pointers without allocation.
-
----
-
-## Valgrind and Python (Not Recommended for Debugging Python)
-
-Even though Python handles memory automatically:
-```sh
-valgrind python3 test.py
-```
-
-### Example Python Code
-```python
-a = 10
-print(a)
-```
-
-Valgrind will report allocations, but this is mostly useful for debugging C extensions or embedded code, not regular Python scripts.
 
 ---
 

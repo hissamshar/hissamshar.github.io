@@ -25,12 +25,11 @@
 &lt;p&gt;By the end, you&amp;rsquo;ll have a working chatbot and gain hands-on experience with APIs, webhooks, and automation.&lt;/p&gt;</description>
     </item>
     <item>
-      <title>IntroductiontoValgrind</title>
+      <title>Detecting and Fixing Memory Leaks with Valgrind</title>
       <link>http://localhost:1313/posts/introductiontovalgrind/</link>
       <pubDate>Fri, 01 Aug 2025 00:06:37 +0500</pubDate>
       <guid>http://localhost:1313/posts/introductiontovalgrind/</guid>
-      <description>&lt;h1 id=&#34;detecting-and-fixing-memory-leaks-in-c-with-valgrind&#34;&gt;Detecting and Fixing Memory Leaks in C with Valgrind&lt;/h1&gt;
-&lt;h2 id=&#34;introduction&#34;&gt;Introduction&lt;/h2&gt;
+      <description>&lt;h2 id=&#34;introduction&#34;&gt;Introduction&lt;/h2&gt;
 &lt;p&gt;A &lt;strong&gt;memory leak&lt;/strong&gt; occurs when a program allocates memory dynamically (e.g., using &lt;code&gt;malloc&lt;/code&gt;) and fails to release it using &lt;code&gt;free&lt;/code&gt;. This leftover allocation can lead to wasted memory resources, eventually causing slowdowns or system crashes in long-running programs.&lt;/p&gt;
 &lt;p&gt;&lt;strong&gt;Valgrind&lt;/strong&gt; is a powerful command-line tool available on Linux systems. It helps developers detect:&lt;/p&gt;
 &lt;ul&gt;
