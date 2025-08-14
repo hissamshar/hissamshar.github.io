@@ -109,7 +109,7 @@ Anyone visiting the public link will need credentials.
 ---
 ## 7. The Inspector 
 
-One of ngrok's most powerful features is its built-in web interface, accessible at http://127.0.0.1:4040. This interface lets you inspect every single request that comes through your tunnel in real-time. You can see headers, request bodies, and response details, and even replay requests with a single click—an absolute lifesaver for debugging webhooks.
+One of ngrok's most powerful features is its built-in web interface, accessible at **http://127.0.0.1:4040**. This interface lets you inspect every single request that comes through your tunnel in real-time. You can see headers, request bodies, and response details, and even replay requests with a single click—an absolute lifesaver for debugging webhooks.
 
 ![](/ngrok5.png)
 ## 8. Common Use Cases
