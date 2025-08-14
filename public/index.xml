@@ -6,8 +6,20 @@
     <description>Recent content in Home on Hisam Shar</description>
     <generator>Hugo -- 0.148.2</generator>
     <language>en-us</language>
-    <lastBuildDate>Sun, 10 Aug 2025 19:55:22 +0500</lastBuildDate>
+    <lastBuildDate>Thu, 14 Aug 2025 19:58:22 +0500</lastBuildDate>
     <atom:link href="http://localhost:1313/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Ngrok: Expose Localhost to the Internet</title>
+      <link>http://localhost:1313/posts/ngrok/</link>
+      <pubDate>Thu, 14 Aug 2025 19:58:22 +0500</pubDate>
+      <guid>http://localhost:1313/posts/ngrok/</guid>
+      <description>&lt;h2 id=&#34;1-introduction&#34;&gt;1. Introduction&lt;/h2&gt;
+&lt;p&gt;Sometimes you need to share a local application with the outside world, maybe to demo your project, test a webhook, or allow a teammate to access your development server.&lt;/p&gt;
+&lt;p&gt;Normally, you’d need a public IP, port forwarding, or a cloud server. &lt;strong&gt;ngrok&lt;/strong&gt; removes all that complexity by creating a &lt;strong&gt;secure tunnel&lt;/strong&gt; from the internet directly to your machine, giving you a public URL instantly.&lt;/p&gt;
+&lt;hr&gt;
+&lt;h2 id=&#34;2-prerequisites&#34;&gt;2. Prerequisites&lt;/h2&gt;
+&lt;p&gt;Before we begin, make sure you have:&lt;/p&gt;</description>
+    </item>
     <item>
       <title>Creating Whatsapp Ai Assistant Using N8n</title>
       <link>http://localhost:1313/posts/creating-whatsapp-ai-assistant-using-n8n2/</link>
