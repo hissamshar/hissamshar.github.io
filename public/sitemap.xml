@@ -5,7 +5,16 @@
     <loc>http://localhost:1313/</loc>
     <lastmod>2025-08-17T19:20:33+05:00</lastmod>
   </url><url>
+    <loc>http://localhost:1313/tags/linux/</loc>
+    <lastmod>2025-08-17T19:20:33+05:00</lastmod>
+  </url><url>
     <loc>http://localhost:1313/posts/</loc>
+    <lastmod>2025-08-17T19:20:33+05:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/tags/</loc>
+    <lastmod>2025-08-17T19:20:33+05:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/posts/creating-whatsapp-ai-assistant-using-n8n/</loc>
     <lastmod>2025-08-17T19:20:33+05:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/posts/ngrok/</loc>
@@ -54,12 +63,6 @@
     <lastmod>2025-01-20T12:08:01+05:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/posts/arch_kvm/</loc>
-    <lastmod>2024-09-17T19:20:33+05:00</lastmod>
-  </url><url>
-    <loc>http://localhost:1313/tags/linux/</loc>
-    <lastmod>2024-09-17T19:20:33+05:00</lastmod>
-  </url><url>
-    <loc>http://localhost:1313/tags/</loc>
     <lastmod>2024-09-17T19:20:33+05:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/posts/github-cli-githubs-official-command-line-tool/</loc>
