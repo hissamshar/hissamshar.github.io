@@ -4,10 +4,18 @@
     <title>Home on Hisam Shar</title>
     <link>http://localhost:1313/</link>
     <description>Recent content in Home on Hisam Shar</description>
-    <generator>Hugo -- 0.150.0</generator>
+    <generator>Hugo -- 0.152.2</generator>
     <language>en-us</language>
-    <lastBuildDate>Wed, 17 Sep 2025 23:27:36 +0500</lastBuildDate>
+    <lastBuildDate>Thu, 13 Nov 2025 14:58:03 +0500</lastBuildDate>
     <atom:link href="http://localhost:1313/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Understanding the Linux Kernel Development Process</title>
+      <link>http://localhost:1313/posts/linux_kernel_development/</link>
+      <pubDate>Thu, 13 Nov 2025 14:58:03 +0500</pubDate>
+      <guid>http://localhost:1313/posts/linux_kernel_development/</guid>
+      <description>&lt;h1 id=&#34;understanding-the-linux-kernel-development-process&#34;&gt;Understanding the Linux Kernel Development Process&lt;/h1&gt;
+&lt;p&gt;The Linux kernel is one of the most influential and widely used open source projects in the world. It powers everything from smartphones and embedded devices to servers, supercomputers, and cloud infrastructure. For developers interested in contributing or simply understanding how the kernel evolves, it is important to know how the development process works. The Linux Foundation&amp;rsquo;s Beginner&amp;rsquo;s Guide to Linux Kernel Development (LFD103) outlines the essential concepts involved in maintaining, updating, and releasing the kernel. This article presents a clear overview of the core components of that process.&lt;/p&gt;</description>
+    </item>
     <item>
       <title>Fixing PipeWire Lock Issues on Arch Linux: Why Video &amp; Audio Playback Broke</title>
       <link>http://localhost:1313/posts/pipewire_issue_fix/</link>
