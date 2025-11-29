@@ -2,19 +2,387 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Hisam Mehboob</title>
-    <link>/</link>
+    <link>//localhost:1313/</link>
     <description>Recent content on Hisam Mehboob</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
     <copyright>© 2025 Hisam Mehboob</copyright>
-    <lastBuildDate>Wed, 03 Sep 2025 00:00:00 +0000</lastBuildDate><atom:link href="/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Wed, 26 Nov 2025 16:12:08 +0500</lastBuildDate><atom:link href="//localhost:1313/index.xml" rel="self" type="application/rss+xml" />
+    
+    <item>
+      <title>Creating Your First Docker Image: A Beginner-Friendly Guide</title>
+      <link>//localhost:1313/posts/202411-docker-images/</link>
+      <pubDate>Wed, 26 Nov 2025 16:12:08 +0500</pubDate>
+      
+      <guid>//localhost:1313/posts/202411-docker-images/</guid>
+      <description>&lt;p&gt;Docker has become one of the most essential tools for developers. It
+allows you to package applications with all their dependencies into
+portable containers. In this blog post, you will build your first Docker
+image using the simplest possible example.&lt;/p&gt;</description>
+      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="//localhost:1313/posts/202411-docker-images/feature.webp" />
+    </item>
+    
+    <item>
+      <title>Understanding the Linux Kernel Development Process</title>
+      <link>//localhost:1313/posts/202511-linux_kernel_development/</link>
+      <pubDate>Thu, 13 Nov 2025 14:58:03 +0500</pubDate>
+      
+      <guid>//localhost:1313/posts/202511-linux_kernel_development/</guid>
+      <description>&lt;h1 class=&#34;relative group&#34;&gt;Understanding the Linux Kernel Development Process
+    &lt;div id=&#34;understanding-the-linux-kernel-development-process&#34; class=&#34;anchor&#34;&gt;&lt;/div&gt;
+    
+    &lt;span
+        class=&#34;absolute top-0 w-6 transition-opacity opacity-0 -start-6 not-prose group-hover:opacity-100 select-none&#34;&gt;
+        &lt;a class=&#34;text-primary-300 dark:text-neutral-700 !no-underline&#34; href=&#34;#understanding-the-linux-kernel-development-process&#34; aria-label=&#34;Anchor&#34;&gt;#&lt;/a&gt;
+    &lt;/span&gt;
+    
+&lt;/h1&gt;
+&lt;p&gt;The Linux kernel is one of the most influential and widely used open source projects in the world. It powers everything from smartphones and embedded devices to servers, supercomputers, and cloud infrastructure. For developers interested in contributing or simply understanding how the kernel evolves, it is important to know how the development process works. The Linux Foundation&amp;rsquo;s Beginner&amp;rsquo;s Guide to Linux Kernel Development (LFD103) outlines the essential concepts involved in maintaining, updating, and releasing the kernel. This article presents a clear overview of the core components of that process.&lt;/p&gt;</description>
+      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="//localhost:1313/posts/202511-linux_kernel_development/feature.webp" />
+    </item>
+    
+    <item>
+      <title>Fixing PipeWire Lock Issues on Arch Linux: Why Video &amp; Audio Playback Broke</title>
+      <link>//localhost:1313/posts/pipewire/</link>
+      <pubDate>Wed, 17 Sep 2025 23:27:36 +0500</pubDate>
+      
+      <guid>//localhost:1313/posts/pipewire/</guid>
+      <description>&lt;h1 class=&#34;relative group&#34;&gt;Fixing PipeWire Lock Issues on Arch Linux: Why Video &amp;amp; Audio Playback Broke
+    &lt;div id=&#34;fixing-pipewire-lock-issues-on-arch-linux-why-video--audio-playback-broke&#34; class=&#34;anchor&#34;&gt;&lt;/div&gt;
+    
+    &lt;span
+        class=&#34;absolute top-0 w-6 transition-opacity opacity-0 -start-6 not-prose group-hover:opacity-100 select-none&#34;&gt;
+        &lt;a class=&#34;text-primary-300 dark:text-neutral-700 !no-underline&#34; href=&#34;#fixing-pipewire-lock-issues-on-arch-linux-why-video--audio-playback-broke&#34; aria-label=&#34;Anchor&#34;&gt;#&lt;/a&gt;
+    &lt;/span&gt;
+    
+&lt;/h1&gt;
+&lt;p&gt;The other day, I ran into a frustrating issue on my Arch Linux setup:&lt;br&gt;
+&lt;strong&gt;no video would play anywhere&lt;/strong&gt; , not in Chrome, not in Firefox, and not even locally with &lt;code&gt;mpv&lt;/code&gt;. The files loaded, but playback simply wouldn’t start.&lt;/p&gt;</description>
+      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="//localhost:1313/posts/pipewire/feature.webp" />
+    </item>
+    
+    <item>
+      <title>Ngrok: Expose Localhost to the Internet</title>
+      <link>//localhost:1313/posts/ngrok/</link>
+      <pubDate>Thu, 14 Aug 2025 19:58:22 +0500</pubDate>
+      
+      <guid>//localhost:1313/posts/ngrok/</guid>
+      <description>&lt;h2 class=&#34;relative group&#34;&gt;1. Introduction
+    &lt;div id=&#34;1-introduction&#34; class=&#34;anchor&#34;&gt;&lt;/div&gt;
+    
+    &lt;span
+        class=&#34;absolute top-0 w-6 transition-opacity opacity-0 -start-6 not-prose group-hover:opacity-100 select-none&#34;&gt;
+        &lt;a class=&#34;text-primary-300 dark:text-neutral-700 !no-underline&#34; href=&#34;#1-introduction&#34; aria-label=&#34;Anchor&#34;&gt;#&lt;/a&gt;
+    &lt;/span&gt;
+    
+&lt;/h2&gt;
+&lt;p&gt;Sometimes you need to share a local application with the outside world, maybe to demo your project, test a webhook, or allow a teammate to access your development server.&lt;/p&gt;</description>
+      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="//localhost:1313/posts/ngrok/feature.webp" />
+    </item>
+    
+    <item>
+      <title>Detecting and Fixing Memory Leaks with Valgrind</title>
+      <link>//localhost:1313/posts/valgrind/</link>
+      <pubDate>Fri, 01 Aug 2025 00:06:37 +0500</pubDate>
+      
+      <guid>//localhost:1313/posts/valgrind/</guid>
+      <description>&lt;h2 class=&#34;relative group&#34;&gt;Introduction
+    &lt;div id=&#34;introduction&#34; class=&#34;anchor&#34;&gt;&lt;/div&gt;
+    
+    &lt;span
+        class=&#34;absolute top-0 w-6 transition-opacity opacity-0 -start-6 not-prose group-hover:opacity-100 select-none&#34;&gt;
+        &lt;a class=&#34;text-primary-300 dark:text-neutral-700 !no-underline&#34; href=&#34;#introduction&#34; aria-label=&#34;Anchor&#34;&gt;#&lt;/a&gt;
+    &lt;/span&gt;
+    
+&lt;/h2&gt;
+&lt;p&gt;A &lt;strong&gt;memory leak&lt;/strong&gt; occurs when a program allocates memory dynamically (e.g., using &lt;code&gt;malloc&lt;/code&gt;) and fails to release it using &lt;code&gt;free&lt;/code&gt;. This leftover allocation can lead to wasted memory resources, eventually causing slowdowns or system crashes in long-running programs.&lt;/p&gt;</description>
+      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="//localhost:1313/posts/valgrind/feature.webp" />
+    </item>
+    
+    <item>
+      <title>QEMU-KVM on Arch Linux: Running Tiny Core Linux in a Lightweight VM</title>
+      <link>//localhost:1313/posts/qemu/</link>
+      <pubDate>Sun, 11 May 2025 22:45:10 +0500</pubDate>
+      
+      <guid>//localhost:1313/posts/qemu/</guid>
+      <description>&lt;h1 class=&#34;relative group&#34;&gt;QEMU-KVM on Arch Linux: Running Tiny Core Linux in a Lightweight VM
+    &lt;div id=&#34;qemu-kvm-on-arch-linux-running-tiny-core-linux-in-a-lightweight-vm&#34; class=&#34;anchor&#34;&gt;&lt;/div&gt;
+    
+    &lt;span
+        class=&#34;absolute top-0 w-6 transition-opacity opacity-0 -start-6 not-prose group-hover:opacity-100 select-none&#34;&gt;
+        &lt;a class=&#34;text-primary-300 dark:text-neutral-700 !no-underline&#34; href=&#34;#qemu-kvm-on-arch-linux-running-tiny-core-linux-in-a-lightweight-vm&#34; aria-label=&#34;Anchor&#34;&gt;#&lt;/a&gt;
+    &lt;/span&gt;
+    
+&lt;/h1&gt;
+&lt;p&gt;Virtualization is a powerful tool for developers, sysadmins, and tinkerers alike. On Linux, &lt;strong&gt;QEMU-KVM&lt;/strong&gt; stands out as a robust, high-performance virtualization stack. In this blog, well walk through setting up QEMU-KVM on &lt;strong&gt;Arch Linux&lt;/strong&gt; and using it to run &lt;strong&gt;Tiny Core Linux&lt;/strong&gt;a super-lightweight distro perfect for testing and experimentation.&lt;/p&gt;</description>
+      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="//localhost:1313/posts/qemu/feature.webp" />
+    </item>
+    
+    <item>
+      <title>How to build Linux Kernal: Step by Step Guide</title>
+      <link>//localhost:1313/posts/kernalcompile/</link>
+      <pubDate>Thu, 08 May 2025 02:26:10 +0500</pubDate>
+      
+      <guid>//localhost:1313/posts/kernalcompile/</guid>
+      <description>&lt;h1 class=&#34;relative group&#34;&gt;Building the Linux Kernel
+    &lt;div id=&#34;building-the-linux-kernel&#34; class=&#34;anchor&#34;&gt;&lt;/div&gt;
+    
+    &lt;span
+        class=&#34;absolute top-0 w-6 transition-opacity opacity-0 -start-6 not-prose group-hover:opacity-100 select-none&#34;&gt;
+        &lt;a class=&#34;text-primary-300 dark:text-neutral-700 !no-underline&#34; href=&#34;#building-the-linux-kernel&#34; aria-label=&#34;Anchor&#34;&gt;#&lt;/a&gt;
+    &lt;/span&gt;
+    
+&lt;/h1&gt;
+&lt;p&gt;&lt;strong&gt;Compiling the Linux Kernel involves multiple steps and can take some time depending on your hardware specifications.&lt;/strong&gt;&lt;/p&gt;</description>
+      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="//localhost:1313/posts/kernalcompile/feature.webp" />
+    </item>
+    
+    <item>
+      <title>How to up custom domain for GitHub Pages</title>
+      <link>//localhost:1313/posts/202409-customdomain/</link>
+      <pubDate>Fri, 28 Feb 2025 23:14:21 +0500</pubDate>
+      
+      <guid>//localhost:1313/posts/202409-customdomain/</guid>
+      <description>&lt;h1 class=&#34;relative group&#34;&gt;Introduction
+    &lt;div id=&#34;introduction&#34; class=&#34;anchor&#34;&gt;&lt;/div&gt;
+    
+    &lt;span
+        class=&#34;absolute top-0 w-6 transition-opacity opacity-0 -start-6 not-prose group-hover:opacity-100 select-none&#34;&gt;
+        &lt;a class=&#34;text-primary-300 dark:text-neutral-700 !no-underline&#34; href=&#34;#introduction&#34; aria-label=&#34;Anchor&#34;&gt;#&lt;/a&gt;
+    &lt;/span&gt;
+    
+&lt;/h1&gt;
+&lt;p&gt;So, you’ve built a sleek website with Hugo and deployed it to GitHub Pages. Now, you want to give it a professional touch with a custom domain like &lt;code&gt;yourdomain.tech&lt;/code&gt; instead of the default &lt;code&gt;username.github.io&lt;/code&gt; URL. This guide walks you through the process step-by-step.&lt;/p&gt;</description>
+      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="//localhost:1313/posts/202409-customdomain/feature.webp" />
+    </item>
+    
+    <item>
+      <title>Exception Handling in Python: A Comprehensive Guide</title>
+      <link>//localhost:1313/posts/202502-exception_handling_in_python/</link>
+      <pubDate>Sun, 09 Feb 2025 17:03:03 +0500</pubDate>
+      
+      <guid>//localhost:1313/posts/202502-exception_handling_in_python/</guid>
+      <description>&lt;p&gt;Exception handling is a crucial aspect of writing robust and reliable Python code. Whether you&amp;rsquo;re a beginner or an experienced developer, getting an error, or exception, in your Python program means the entire program will crash. You don’t want this to happen in real-world programs. Instead, you want the program to detect errors, handle them, and then continue to run. In this blog, we&amp;rsquo;ll explore the fundamentals of exception handling in Python, including syntax, best practices, and advanced techniques.&lt;/p&gt;</description>
+      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="//localhost:1313/posts/202502-exception_handling_in_python/feature.webp" />
+    </item>
+    
+    <item>
+      <title>Multithreading in Python</title>
+      <link>//localhost:1313/posts/multithreading/</link>
+      <pubDate>Wed, 05 Feb 2025 23:22:04 +0500</pubDate>
+      
+      <guid>//localhost:1313/posts/multithreading/</guid>
+      <description>&lt;p&gt;Have you ever wanted your Python program to do multiple things at once? For example, downloading files while updating the UI, or processing data while listening for user input? That’s where &lt;strong&gt;multithreading&lt;/strong&gt; comes in.&lt;/p&gt;</description>
+      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="//localhost:1313/posts/multithreading/feature.webp" />
+    </item>
+    
+    <item>
+      <title>Running Large Language Models on Mobile: DeepSeek R1 on iPhone 12</title>
+      <link>//localhost:1313/posts/llmonmobile/</link>
+      <pubDate>Wed, 05 Feb 2025 23:22:04 +0500</pubDate>
+      
+      <guid>//localhost:1313/posts/llmonmobile/</guid>
+      <description>&lt;h1 class=&#34;relative group&#34;&gt;Running a Local LLM on Mobile: Testing PocketPal on iPhone 12
+    &lt;div id=&#34;running-a-local-llm-on-mobile-testing-pocketpal-on-iphone-12&#34; class=&#34;anchor&#34;&gt;&lt;/div&gt;
+    
+    &lt;span
+        class=&#34;absolute top-0 w-6 transition-opacity opacity-0 -start-6 not-prose group-hover:opacity-100 select-none&#34;&gt;
+        &lt;a class=&#34;text-primary-300 dark:text-neutral-700 !no-underline&#34; href=&#34;#running-a-local-llm-on-mobile-testing-pocketpal-on-iphone-12&#34; aria-label=&#34;Anchor&#34;&gt;#&lt;/a&gt;
+    &lt;/span&gt;
+    
+&lt;/h1&gt;
+&lt;p&gt;With the increasing accessibility of large language models (LLMs), running them locally on mobile devices is an exciting prospect. I recently tested &lt;strong&gt;PocketPal&lt;/strong&gt;, a mobile LLM interface, on my &lt;strong&gt;iPhone 12&lt;/strong&gt;, using a &lt;strong&gt;distilled 4-bit quantized model&lt;/strong&gt;. Here’s a breakdown of my experience, covering installation, performance, and overall usability.&lt;/p&gt;</description>
+      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="//localhost:1313/posts/llmonmobile/feature.webp" />
+    </item>
+    
+    <item>
+      <title>DeepSeek-R1 on Raspberry Pi 5: Open-Source AI Without a GPU</title>
+      <link>//localhost:1313/posts/202410-deepseek/</link>
+      <pubDate>Mon, 03 Feb 2025 22:18:13 +0500</pubDate>
+      
+      <guid>//localhost:1313/posts/202410-deepseek/</guid>
+      <description>&lt;h1 class=&#34;relative group&#34;&gt;Running DeepSeek-R1 1.5B on Raspberry Pi 5 (CPU-Only)
+    &lt;div id=&#34;running-deepseek-r1-15b-on-raspberry-pi-5-cpu-only&#34; class=&#34;anchor&#34;&gt;&lt;/div&gt;
+    
+    &lt;span
+        class=&#34;absolute top-0 w-6 transition-opacity opacity-0 -start-6 not-prose group-hover:opacity-100 select-none&#34;&gt;
+        &lt;a class=&#34;text-primary-300 dark:text-neutral-700 !no-underline&#34; href=&#34;#running-deepseek-r1-15b-on-raspberry-pi-5-cpu-only&#34; aria-label=&#34;Anchor&#34;&gt;#&lt;/a&gt;
+    &lt;/span&gt;
+    
+&lt;/h1&gt;
+
+&lt;h2 class=&#34;relative group&#34;&gt;Technical Insights
+    &lt;div id=&#34;technical-insights&#34; class=&#34;anchor&#34;&gt;&lt;/div&gt;
+    
+    &lt;span
+        class=&#34;absolute top-0 w-6 transition-opacity opacity-0 -start-6 not-prose group-hover:opacity-100 select-none&#34;&gt;
+        &lt;a class=&#34;text-primary-300 dark:text-neutral-700 !no-underline&#34; href=&#34;#technical-insights&#34; aria-label=&#34;Anchor&#34;&gt;#&lt;/a&gt;
+    &lt;/span&gt;
+    
+&lt;/h2&gt;
+
+&lt;h3 class=&#34;relative group&#34;&gt;Why Can We Run This on Raspberry Pi 5?
+    &lt;div id=&#34;why-can-we-run-this-on-raspberry-pi-5&#34; class=&#34;anchor&#34;&gt;&lt;/div&gt;
+    
+    &lt;span
+        class=&#34;absolute top-0 w-6 transition-opacity opacity-0 -start-6 not-prose group-hover:opacity-100 select-none&#34;&gt;
+        &lt;a class=&#34;text-primary-300 dark:text-neutral-700 !no-underline&#34; href=&#34;#why-can-we-run-this-on-raspberry-pi-5&#34; aria-label=&#34;Anchor&#34;&gt;#&lt;/a&gt;
+    &lt;/span&gt;
+    
+&lt;/h3&gt;
+&lt;p&gt;Thanks to open-source advancements, we can now run large-scale AI models on small devices like the Raspberry Pi 5. Key factors enabling this include:&lt;/p&gt;</description>
+      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="//localhost:1313/posts/202410-deepseek/feature.webp" />
+    </item>
+    
+    <item>
+      <title>Setting Up Neovim: A Beginner&#39;s Guide</title>
+      <link>//localhost:1313/posts/neovim/</link>
+      <pubDate>Sat, 01 Feb 2025 15:33:56 +0500</pubDate>
+      
+      <guid>//localhost:1313/posts/neovim/</guid>
+      <description>&lt;h1 class=&#34;relative group&#34;&gt;Setting Up Neovim: An Easy and Beginner&amp;rsquo;s Guide
+    &lt;div id=&#34;setting-up-neovim-an-easy-and-beginners-guide&#34; class=&#34;anchor&#34;&gt;&lt;/div&gt;
+    
+    &lt;span
+        class=&#34;absolute top-0 w-6 transition-opacity opacity-0 -start-6 not-prose group-hover:opacity-100 select-none&#34;&gt;
+        &lt;a class=&#34;text-primary-300 dark:text-neutral-700 !no-underline&#34; href=&#34;#setting-up-neovim-an-easy-and-beginners-guide&#34; aria-label=&#34;Anchor&#34;&gt;#&lt;/a&gt;
+    &lt;/span&gt;
+    
+&lt;/h1&gt;
+&lt;p&gt;Neovim is a modern and extensible text editor that enhances Vim’s capabilities. If you&amp;rsquo;re using Linux, setting up Neovim can be a rewarding experience, allowing you to customize it for an efficient workflow. In this guide, we&amp;rsquo;ll cover installing Neovim, setting up a basic configuration, and enhancing it with essential plugins to turn it into a full-fledged IDE.&lt;/p&gt;</description>
+      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="//localhost:1313/posts/neovim/feature.webp" />
+    </item>
+    
+    <item>
+      <title>How to Write a Custom Kernel Module</title>
+      <link>//localhost:1313/posts/custom-kernal/</link>
+      <pubDate>Thu, 23 Jan 2025 15:45:33 +0500</pubDate>
+      
+      <guid>//localhost:1313/posts/custom-kernal/</guid>
+      <description>&lt;h1 class=&#34;relative group&#34;&gt;Linux Kernal
+    &lt;div id=&#34;linux-kernal&#34; class=&#34;anchor&#34;&gt;&lt;/div&gt;
+    
+    &lt;span
+        class=&#34;absolute top-0 w-6 transition-opacity opacity-0 -start-6 not-prose group-hover:opacity-100 select-none&#34;&gt;
+        &lt;a class=&#34;text-primary-300 dark:text-neutral-700 !no-underline&#34; href=&#34;#linux-kernal&#34; aria-label=&#34;Anchor&#34;&gt;#&lt;/a&gt;
+    &lt;/span&gt;
+    
+&lt;/h1&gt;
+&lt;p&gt;The majority of the kernel&amp;rsquo;s code is written in C, leveraging extensions provided by the GNU Compiler Collection (GCC) beyond standard C. Additionally, it includes assembly code for architecture-specific functions, such as optimizing memory usage and task execution. Architecturally, the Linux kernel is monolithic, meaning the entire OS operates within kernel space. However, it features a modular design, allowing software components to be integrated as modules, including dynamic loading.&lt;/p&gt;</description>
+      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="//localhost:1313/posts/custom-kernal/feature.webp" />
+    </item>
+    
+    <item>
+      <title>GitHub CLI: GitHub&#39;s Official Command Line Tools</title>
+      <link>//localhost:1313/posts/202501-github-cli-githubs-official-command-line-tools/</link>
+      <pubDate>Thu, 23 Jan 2025 14:49:19 +0500</pubDate>
+      
+      <guid>//localhost:1313/posts/202501-github-cli-githubs-official-command-line-tools/</guid>
+      <description>&lt;h2 class=&#34;relative group&#34;&gt;What is it?
+    &lt;div id=&#34;what-is-it&#34; class=&#34;anchor&#34;&gt;&lt;/div&gt;
+    
+    &lt;span
+        class=&#34;absolute top-0 w-6 transition-opacity opacity-0 -start-6 not-prose group-hover:opacity-100 select-none&#34;&gt;
+        &lt;a class=&#34;text-primary-300 dark:text-neutral-700 !no-underline&#34; href=&#34;#what-is-it&#34; aria-label=&#34;Anchor&#34;&gt;#&lt;/a&gt;
+    &lt;/span&gt;
+    
+&lt;/h2&gt;
+&lt;p&gt;&lt;strong&gt;gh&lt;/strong&gt; is GitHub&amp;rsquo;s official command-line tool designed to extend Git&amp;rsquo;s functionality with GitHub-specific features.&lt;/p&gt;</description>
+      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="//localhost:1313/posts/202501-github-cli-githubs-official-command-line-tools/feature.webp" />
+    </item>
+    
+    <item>
+      <title>How to Connect a Raspberry PI 5 to USB TTY Cable</title>
+      <link>//localhost:1313/posts/202501-how-to-connect-a-raspberry-pi-5-to-usb-tty-cable/</link>
+      <pubDate>Mon, 20 Jan 2025 15:12:09 +0500</pubDate>
+      
+      <guid>//localhost:1313/posts/202501-how-to-connect-a-raspberry-pi-5-to-usb-tty-cable/</guid>
+      <description>&lt;p&gt;Connecting a Raspberry Pi 5 to a USB TTY cable is a common way to interact with it through a serial connection, especially for debugging or setting up the device without using a display.&lt;/p&gt;</description>
+      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="//localhost:1313/posts/202501-how-to-connect-a-raspberry-pi-5-to-usb-tty-cable/feature.webp" />
+    </item>
+    
+    <item>
+      <title>Hosting a Website on Github Pages With Hugo</title>
+      <link>//localhost:1313/posts/hosting-a-website-on-github-pages-with-hugo./</link>
+      <pubDate>Mon, 20 Jan 2025 12:08:01 +0500</pubDate>
+      
+      <guid>//localhost:1313/posts/hosting-a-website-on-github-pages-with-hugo./</guid>
+      <description>&lt;p&gt;Hosting a website on GitHub Pages with Hugo involves the following steps:&lt;/p&gt;
+
+&lt;h1 class=&#34;relative group&#34;&gt;Creating a website
+    &lt;div id=&#34;creating-a-website&#34; class=&#34;anchor&#34;&gt;&lt;/div&gt;
+    
+    &lt;span
+        class=&#34;absolute top-0 w-6 transition-opacity opacity-0 -start-6 not-prose group-hover:opacity-100 select-none&#34;&gt;
+        &lt;a class=&#34;text-primary-300 dark:text-neutral-700 !no-underline&#34; href=&#34;#creating-a-website&#34; aria-label=&#34;Anchor&#34;&gt;#&lt;/a&gt;
+    &lt;/span&gt;
+    
+&lt;/h1&gt;
+&lt;p&gt;&lt;strong&gt;1. Install Hugo and git&lt;/strong&gt;&lt;/p&gt;</description>
+      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="//localhost:1313/posts/hosting-a-website-on-github-pages-with-hugo./feature.webp" />
+    </item>
+    
+    <item>
+      <title>Creating a WhatsApp AI Assistant Using n8n: A Step-by-Step Guide</title>
+      <link>//localhost:1313/posts/202408-creating-whatsapp-ai-assistant-using-n8n/</link>
+      <pubDate>Fri, 09 Aug 2024 00:00:00 +0000</pubDate>
+      
+      <guid>//localhost:1313/posts/202408-creating-whatsapp-ai-assistant-using-n8n/</guid>
+      <description>&lt;p&gt;Build your own AI-powered WhatsApp chatbot using &lt;strong&gt;n8n&lt;/strong&gt;, &lt;strong&gt;WhatsApp Business Cloud API&lt;/strong&gt;, and &lt;strong&gt;OpenAI&lt;/strong&gt;. This guide walks you through every step—from setup to testing—with real-world error handling and solutions.&lt;/p&gt;
+&lt;hr&gt;
+
+&lt;h2 class=&#34;relative group&#34;&gt;Table of Contents
+    &lt;div id=&#34;table-of-contents&#34; class=&#34;anchor&#34;&gt;&lt;/div&gt;
+    
+    &lt;span
+        class=&#34;absolute top-0 w-6 transition-opacity opacity-0 -start-6 not-prose group-hover:opacity-100 select-none&#34;&gt;
+        &lt;a class=&#34;text-primary-300 dark:text-neutral-700 !no-underline&#34; href=&#34;#table-of-contents&#34; aria-label=&#34;Anchor&#34;&gt;#&lt;/a&gt;
+    &lt;/span&gt;
+    
+&lt;/h2&gt;
+&lt;ol&gt;
+&lt;li&gt;&lt;a
+  href=&#34;#introduction&#34;&gt;Introduction&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a
+  href=&#34;#prerequisites&#34;&gt;Prerequisites&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a
+  href=&#34;#registering-your-whatsapp-business-app&#34;&gt;Registering Your WhatsApp Business App&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a
+  href=&#34;#configuring-your-webhook-in-n8n&#34;&gt;Configuring Your Webhook in n8n&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a
+  href=&#34;#processing-incoming-messages&#34;&gt;Processing Incoming Messages&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a
+  href=&#34;#integrating-openai-for-responses&#34;&gt;Integrating OpenAI for Responses&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a
+  href=&#34;#sending-replies-via-whatsapp&#34;&gt;Sending Replies via WhatsApp&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a
+  href=&#34;#common-errors--fixes&#34;&gt;Common Errors &amp;amp; Fixes&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a
+  href=&#34;#going-live&#34;&gt;Going Live&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a
+  href=&#34;#conclusion--next-steps&#34;&gt;Conclusion &amp;amp; Next Steps&lt;/a&gt;&lt;/li&gt;
+&lt;/ol&gt;
+&lt;hr&gt;
+
+&lt;h2 class=&#34;relative group&#34;&gt;1. Introduction
+    &lt;div id=&#34;1-introduction&#34; class=&#34;anchor&#34;&gt;&lt;/div&gt;
+    
+    &lt;span
+        class=&#34;absolute top-0 w-6 transition-opacity opacity-0 -start-6 not-prose group-hover:opacity-100 select-none&#34;&gt;
+        &lt;a class=&#34;text-primary-300 dark:text-neutral-700 !no-underline&#34; href=&#34;#1-introduction&#34; aria-label=&#34;Anchor&#34;&gt;#&lt;/a&gt;
+    &lt;/span&gt;
+    
+&lt;/h2&gt;
+&lt;p&gt;Want to chat with an AI on WhatsApp? In this tutorial, you&amp;rsquo;ll learn how to build a &lt;strong&gt;WhatsApp AI Assistant&lt;/strong&gt; using:&lt;/p&gt;</description>
+      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="//localhost:1313/posts/202408-creating-whatsapp-ai-assistant-using-n8n/feature.webp" />
+    </item>
     
     <item>
       <title>Resume</title>
-      <link>/resume/</link>
+      <link>//localhost:1313/resume/</link>
       <pubDate>Mon, 13 Jun 2022 21:28:51 +0100</pubDate>
       
-      <guid>/resume/</guid>
+      <guid>//localhost:1313/resume/</guid>
       <description>&lt;h2 class=&#34;relative group&#34;&gt;Experience
     &lt;div id=&#34;experience&#34; class=&#34;anchor&#34;&gt;&lt;/div&gt;
     
@@ -108,40 +476,40 @@
     
     <item>
       <title>About</title>
-      <link>/about/</link>
+      <link>//localhost:1313/about/</link>
       <pubDate>Mon, 13 Jun 2022 20:55:37 +0100</pubDate>
       
-      <guid>/about/</guid>
+      <guid>//localhost:1313/about/</guid>
       <description>&lt;p&gt;I’m a Computer Science student at FAST NUCES with a growing focus on systems, tooling, and developer experience. Through my work at COLAB NU as a Tier 1 member, I’ve built static sites with Hugo, written custom Linux kernel modules, experimented with Raspberry Pi based embedded systems, and configured virtualization stacks using KVM/QEMU with libvirt and virt-manager.&lt;/p&gt;</description>
       
     </item>
     
     <item>
       <title>Music</title>
-      <link>/music/</link>
+      <link>//localhost:1313/music/</link>
       <pubDate>Mon, 13 Jun 2022 20:55:37 +0100</pubDate>
       
-      <guid>/music/</guid>
+      <guid>//localhost:1313/music/</guid>
       <description></description>
       
     </item>
     
     <item>
       <title>Projects</title>
-      <link>/projects/</link>
+      <link>//localhost:1313/projects/</link>
       <pubDate>Mon, 13 Jun 2022 20:55:37 +0100</pubDate>
       
-      <guid>/projects/</guid>
+      <guid>//localhost:1313/projects/</guid>
       <description>&lt;p&gt;I consistently seek out opportunities to learn and build through new projects. Although many of these personal initiatives don&amp;rsquo;t always reach a public release, they are instrumental in allowing me to experiment, grow, and apply new skills in practical scenarios.&lt;/p&gt;</description>
       
     </item>
     
     <item>
       <title>Arch Linux installation in hypervisor through QEMU/KVM</title>
-      <link>/posts/202109-arch-linux-qemu-kvm/</link>
+      <link>//localhost:1313/posts/202109-arch-linux-qemu-kvm/</link>
       <pubDate>Thu, 09 Sep 2021 00:00:00 +0000</pubDate>
       
-      <guid>/posts/202109-arch-linux-qemu-kvm/</guid>
+      <guid>//localhost:1313/posts/202109-arch-linux-qemu-kvm/</guid>
       <description>&lt;p&gt;Kernel-based Virtual Machine is a free and open-source virtualization module in the Linux kernel that allows the kernel to function as a hypervisor.&lt;/p&gt;
 
 &lt;h2 class=&#34;relative group&#34;&gt;Installation
@@ -154,7 +522,7 @@
     
 &lt;/h2&gt;
 &lt;p&gt;For updates, run the following command:&lt;/p&gt;</description>
-      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="/posts/202109-arch-linux-qemu-kvm/feature.webp" />
+      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="//localhost:1313/posts/202109-arch-linux-qemu-kvm/feature.webp" />
     </item>
     
   </channel>

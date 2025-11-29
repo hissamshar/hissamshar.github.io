@@ -2,19 +2,19 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Linux on Hisam Mehboob</title>
-    <link>/categories/linux/</link>
+    <link>//localhost:1313/categories/linux/</link>
     <description>Recent content in Linux on Hisam Mehboob</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
     <copyright>© 2025 Hisam Mehboob</copyright>
-    <lastBuildDate>Thu, 09 Sep 2021 00:00:00 +0000</lastBuildDate><atom:link href="/categories/linux/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Thu, 09 Sep 2021 00:00:00 +0000</lastBuildDate><atom:link href="//localhost:1313/categories/linux/index.xml" rel="self" type="application/rss+xml" />
     
     <item>
       <title>Arch Linux installation in hypervisor through QEMU/KVM</title>
-      <link>/posts/202109-arch-linux-qemu-kvm/</link>
+      <link>//localhost:1313/posts/202109-arch-linux-qemu-kvm/</link>
       <pubDate>Thu, 09 Sep 2021 00:00:00 +0000</pubDate>
       
-      <guid>/posts/202109-arch-linux-qemu-kvm/</guid>
+      <guid>//localhost:1313/posts/202109-arch-linux-qemu-kvm/</guid>
       <description>&lt;p&gt;Kernel-based Virtual Machine is a free and open-source virtualization module in the Linux kernel that allows the kernel to function as a hypervisor.&lt;/p&gt;
 
 &lt;h2 class=&#34;relative group&#34;&gt;Installation
@@ -27,7 +27,7 @@
     
 &lt;/h2&gt;
 &lt;p&gt;For updates, run the following command:&lt;/p&gt;</description>
-      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="/posts/202109-arch-linux-qemu-kvm/feature.webp" />
+      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="//localhost:1313/posts/202109-arch-linux-qemu-kvm/feature.webp" />
     </item>
     
   </channel>

@@ -2,29 +2,69 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Categories on Hisam Mehboob</title>
-    <link>/categories/</link>
+    <link>//localhost:1313/categories/</link>
     <description>Recent content in Categories on Hisam Mehboob</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
     <copyright>© 2025 Hisam Mehboob</copyright>
-    <lastBuildDate>Thu, 09 Sep 2021 00:00:00 +0000</lastBuildDate><atom:link href="/categories/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Wed, 03 Sep 2025 00:00:00 +0000</lastBuildDate><atom:link href="//localhost:1313/categories/index.xml" rel="self" type="application/rss+xml" />
+    
+    <item>
+      <title>AI</title>
+      <link>//localhost:1313/categories/ai/</link>
+      <pubDate>Wed, 03 Sep 2025 00:00:00 +0000</pubDate>
+      
+      <guid>//localhost:1313/categories/ai/</guid>
+      <description></description>
+      
+    </item>
+    
+    <item>
+      <title>Developer Tools</title>
+      <link>//localhost:1313/categories/developer-tools/</link>
+      <pubDate>Wed, 03 Sep 2025 00:00:00 +0000</pubDate>
+      
+      <guid>//localhost:1313/categories/developer-tools/</guid>
+      <description></description>
+      
+    </item>
+    
+    <item>
+      <title>Open Source</title>
+      <link>//localhost:1313/categories/open-source/</link>
+      <pubDate>Wed, 03 Sep 2025 00:00:00 +0000</pubDate>
+      
+      <guid>//localhost:1313/categories/open-source/</guid>
+      <description></description>
+      
+    </item>
+    
+    <item>
+      <title>Automation</title>
+      <link>//localhost:1313/categories/automation/</link>
+      <pubDate>Fri, 09 Aug 2024 00:00:00 +0000</pubDate>
+      
+      <guid>//localhost:1313/categories/automation/</guid>
+      <description></description>
+      
+    </item>
     
     <item>
       <title>Arch Linux</title>
-      <link>/categories/arch-linux/</link>
+      <link>//localhost:1313/categories/arch-linux/</link>
       <pubDate>Thu, 09 Sep 2021 00:00:00 +0000</pubDate>
       
-      <guid>/categories/arch-linux/</guid>
+      <guid>//localhost:1313/categories/arch-linux/</guid>
       <description></description>
       
     </item>
     
     <item>
       <title>Linux</title>
-      <link>/categories/linux/</link>
+      <link>//localhost:1313/categories/linux/</link>
       <pubDate>Thu, 09 Sep 2021 00:00:00 +0000</pubDate>
       
-      <guid>/categories/linux/</guid>
+      <guid>//localhost:1313/categories/linux/</guid>
       <description></description>
       
     </item>

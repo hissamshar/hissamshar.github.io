@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Audio on Hisam Mehboob</title>
+    <link>//localhost:1313/tags/audio/</link>
+    <description>Recent content in Audio on Hisam Mehboob</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en</language>
+    <copyright>© 2025 Hisam Mehboob</copyright>
+    <lastBuildDate>Wed, 17 Sep 2025 23:27:36 +0500</lastBuildDate><atom:link href="//localhost:1313/tags/audio/index.xml" rel="self" type="application/rss+xml" />
+    
+    <item>
+      <title>Fixing PipeWire Lock Issues on Arch Linux: Why Video &amp; Audio Playback Broke</title>
+      <link>//localhost:1313/posts/pipewire/</link>
+      <pubDate>Wed, 17 Sep 2025 23:27:36 +0500</pubDate>
+      
+      <guid>//localhost:1313/posts/pipewire/</guid>
+      <description>&lt;h1 class=&#34;relative group&#34;&gt;Fixing PipeWire Lock Issues on Arch Linux: Why Video &amp;amp; Audio Playback Broke
+    &lt;div id=&#34;fixing-pipewire-lock-issues-on-arch-linux-why-video--audio-playback-broke&#34; class=&#34;anchor&#34;&gt;&lt;/div&gt;
+    
+    &lt;span
+        class=&#34;absolute top-0 w-6 transition-opacity opacity-0 -start-6 not-prose group-hover:opacity-100 select-none&#34;&gt;
+        &lt;a class=&#34;text-primary-300 dark:text-neutral-700 !no-underline&#34; href=&#34;#fixing-pipewire-lock-issues-on-arch-linux-why-video--audio-playback-broke&#34; aria-label=&#34;Anchor&#34;&gt;#&lt;/a&gt;
+    &lt;/span&gt;
+    
+&lt;/h1&gt;
+&lt;p&gt;The other day, I ran into a frustrating issue on my Arch Linux setup:&lt;br&gt;
+&lt;strong&gt;no video would play anywhere&lt;/strong&gt; , not in Chrome, not in Firefox, and not even locally with &lt;code&gt;mpv&lt;/code&gt;. The files loaded, but playback simply wouldn’t start.&lt;/p&gt;</description>
+      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="//localhost:1313/posts/pipewire/feature.webp" />
+    </item>
+    
+  </channel>
+</rss>

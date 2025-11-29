@@ -2,19 +2,19 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Authors on Hisam Mehboob</title>
-    <link>/authors/</link>
+    <link>//localhost:1313/authors/</link>
     <description>Recent content in Authors on Hisam Mehboob</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
     <copyright>© 2025 Hisam Mehboob</copyright>
-    <atom:link href="/authors/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="//localhost:1313/authors/index.xml" rel="self" type="application/rss+xml" />
     
     <item>
       <title>Hisam Mehboob</title>
-      <link>/authors/hisamshar/</link>
+      <link>//localhost:1313/authors/hisamshar/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>/authors/hisamshar/</guid>
+      <guid>//localhost:1313/authors/hisamshar/</guid>
       <description>&lt;div class=&#34;flex mt-4&#34;&gt;
   &lt;img class=&#34;!mt-0 !mb-0 h-24 w-24 rounded-full ltr:mr-4 rtl:ml-4&#34; width=&#34;96&#34; height=&#34;96&#34;
     src=&#34;avatar.jpg&#34; /&gt;

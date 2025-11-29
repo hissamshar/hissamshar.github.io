@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Automation on Hisam Mehboob</title>
+    <link>//localhost:1313/categories/automation/</link>
+    <description>Recent content in Automation on Hisam Mehboob</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en</language>
+    <copyright>© 2025 Hisam Mehboob</copyright>
+    <lastBuildDate>Fri, 09 Aug 2024 00:00:00 +0000</lastBuildDate><atom:link href="//localhost:1313/categories/automation/index.xml" rel="self" type="application/rss+xml" />
+    
+    <item>
+      <title>Creating a WhatsApp AI Assistant Using n8n: A Step-by-Step Guide</title>
+      <link>//localhost:1313/posts/202408-creating-whatsapp-ai-assistant-using-n8n/</link>
+      <pubDate>Fri, 09 Aug 2024 00:00:00 +0000</pubDate>
+      
+      <guid>//localhost:1313/posts/202408-creating-whatsapp-ai-assistant-using-n8n/</guid>
+      <description>&lt;p&gt;Build your own AI-powered WhatsApp chatbot using &lt;strong&gt;n8n&lt;/strong&gt;, &lt;strong&gt;WhatsApp Business Cloud API&lt;/strong&gt;, and &lt;strong&gt;OpenAI&lt;/strong&gt;. This guide walks you through every step—from setup to testing—with real-world error handling and solutions.&lt;/p&gt;
+&lt;hr&gt;
+
+&lt;h2 class=&#34;relative group&#34;&gt;Table of Contents
+    &lt;div id=&#34;table-of-contents&#34; class=&#34;anchor&#34;&gt;&lt;/div&gt;
+    
+    &lt;span
+        class=&#34;absolute top-0 w-6 transition-opacity opacity-0 -start-6 not-prose group-hover:opacity-100 select-none&#34;&gt;
+        &lt;a class=&#34;text-primary-300 dark:text-neutral-700 !no-underline&#34; href=&#34;#table-of-contents&#34; aria-label=&#34;Anchor&#34;&gt;#&lt;/a&gt;
+    &lt;/span&gt;
+    
+&lt;/h2&gt;
+&lt;ol&gt;
+&lt;li&gt;&lt;a
+  href=&#34;#introduction&#34;&gt;Introduction&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a
+  href=&#34;#prerequisites&#34;&gt;Prerequisites&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a
+  href=&#34;#registering-your-whatsapp-business-app&#34;&gt;Registering Your WhatsApp Business App&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a
+  href=&#34;#configuring-your-webhook-in-n8n&#34;&gt;Configuring Your Webhook in n8n&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a
+  href=&#34;#processing-incoming-messages&#34;&gt;Processing Incoming Messages&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a
+  href=&#34;#integrating-openai-for-responses&#34;&gt;Integrating OpenAI for Responses&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a
+  href=&#34;#sending-replies-via-whatsapp&#34;&gt;Sending Replies via WhatsApp&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a
+  href=&#34;#common-errors--fixes&#34;&gt;Common Errors &amp;amp; Fixes&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a
+  href=&#34;#going-live&#34;&gt;Going Live&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a
+  href=&#34;#conclusion--next-steps&#34;&gt;Conclusion &amp;amp; Next Steps&lt;/a&gt;&lt;/li&gt;
+&lt;/ol&gt;
+&lt;hr&gt;
+
+&lt;h2 class=&#34;relative group&#34;&gt;1. Introduction
+    &lt;div id=&#34;1-introduction&#34; class=&#34;anchor&#34;&gt;&lt;/div&gt;
+    
+    &lt;span
+        class=&#34;absolute top-0 w-6 transition-opacity opacity-0 -start-6 not-prose group-hover:opacity-100 select-none&#34;&gt;
+        &lt;a class=&#34;text-primary-300 dark:text-neutral-700 !no-underline&#34; href=&#34;#1-introduction&#34; aria-label=&#34;Anchor&#34;&gt;#&lt;/a&gt;
+    &lt;/span&gt;
+    
+&lt;/h2&gt;
+&lt;p&gt;Want to chat with an AI on WhatsApp? In this tutorial, you&amp;rsquo;ll learn how to build a &lt;strong&gt;WhatsApp AI Assistant&lt;/strong&gt; using:&lt;/p&gt;</description>
+      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="//localhost:1313/posts/202408-creating-whatsapp-ai-assistant-using-n8n/feature.webp" />
+    </item>
+    
+  </channel>
+</rss>

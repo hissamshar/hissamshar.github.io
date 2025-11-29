@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Docker on Hisam Mehboob</title>
+    <link>//localhost:1313/categories/docker/</link>
+    <description>Recent content in Docker on Hisam Mehboob</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en</language>
+    <copyright>© 2025 Hisam Mehboob</copyright>
+    <lastBuildDate>Wed, 26 Nov 2025 16:12:08 +0500</lastBuildDate><atom:link href="//localhost:1313/categories/docker/index.xml" rel="self" type="application/rss+xml" />
+    
+    <item>
+      <title>Creating Your First Docker Image: A Beginner-Friendly Guide</title>
+      <link>//localhost:1313/posts/202411-docker-images/</link>
+      <pubDate>Wed, 26 Nov 2025 16:12:08 +0500</pubDate>
+      
+      <guid>//localhost:1313/posts/202411-docker-images/</guid>
+      <description>&lt;p&gt;Docker has become one of the most essential tools for developers. It
+allows you to package applications with all their dependencies into
+portable containers. In this blog post, you will build your first Docker
+image using the simplest possible example.&lt;/p&gt;</description>
+      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="//localhost:1313/posts/202411-docker-images/feature.webp" />
+    </item>
+    
+  </channel>
+</rss>
