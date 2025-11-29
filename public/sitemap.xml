@@ -3,95 +3,95 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
 
   <url>
-    <loc>//localhost:45257/</loc>
+    <loc>/</loc>
     <lastmod>2025-09-03T00:00:00+00:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
-    <loc>//localhost:45257/resume/</loc>
+    <loc>/resume/</loc>
     <lastmod>2022-06-13T21:28:51+01:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
-    <loc>//localhost:45257/about/</loc>
+    <loc>/about/</loc>
     <lastmod>2022-06-13T20:55:37+01:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
-    <loc>//localhost:45257/music/</loc>
+    <loc>/music/</loc>
     <lastmod>2022-06-13T20:55:37+01:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
-    <loc>//localhost:45257/posts/</loc>
+    <loc>/posts/</loc>
     <lastmod>2022-06-13T20:55:37+01:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
-    <loc>//localhost:45257/projects/</loc>
+    <loc>/projects/</loc>
     <lastmod>2022-06-13T20:55:37+01:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
-    <loc>//localhost:45257/categories/arch-linux/</loc>
+    <loc>/categories/arch-linux/</loc>
     <lastmod>2021-09-09T00:00:00+00:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
-    <loc>//localhost:45257/posts/202109-arch-linux-qemu-kvm/</loc>
+    <loc>/posts/202109-arch-linux-qemu-kvm/</loc>
     <lastmod>2021-09-09T00:00:00+00:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
-    <loc>//localhost:45257/categories/</loc>
+    <loc>/categories/</loc>
     <lastmod>2021-09-09T00:00:00+00:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
-    <loc>//localhost:45257/tags/hypervisor/</loc>
+    <loc>/tags/hypervisor/</loc>
     <lastmod>2021-09-09T00:00:00+00:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
-    <loc>//localhost:45257/categories/linux/</loc>
+    <loc>/categories/linux/</loc>
     <lastmod>2021-09-09T00:00:00+00:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
-    <loc>//localhost:45257/tags/linux/</loc>
+    <loc>/tags/linux/</loc>
     <lastmod>2021-09-09T00:00:00+00:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
-    <loc>//localhost:45257/tags/</loc>
+    <loc>/tags/</loc>
     <lastmod>2021-09-09T00:00:00+00:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
-    <loc>//localhost:45257/authors/</loc>
+    <loc>/authors/</loc>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
-    <loc>//localhost:45257/authors/hisamshar/</loc>
+    <loc>/authors/hisamshar/</loc>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
-    <loc>//localhost:45257/series/</loc>
+    <loc>/series/</loc>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>

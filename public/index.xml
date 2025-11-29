@@ -2,19 +2,19 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Hisam Mehboob</title>
-    <link>//localhost:45257/</link>
+    <link>/</link>
     <description>Recent content on Hisam Mehboob</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
     <copyright>© 2025 Hisam Mehboob</copyright>
-    <lastBuildDate>Wed, 03 Sep 2025 00:00:00 +0000</lastBuildDate><atom:link href="//localhost:45257/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Wed, 03 Sep 2025 00:00:00 +0000</lastBuildDate><atom:link href="/index.xml" rel="self" type="application/rss+xml" />
     
     <item>
       <title>Resume</title>
-      <link>//localhost:45257/resume/</link>
+      <link>/resume/</link>
       <pubDate>Mon, 13 Jun 2022 21:28:51 +0100</pubDate>
       
-      <guid>//localhost:45257/resume/</guid>
+      <guid>/resume/</guid>
       <description>&lt;h2 class=&#34;relative group&#34;&gt;Experience
     &lt;div id=&#34;experience&#34; class=&#34;anchor&#34;&gt;&lt;/div&gt;
     
@@ -108,40 +108,40 @@
     
     <item>
       <title>About</title>
-      <link>//localhost:45257/about/</link>
+      <link>/about/</link>
       <pubDate>Mon, 13 Jun 2022 20:55:37 +0100</pubDate>
       
-      <guid>//localhost:45257/about/</guid>
+      <guid>/about/</guid>
       <description>&lt;p&gt;I’m a Computer Science student at FAST NUCES with a growing focus on systems, tooling, and developer experience. Through my work at COLAB NU as a Tier 1 member, I’ve built static sites with Hugo, written custom Linux kernel modules, experimented with Raspberry Pi based embedded systems, and configured virtualization stacks using KVM/QEMU with libvirt and virt-manager.&lt;/p&gt;</description>
       
     </item>
     
     <item>
       <title>Music</title>
-      <link>//localhost:45257/music/</link>
+      <link>/music/</link>
       <pubDate>Mon, 13 Jun 2022 20:55:37 +0100</pubDate>
       
-      <guid>//localhost:45257/music/</guid>
+      <guid>/music/</guid>
       <description></description>
       
     </item>
     
     <item>
       <title>Projects</title>
-      <link>//localhost:45257/projects/</link>
+      <link>/projects/</link>
       <pubDate>Mon, 13 Jun 2022 20:55:37 +0100</pubDate>
       
-      <guid>//localhost:45257/projects/</guid>
+      <guid>/projects/</guid>
       <description>&lt;p&gt;I consistently seek out opportunities to learn and build through new projects. Although many of these personal initiatives don&amp;rsquo;t always reach a public release, they are instrumental in allowing me to experiment, grow, and apply new skills in practical scenarios.&lt;/p&gt;</description>
       
     </item>
     
     <item>
       <title>Arch Linux installation in hypervisor through QEMU/KVM</title>
-      <link>//localhost:45257/posts/202109-arch-linux-qemu-kvm/</link>
+      <link>/posts/202109-arch-linux-qemu-kvm/</link>
       <pubDate>Thu, 09 Sep 2021 00:00:00 +0000</pubDate>
       
-      <guid>//localhost:45257/posts/202109-arch-linux-qemu-kvm/</guid>
+      <guid>/posts/202109-arch-linux-qemu-kvm/</guid>
       <description>&lt;p&gt;Kernel-based Virtual Machine is a free and open-source virtualization module in the Linux kernel that allows the kernel to function as a hypervisor.&lt;/p&gt;
 
 &lt;h2 class=&#34;relative group&#34;&gt;Installation
@@ -154,7 +154,7 @@
     
 &lt;/h2&gt;
 &lt;p&gt;For updates, run the following command:&lt;/p&gt;</description>
-      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="//localhost:45257/posts/202109-arch-linux-qemu-kvm/feature.webp" />
+      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="/posts/202109-arch-linux-qemu-kvm/feature.webp" />
     </item>
     
   </channel>
