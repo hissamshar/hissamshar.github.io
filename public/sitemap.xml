@@ -4,13 +4,19 @@
 
   <url>
     <loc>//localhost:1313/</loc>
-    <lastmod>2025-11-29T18:15:10+05:00</lastmod>
+    <lastmod>2025-11-26T16:12:08+05:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
-    <loc>//localhost:1313/posts/new/</loc>
-    <lastmod>2025-11-29T18:15:10+05:00</lastmod>
+    <loc>//localhost:1313/categories/</loc>
+    <lastmod>2025-11-26T16:12:08+05:00</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>//localhost:1313/categories/container/</loc>
+    <lastmod>2025-11-26T16:12:08+05:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
@@ -21,74 +27,68 @@
     <priority>0.5</priority>
   </url>
   <url>
-    <loc>//localhost:1313/posts/pipewire_issue_fix/</loc>
-    <lastmod>2025-09-17T23:27:36+05:00</lastmod>
+    <loc>//localhost:1313/categories/docker/</loc>
+    <lastmod>2025-11-26T16:12:08+05:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
-    <loc>//localhost:1313/tags/agents/</loc>
-    <lastmod>2025-09-03T00:00:00+00:00</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>0.5</priority>
-  </url>
-  <url>
-    <loc>//localhost:1313/categories/ai/</loc>
-    <lastmod>2025-09-03T00:00:00+00:00</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>0.5</priority>
-  </url>
-  <url>
-    <loc>//localhost:1313/categories/</loc>
-    <lastmod>2025-09-03T00:00:00+00:00</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>0.5</priority>
-  </url>
-  <url>
-    <loc>//localhost:1313/categories/developer-tools/</loc>
-    <lastmod>2025-09-03T00:00:00+00:00</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>0.5</priority>
-  </url>
-  <url>
-    <loc>//localhost:1313/tags/docker/</loc>
-    <lastmod>2025-09-03T00:00:00+00:00</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>0.5</priority>
-  </url>
-  <url>
-    <loc>//localhost:1313/posts/202509-docker-cagent/</loc>
-    <lastmod>2025-09-03T00:00:00+00:00</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>0.5</priority>
-  </url>
-  <url>
-    <loc>//localhost:1313/tags/mcp/</loc>
-    <lastmod>2025-09-03T00:00:00+00:00</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>0.5</priority>
-  </url>
-  <url>
-    <loc>//localhost:1313/categories/open-source/</loc>
-    <lastmod>2025-09-03T00:00:00+00:00</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>0.5</priority>
-  </url>
-  <url>
-    <loc>//localhost:1313/tags/oss/</loc>
-    <lastmod>2025-09-03T00:00:00+00:00</lastmod>
+    <loc>//localhost:1313/tags/images/</loc>
+    <lastmod>2025-11-26T16:12:08+05:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>//localhost:1313/tags/</loc>
-    <lastmod>2025-09-03T00:00:00+00:00</lastmod>
+    <lastmod>2025-11-26T16:12:08+05:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
-    <loc>//localhost:1313/tags/tutorial/</loc>
-    <lastmod>2025-09-03T00:00:00+00:00</lastmod>
+    <loc>//localhost:1313/tags/kernel/</loc>
+    <lastmod>2025-11-13T14:58:03+05:00</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>//localhost:1313/categories/lfx/</loc>
+    <lastmod>2025-11-13T14:58:03+05:00</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>//localhost:1313/categories/linux/</loc>
+    <lastmod>2025-11-13T14:58:03+05:00</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>//localhost:1313/posts/202511-linux_kernel_development/</loc>
+    <lastmod>2025-11-13T14:58:03+05:00</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>//localhost:1313/tags/audio/</loc>
+    <lastmod>2025-09-17T23:27:36+05:00</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>//localhost:1313/posts/pipewire/</loc>
+    <lastmod>2025-09-17T23:27:36+05:00</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>//localhost:1313/tags/pipewire/</loc>
+    <lastmod>2025-09-17T23:27:36+05:00</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>//localhost:1313/categories/local-host/</loc>
+    <lastmod>2025-08-14T19:58:22+05:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
@@ -99,8 +99,26 @@
     <priority>0.5</priority>
   </url>
   <url>
-    <loc>//localhost:1313/posts/introductiontovalgrind/</loc>
+    <loc>//localhost:1313/tags/tunneling/</loc>
+    <lastmod>2025-08-14T19:58:22+05:00</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>//localhost:1313/posts/valgrind/</loc>
     <lastmod>2025-08-01T00:06:37+05:00</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>//localhost:1313/tags/memory/</loc>
+    <lastmod>2025-08-01T00:06:37+05:00</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>//localhost:1313/categories/hpervisors/</loc>
+    <lastmod>2025-05-11T22:45:10+05:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
@@ -111,7 +129,13 @@
     <priority>0.5</priority>
   </url>
   <url>
-    <loc>//localhost:1313/posts/kernal_compilation/</loc>
+    <loc>//localhost:1313/tags/vms/</loc>
+    <lastmod>2025-05-11T22:45:10+05:00</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>//localhost:1313/posts/kernalcompile/</loc>
     <lastmod>2025-05-08T02:26:10+05:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
@@ -147,13 +171,31 @@
     <priority>0.5</priority>
   </url>
   <url>
-    <loc>//localhost:1313/posts/setting-up-neovim-on-arch-linux-a-beginners-guide/</loc>
+    <loc>//localhost:1313/categories/embedded/</loc>
+    <lastmod>2025-02-03T22:18:13+05:00</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>//localhost:1313/categories/llms/</loc>
+    <lastmod>2025-02-03T22:18:13+05:00</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>//localhost:1313/tags/rpi/</loc>
+    <lastmod>2025-02-03T22:18:13+05:00</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>//localhost:1313/posts/neovim/</loc>
     <lastmod>2025-02-01T15:33:56+05:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
-    <loc>//localhost:1313/posts/how-to-write-a-custom-kernel-module/</loc>
+    <loc>//localhost:1313/posts/custom-kernal/</loc>
     <lastmod>2025-01-23T15:45:33+05:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
@@ -173,6 +215,12 @@
   <url>
     <loc>//localhost:1313/posts/hosting-a-website-on-github-pages-with-hugo./</loc>
     <lastmod>2025-01-20T12:08:01+05:00</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>//localhost:1313/categories/ai/</loc>
+    <lastmod>2024-08-09T00:00:00+00:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
@@ -244,12 +292,6 @@
   </url>
   <url>
     <loc>//localhost:1313/tags/hypervisor/</loc>
-    <lastmod>2021-09-09T00:00:00+00:00</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>0.5</priority>
-  </url>
-  <url>
-    <loc>//localhost:1313/categories/linux/</loc>
     <lastmod>2021-09-09T00:00:00+00:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>

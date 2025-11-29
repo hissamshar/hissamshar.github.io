@@ -37,7 +37,7 @@ layoutBackgroundHeaderSpace: false
         <tr>
             <td><img class="customEntitityLogo" style="background-color:transparent" src="colab_nu_logo.png"/></td>
             <td><a href="#" target="_blank">COLAB NU</a></td>
-            <td>Teir 1 Member</td>
+            <td>Teir III Member</td>
             <td>Oct 2024 - Present</td>
             <td>Fast National University Peshawar</td>
         </tr>

@@ -7,34 +7,94 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
     <copyright>© 2025 Hisam Mehboob</copyright>
-    <lastBuildDate>Wed, 03 Sep 2025 00:00:00 +0000</lastBuildDate><atom:link href="//localhost:1313/categories/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Wed, 26 Nov 2025 16:12:08 +0500</lastBuildDate><atom:link href="//localhost:1313/categories/index.xml" rel="self" type="application/rss+xml" />
+    
+    <item>
+      <title>Container</title>
+      <link>//localhost:1313/categories/container/</link>
+      <pubDate>Wed, 26 Nov 2025 16:12:08 +0500</pubDate>
+      
+      <guid>//localhost:1313/categories/container/</guid>
+      <description></description>
+      
+    </item>
+    
+    <item>
+      <title>Docker</title>
+      <link>//localhost:1313/categories/docker/</link>
+      <pubDate>Wed, 26 Nov 2025 16:12:08 +0500</pubDate>
+      
+      <guid>//localhost:1313/categories/docker/</guid>
+      <description></description>
+      
+    </item>
+    
+    <item>
+      <title>LFX</title>
+      <link>//localhost:1313/categories/lfx/</link>
+      <pubDate>Thu, 13 Nov 2025 14:58:03 +0500</pubDate>
+      
+      <guid>//localhost:1313/categories/lfx/</guid>
+      <description></description>
+      
+    </item>
+    
+    <item>
+      <title>Linux</title>
+      <link>//localhost:1313/categories/linux/</link>
+      <pubDate>Thu, 13 Nov 2025 14:58:03 +0500</pubDate>
+      
+      <guid>//localhost:1313/categories/linux/</guid>
+      <description></description>
+      
+    </item>
+    
+    <item>
+      <title>Local Host</title>
+      <link>//localhost:1313/categories/local-host/</link>
+      <pubDate>Thu, 14 Aug 2025 19:58:22 +0500</pubDate>
+      
+      <guid>//localhost:1313/categories/local-host/</guid>
+      <description></description>
+      
+    </item>
+    
+    <item>
+      <title>HperVisors</title>
+      <link>//localhost:1313/categories/hpervisors/</link>
+      <pubDate>Sun, 11 May 2025 22:45:10 +0500</pubDate>
+      
+      <guid>//localhost:1313/categories/hpervisors/</guid>
+      <description></description>
+      
+    </item>
+    
+    <item>
+      <title>Embedded</title>
+      <link>//localhost:1313/categories/embedded/</link>
+      <pubDate>Mon, 03 Feb 2025 22:18:13 +0500</pubDate>
+      
+      <guid>//localhost:1313/categories/embedded/</guid>
+      <description></description>
+      
+    </item>
+    
+    <item>
+      <title>LLMs</title>
+      <link>//localhost:1313/categories/llms/</link>
+      <pubDate>Mon, 03 Feb 2025 22:18:13 +0500</pubDate>
+      
+      <guid>//localhost:1313/categories/llms/</guid>
+      <description></description>
+      
+    </item>
     
     <item>
       <title>AI</title>
       <link>//localhost:1313/categories/ai/</link>
-      <pubDate>Wed, 03 Sep 2025 00:00:00 +0000</pubDate>
+      <pubDate>Fri, 09 Aug 2024 00:00:00 +0000</pubDate>
       
       <guid>//localhost:1313/categories/ai/</guid>
-      <description></description>
-      
-    </item>
-    
-    <item>
-      <title>Developer Tools</title>
-      <link>//localhost:1313/categories/developer-tools/</link>
-      <pubDate>Wed, 03 Sep 2025 00:00:00 +0000</pubDate>
-      
-      <guid>//localhost:1313/categories/developer-tools/</guid>
-      <description></description>
-      
-    </item>
-    
-    <item>
-      <title>Open Source</title>
-      <link>//localhost:1313/categories/open-source/</link>
-      <pubDate>Wed, 03 Sep 2025 00:00:00 +0000</pubDate>
-      
-      <guid>//localhost:1313/categories/open-source/</guid>
       <description></description>
       
     </item>
@@ -55,16 +115,6 @@
       <pubDate>Thu, 09 Sep 2021 00:00:00 +0000</pubDate>
       
       <guid>//localhost:1313/categories/arch-linux/</guid>
-      <description></description>
-      
-    </item>
-    
-    <item>
-      <title>Linux</title>
-      <link>//localhost:1313/categories/linux/</link>
-      <pubDate>Thu, 09 Sep 2021 00:00:00 +0000</pubDate>
-      
-      <guid>//localhost:1313/categories/linux/</guid>
       <description></description>
       
     </item>
