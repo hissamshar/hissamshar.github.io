@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Blog on N9O</title>
+    <link>//localhost:1313/tags/blog/</link>
+    <description>Recent content in Blog on N9O</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en</language>
+    <copyright>© 2025 Hisam Mehboob</copyright>
+    <lastBuildDate>Tue, 01 Jul 2025 00:00:00 +0000</lastBuildDate><atom:link href="//localhost:1313/tags/blog/index.xml" rel="self" type="application/rss+xml" />
+    
+    <item>
+      <title>The Docker MCP Catalog: the Secure Way to Discover and Run MCP Servers</title>
+      <link>//localhost:1313/posts/202507-docker-mcp-catalog/</link>
+      <pubDate>Tue, 01 Jul 2025 00:00:00 +0000</pubDate>
+      
+      <guid>//localhost:1313/posts/202507-docker-mcp-catalog/</guid>
+      <description>The Model Context Protocol (MCP) ecosystem is exploding. In just weeks, our Docker MCP Catalog has surpassed 1 million pulls, validating that developers are hungry for a secure way to run MCP servers. Today, we’re excited to share major updates to the Docker MCP Catalog, including enhanced discovery features and our new open submission process. With hundreds of developers already requesting to publish their MCP servers through Docker, we’re accelerating our mission to make containerized MCP servers the standard for secure AI tool distribution.</description>
+      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="//localhost:1313/posts/202507-docker-mcp-catalog/featured.webp" />
+    </item>
+    
+    <item>
+      <title>Streamline Dockerization with Docker Init GA</title>
+      <link>//localhost:1313/posts/202402-docker-init-ga/</link>
+      <pubDate>Tue, 06 Feb 2024 00:00:00 +0000</pubDate>
+      
+      <guid>//localhost:1313/posts/202402-docker-init-ga/</guid>
+      <description>Initialize Dockerfiles and Compose files with a single CLI command</description>
+      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="//localhost:1313/posts/202402-docker-init-ga/feature.webp" />
+    </item>
+    
+    <item>
+      <title>Docker Desktop 4.23</title>
+      <link>//localhost:1313/posts/202309-docker-423/</link>
+      <pubDate>Tue, 12 Sep 2023 00:00:00 +0000</pubDate>
+      
+      <guid>//localhost:1313/posts/202309-docker-423/</guid>
+      <description>Docker Desktop 4.23 is now available and includes numerous enhancements, including ASP.NET Core support in Docker Init, Configuration Integrity Check to alert on any configuration changes that require attention, and cross-domain identity management.</description>
+      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="//localhost:1313/posts/202309-docker-423/feature.webp" />
+    </item>
+    
+  </channel>
+</rss>

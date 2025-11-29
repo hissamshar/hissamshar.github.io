@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>OSS on N9O</title>
+    <link>//localhost:1313/tags/oss/</link>
+    <description>Recent content in OSS on N9O</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en</language>
+    <copyright>© 2025 Hisam Mehboob</copyright>
+    <lastBuildDate>Wed, 03 Sep 2025 00:00:00 +0000</lastBuildDate><atom:link href="//localhost:1313/tags/oss/index.xml" rel="self" type="application/rss+xml" />
+    
+    <item>
+      <title>Docker Cagent: Runtime for AI Agents</title>
+      <link>//localhost:1313/posts/202509-docker-cagent/</link>
+      <pubDate>Wed, 03 Sep 2025 00:00:00 +0000</pubDate>
+      
+      <guid>//localhost:1313/posts/202509-docker-cagent/</guid>
+      <description>AI agents are growing fast, but most run as fragile scripts tied to a local machine. We built cagent to containerize, standardize, and scale agents the Docker way—and we&amp;rsquo;ve open sourced it.</description>
+      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="//localhost:1313/posts/202509-docker-cagent/featured.webp" />
+    </item>
+    
+  </channel>
+</rss>

@@ -1,0 +1,138 @@
+# -- Theme Options --
+# These options control how the theme functions and allow you to
+# customise the display of your website.
+#
+# Refer to the theme docs for more details about each of these parameters.
+
+colorScheme = "blowfish"
+defaultAppearance = "dark" # valid options: light or dark
+autoSwitchAppearance = false
+
+enableSearch = true
+enableCodeCopy = true
+
+mainSections = ["posts"]#, "suggestions"]
+# robots = ""
+
+disableImageOptimization = false
+disableTextInHeader = true
+
+defaultFeaturedImage = "/img/background.jpg"
+defaultBackgroundImage = "/img/background.jpg"
+
+highlightCurrentMenuArea = true
+smartTOC = true
+smartTOCHideUnfocusedChildren = false
+
+[header]
+  layout = "fixed"
+
+[footer]
+  showCopyright = true
+  showThemeAttribution = true
+  showAppearanceSwitcher = true
+  showScrollToTop = true
+
+[homepage]
+  layout = "background" # valid options: page, profile, custom
+  #homepageImage = "img/background.jpg"
+  showRecent = true
+  showRecentItems = 18
+  showMoreLink = true
+  showMoreLinkDest = '/posts'
+  cardView = true
+  cardViewScreenWidth = false
+  layoutBackgroundBlur = true
+
+[article]
+  showDate = true
+  showViews = false
+  showLikes = false
+  showDateOnlyInArticle = true
+  showDateUpdated = false
+  showAuthor = true
+  showHero = true
+  heroStyle = "background"
+  layoutBackgroundBlur = true
+  showBreadcrumbs = true
+  showDraftLabel = true
+  showEdit = true
+  editURL = "https://github.com/hissamshar/hissamshar/tree/main/content"
+  editAppendPath = true
+  seriesOpened = true
+  showHeadingAnchors = true
+  showPagination = true
+  invertPagination = false
+  showReadingTime = true
+  showTableOfContents = true
+  showRelatedContent = true
+  relatedContentLimit = 6
+  showTaxonomies = true 
+  showAuthorsBadges = true
+  showWordCount = false
+  showSummary = true
+  sharingLinks = [ "linkedin", "twitter", "whatsapp", "telegram", "pinterest", "reddit", "facebook", "email"]
+
+[list]
+  showHero = true
+  heroStyle = "background"
+  layoutBackgroundBlur = true
+  layoutBackgroundHeaderSpace = false
+  showBreadcrumbs = false
+  showViews = false
+  showLikes = false
+  showSummary = false
+  showTableOfContents = false
+  showCards = true
+  groupByYear = false
+  cardView = true
+  cardViewScreenWidth = false
+
+[sitemap]
+  excludedKinds = []
+
+[taxonomy]
+  showTermCount = true
+  showHero = true
+  heroStyle = "background" # valid options: basic, big, background, thumbAndBackground
+  showBreadcrumbs = false
+  showViews = false
+  showLikes = false
+  showTableOfContents = true
+
+[term]
+  showHero = true
+  heroStyle = "background" # valid options: basic, big, background, thumbAndBackground
+  showBreadcrumbs = false
+  showViews = false
+  showLikes = false
+  showTableOfContents = true
+  groupByYear = false
+  cardViewScreenWidth = false
+  cardView = false
+
+[firebase]
+  #apiKey = "AIzaSyAN9vJzbGcqXi3fCiakI8rCVV7-S6T8n4s"
+  #authDomain = "homepage-a0c38.firebaseapp.com"
+  #projectId = "homepage-a0c38"
+  #storageBucket = "homepage-a0c38.appspot.com"
+  #messagingSenderId = "722874298820"
+  #appId = "1:722874298820:web:b5c0e707586eba68c43491"
+  #measurementId = "G-H8CSEYZFG4"
+
+[ChatBot]
+  identifier = "zapier"
+  globalWidget = false
+  globalWidgetMessage = ""
+  globalWidgetColor = "#FFDD00"
+  globalWidgetPosition = "Right"
+
+[fathomAnalytics]
+  # site = "ABC12345"
+  # domain = "llama.yoursite.com"
+
+[verification]
+  # google = ""
+  # bing = ""
+  # pinterest = ""
+  # yandex = ""

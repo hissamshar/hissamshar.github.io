@@ -1,0 +1,13 @@
+{
+    "name": "Hisam Mehboob",
+    "image" : "img/avatar.jpg",
+    "bio": "",
+    "social": [
+        { "email": "mailto:hisamshar@gmail.com" },
+        { "linkedin": "" },
+        { "x-twitter": "" },
+        { "github": "" },
+        { "instagram": "" },
+        { "goodreads": "" }
+    ]
+}

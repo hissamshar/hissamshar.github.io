@@ -1,0 +1,161 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Hisam Mehboob</title>
+    <link>//localhost:45257/</link>
+    <description>Recent content on Hisam Mehboob</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en</language>
+    <copyright>© 2025 Hisam Mehboob</copyright>
+    <lastBuildDate>Wed, 03 Sep 2025 00:00:00 +0000</lastBuildDate><atom:link href="//localhost:45257/index.xml" rel="self" type="application/rss+xml" />
+    
+    <item>
+      <title>Resume</title>
+      <link>//localhost:45257/resume/</link>
+      <pubDate>Mon, 13 Jun 2022 21:28:51 +0100</pubDate>
+      
+      <guid>//localhost:45257/resume/</guid>
+      <description>&lt;h2 class=&#34;relative group&#34;&gt;Experience
+    &lt;div id=&#34;experience&#34; class=&#34;anchor&#34;&gt;&lt;/div&gt;
+    
+&lt;/h2&gt;
+&lt;table&gt;
+    &lt;thead&gt;
+        &lt;tr&gt;
+            &lt;th&gt;Company&lt;/th&gt;
+            &lt;th&gt;Link&lt;/th&gt;
+            &lt;th&gt;Role&lt;/th&gt;
+            &lt;th&gt;Dates&lt;/th&gt;
+            &lt;th&gt;Location&lt;/th&gt;
+        &lt;/tr&gt;
+    &lt;/thead&gt;
+    &lt;tbody&gt;
+        &lt;tr&gt;
+            &lt;td&gt;&lt;img class=&#34;customEntitityLogo&#34; style=&#34;background-color:transparent&#34; src=&#34;colab_nu_logo.png&#34;/&gt;&lt;/td&gt;
+            &lt;td&gt;&lt;a href=&#34;#&#34; target=&#34;_blank&#34;&gt;COLAB NU&lt;/a&gt;&lt;/td&gt;
+            &lt;td&gt;Teir 1 Member&lt;/td&gt;
+            &lt;td&gt;Oct 2024 - Present&lt;/td&gt;
+            &lt;td&gt;Fast National University Peshawar&lt;/td&gt;
+        &lt;/tr&gt;
+    &lt;/tbody&gt;
+&lt;/table&gt;
+&lt;hr&gt;
+
+&lt;h2 class=&#34;relative group&#34;&gt;Communities Work
+    &lt;div id=&#34;communities-work&#34; class=&#34;anchor&#34;&gt;&lt;/div&gt;
+    
+&lt;/h2&gt;
+&lt;table&gt;
+    &lt;thead&gt;
+        &lt;tr&gt;
+            &lt;th&gt;Company&lt;/th&gt;
+            &lt;th&gt;Link&lt;/th&gt;
+            &lt;th&gt;Role&lt;/th&gt;
+            &lt;th&gt;Dates&lt;/th&gt;
+            &lt;th&gt;Location&lt;/th&gt;
+        &lt;/tr&gt;
+    &lt;/thead&gt;
+    &lt;tbody&gt;
+        &lt;tr&gt;
+            &lt;td&gt;&lt;img class=&#34;customEntitityLogo&#34;  style=&#34;background-color:transparent&#34; src=&#34;aws_fast_logo.png&#34;/&gt;&lt;/td&gt;
+            &lt;td&gt;&lt;a href=&#34;#&#34; target=&#34;_blank&#34;&gt;AWS Club FAST NUCES&lt;/a&gt;&lt;/td&gt;
+            &lt;td&gt;Co-Lead Teachnical Team&lt;/td&gt;
+            &lt;td&gt;Sep. 2025 - Present&lt;/td&gt;
+            &lt;td&gt;Fast National University Peshawar&lt;/td&gt;
+        &lt;/tr&gt;
+        &lt;tr&gt;
+            &lt;td&gt;&lt;img class=&#34;customEntitityLogo&#34; style=&#34;background-color:transparent&#34; src=&#34;sos_logo.png&#34;/&gt;&lt;/td&gt;
+            &lt;td&gt;&lt;a href=&#34;#&#34; target=&#34;_blank&#34;&gt;SOS Children&#39;s Village&lt;/a&gt;&lt;/td&gt;
+            &lt;td&gt;Tutor&lt;/td&gt;
+            &lt;td&gt;Sep. 2025 - Dec. 2025 &lt;/td&gt;
+            &lt;td&gt;SOS Children&#39;s Village&lt;/td&gt;
+        &lt;/tr&gt;
+        &lt;tr&gt;
+            &lt;td&gt;&lt;img class=&#34;customEntitityLogo&#34; style=&#34;background-color:transparent&#34; src=&#34;book_club_fast_logo.png&#34;/&gt;&lt;/td&gt;
+            &lt;td&gt;&lt;a href=&#34;#&#34; target=&#34;_blank&#34;&gt;Book Club FAST NUCES&lt;/a&gt;&lt;/td&gt;
+            &lt;td&gt;Member&lt;/td&gt;
+            &lt;td&gt;Nov. 2024 - Present&lt;/td&gt;
+            &lt;td&gt;Fast National University Peshawar&lt;/td&gt;
+        &lt;/tr&gt;
+    &lt;/tbody&gt;
+&lt;/table&gt;
+&lt;hr&gt;
+
+&lt;h2 class=&#34;relative group&#34;&gt;Education
+    &lt;div id=&#34;education&#34; class=&#34;anchor&#34;&gt;&lt;/div&gt;
+    
+&lt;/h2&gt;
+&lt;table&gt;
+    &lt;thead&gt;
+        &lt;tr&gt;
+            &lt;th&gt;School&lt;/th&gt;
+            &lt;th&gt;Link&lt;/th&gt;
+            &lt;th&gt;Degree&lt;/th&gt;
+            &lt;th&gt;Date&lt;/th&gt;
+        &lt;/tr&gt;
+    &lt;/thead&gt;
+    &lt;tbody&gt;
+        &lt;tr&gt;
+            &lt;td&gt;&lt;img class=&#34;customEntitityLogo&#34; style=&#34;background-color:transparent&#34;  src=&#34;nuces_logo.png&#34;/&gt;&lt;/td&gt;
+            &lt;td&gt;&lt;a href=&#34;#&#34; target=&#34;_blank&#34;&gt;National University of Computer and Emerging Sciences&lt;/a&gt;&lt;/td&gt;
+            &lt;td&gt;Bachelor of Science in Computer Science; CGPA: 3.50&lt;/td&gt;
+            &lt;td&gt;Aug. 2024 - Present&lt;/td&gt;
+        &lt;/tr&gt;
+    &lt;/tbody&gt;
+&lt;/table&gt;</description>
+      
+    </item>
+    
+    <item>
+      <title>About</title>
+      <link>//localhost:45257/about/</link>
+      <pubDate>Mon, 13 Jun 2022 20:55:37 +0100</pubDate>
+      
+      <guid>//localhost:45257/about/</guid>
+      <description>&lt;p&gt;I’m a Computer Science student at FAST NUCES with a growing focus on systems, tooling, and developer experience. Through my work at COLAB NU as a Tier 1 member, I’ve built static sites with Hugo, written custom Linux kernel modules, experimented with Raspberry Pi based embedded systems, and configured virtualization stacks using KVM/QEMU with libvirt and virt-manager.&lt;/p&gt;</description>
+      
+    </item>
+    
+    <item>
+      <title>Music</title>
+      <link>//localhost:45257/music/</link>
+      <pubDate>Mon, 13 Jun 2022 20:55:37 +0100</pubDate>
+      
+      <guid>//localhost:45257/music/</guid>
+      <description></description>
+      
+    </item>
+    
+    <item>
+      <title>Projects</title>
+      <link>//localhost:45257/projects/</link>
+      <pubDate>Mon, 13 Jun 2022 20:55:37 +0100</pubDate>
+      
+      <guid>//localhost:45257/projects/</guid>
+      <description>&lt;p&gt;I consistently seek out opportunities to learn and build through new projects. Although many of these personal initiatives don&amp;rsquo;t always reach a public release, they are instrumental in allowing me to experiment, grow, and apply new skills in practical scenarios.&lt;/p&gt;</description>
+      
+    </item>
+    
+    <item>
+      <title>Arch Linux installation in hypervisor through QEMU/KVM</title>
+      <link>//localhost:45257/posts/202109-arch-linux-qemu-kvm/</link>
+      <pubDate>Thu, 09 Sep 2021 00:00:00 +0000</pubDate>
+      
+      <guid>//localhost:45257/posts/202109-arch-linux-qemu-kvm/</guid>
+      <description>&lt;p&gt;Kernel-based Virtual Machine is a free and open-source virtualization module in the Linux kernel that allows the kernel to function as a hypervisor.&lt;/p&gt;
+
+&lt;h2 class=&#34;relative group&#34;&gt;Installation
+    &lt;div id=&#34;installation&#34; class=&#34;anchor&#34;&gt;&lt;/div&gt;
+    
+    &lt;span
+        class=&#34;absolute top-0 w-6 transition-opacity opacity-0 -start-6 not-prose group-hover:opacity-100 select-none&#34;&gt;
+        &lt;a class=&#34;text-primary-300 dark:text-neutral-700 !no-underline&#34; href=&#34;#installation&#34; aria-label=&#34;Anchor&#34;&gt;#&lt;/a&gt;
+    &lt;/span&gt;
+    
+&lt;/h2&gt;
+&lt;p&gt;For updates, run the following command:&lt;/p&gt;</description>
+      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="//localhost:45257/posts/202109-arch-linux-qemu-kvm/feature.webp" />
+    </item>
+    
+  </channel>
+</rss>

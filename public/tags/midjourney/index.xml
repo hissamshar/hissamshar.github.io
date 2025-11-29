@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Midjourney on N9O</title>
+    <link>//localhost:1313/tags/midjourney/</link>
+    <description>Recent content in Midjourney on N9O</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en</language>
+    <copyright>© 2025 Hisam Mehboob</copyright>
+    <lastBuildDate>Tue, 25 Oct 2022 00:00:00 +0000</lastBuildDate><atom:link href="//localhost:1313/tags/midjourney/index.xml" rel="self" type="application/rss+xml" />
+    
+    <item>
+      <title>The New Artificial Intelligence Hype</title>
+      <link>//localhost:1313/posts/202210-the-new-ai-hype/</link>
+      <pubDate>Tue, 25 Oct 2022 00:00:00 +0000</pubDate>
+      
+      <guid>//localhost:1313/posts/202210-the-new-ai-hype/</guid>
+      <description>In the last few years, the hype around artificial intelligence has been increasing (again). Most of it is due to truly groundbreaking research and innovative showcases in the field. From machines winning complex games like Go and Dota 2, to various content generation techniques, these technologies will impact our future.</description>
+      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="//localhost:1313/posts/202210-the-new-ai-hype/featured.webp" />
+    </item>
+    
+  </channel>
+</rss>

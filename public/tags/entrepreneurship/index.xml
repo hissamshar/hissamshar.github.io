@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Entrepreneurship on N9O</title>
+    <link>//localhost:1313/tags/entrepreneurship/</link>
+    <description>Recent content in Entrepreneurship on N9O</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en</language>
+    <copyright>© 2025 Hisam Mehboob</copyright>
+    <lastBuildDate>Thu, 10 Apr 2025 00:00:00 +0000</lastBuildDate><atom:link href="//localhost:1313/tags/entrepreneurship/index.xml" rel="self" type="application/rss+xml" />
+    
+    <item>
+      <title>Unseen Cost of Growth: Metcalfe’s Law at Work</title>
+      <link>//localhost:1313/posts/202504-metacalfes-law/</link>
+      <pubDate>Thu, 10 Apr 2025 00:00:00 +0000</pubDate>
+      
+      <guid>//localhost:1313/posts/202504-metacalfes-law/</guid>
+      <description>Ever tried scheduling a single meeting with six cross-functional leads? Or watched a decision get rehashed in three different Slack threads? That’s not just a growing pain—it’s Metcalfe’s Law in action.</description>
+      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="//localhost:1313/posts/202504-metacalfes-law/feature.webp" />
+    </item>
+    
+    <item>
+      <title>Execution is King</title>
+      <link>//localhost:1313/posts/202403-execution-is-king/</link>
+      <pubDate>Tue, 19 Mar 2024 00:00:00 +0000</pubDate>
+      
+      <guid>//localhost:1313/posts/202403-execution-is-king/</guid>
+      <description>As a Product Manager, more often than not, I notice people mixing up &lt;em&gt;ideas&lt;/em&gt; and &lt;em&gt;execution&lt;/em&gt; in discussions. Both these concepts have entirely unique levels of fidelity to what the finished product will be. It’s important for Product Managers to know the difference between these two concepts, how to manage them, and what importance they should have at different stages of the product development cycle. Not understanding the differences between an &lt;em&gt;idea&lt;/em&gt; and an &lt;em&gt;execution&lt;/em&gt; isn&amp;rsquo;t just a minor inconvenience; it&amp;rsquo;s a significant obstacle to innovation and strategic execution for products and companies.</description>
+      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="//localhost:1313/posts/202403-execution-is-king/feature.webp" />
+    </item>
+    
+    <item>
+      <title>Product-Market Fit: What it is and do you have it</title>
+      <link>//localhost:1313/posts/202307-pmf/</link>
+      <pubDate>Sat, 29 Jul 2023 00:00:00 +0000</pubDate>
+      
+      <guid>//localhost:1313/posts/202307-pmf/</guid>
+      <description>In the fast-paced and competitive world of entrepreneurship, achieving product-market fit (PMF) is the holy grail. It is the moment when a product or service aligns perfectly with the needs and desires of the target market, leading to enthusiastic customer adoption and sustainable growth. But how do entrepreneurs know if they have truly achieved this elusive state?</description>
+      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="//localhost:1313/posts/202307-pmf/feature.webp" />
+    </item>
+    
+    <item>
+      <title>Blitzscaling</title>
+      <link>//localhost:1313/posts/202304-blitzscalling/</link>
+      <pubDate>Sat, 29 Apr 2023 00:00:00 +0000</pubDate>
+      
+      <guid>//localhost:1313/posts/202304-blitzscalling/</guid>
+      <description>Blitzscaling is a term coined by entrepreneur and investor Reid Hoffman, which refers to a strategy for rapidly scaling up a company in a short period. The idea behind blitzscaling is to prioritize growth over profitability, aiming to dominate a market and become a category leader. While blitzscaling can lead to significant success for companies, it also has some significant downsides.</description>
+      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="//localhost:1313/posts/202304-blitzscalling/featured.webp" />
+    </item>
+    
+  </channel>
+</rss>

@@ -1,0 +1,14 @@
+languageCode = "en"
+languageName = "English"
+weight = 1
+title = "Hisam Mehboob"
+
+[params]
+  displayName = "English"
+  isoCode = "en"
+  rtl = false
+  dateFormat = "2006-01-02"
+  logo = "img/logo_inverted@0.25x.png"
+  secondaryLogo = "img/logo@0.25x.png"
+  description = "hisamshar | Hisam Mehboob"
+  # copyright = "Copy, _right?_ :thinking_face:"
