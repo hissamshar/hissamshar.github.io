@@ -1,5 +1,5 @@
 ---
-title: "How to Use Cloudflare WARP (1.1.1.1)"
+title: "How to Bypass Restrictive Firewalls and Proxies with Cloudflare WARP (1.1.1.1)"
 description: ""
 summary: ""
 categories: ["Linux", "Proxy"]
