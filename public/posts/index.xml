@@ -10,6 +10,21 @@
     <lastBuildDate>Mon, 13 Jun 2022 20:55:37 +0100</lastBuildDate><atom:link href="//localhost:1313/posts/index.xml" rel="self" type="application/rss+xml" />
     
     <item>
+      <title>How to Use Cloudflare WARP (1.1.1.1)</title>
+      <link>//localhost:1313/posts/202512-warp-cli/</link>
+      <pubDate>Mon, 01 Dec 2025 00:00:00 +0000</pubDate>
+      
+      <guid>//localhost:1313/posts/202512-warp-cli/</guid>
+      <description>&lt;p&gt;If you&amp;rsquo;re a student or researcher, you&amp;rsquo;ve likely encountered that
+frustrating &amp;ldquo;Access Denied&amp;rdquo; screen when trying to reach a legitimate
+website, software repository, or gaming service on campus. University
+networks often use strict firewalls or transparent proxies to limit
+bandwidth and enforce security policies, but this can severely hamper
+your ability to study or relax.&lt;/p&gt;</description>
+      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="//localhost:1313/posts/202512-warp-cli/feature.webp" />
+    </item>
+    
+    <item>
       <title>Creating Your First Docker Image: A Beginner-Friendly Guide</title>
       <link>//localhost:1313/posts/202411-docker-images/</link>
       <pubDate>Wed, 26 Nov 2025 16:12:08 +0500</pubDate>

@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Proxy on Hisam Mehboob</title>
+    <link>//localhost:1313/categories/proxy/</link>
+    <description>Recent content in Proxy on Hisam Mehboob</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en</language>
+    <copyright>© 2025 Hisam Mehboob</copyright>
+    <lastBuildDate>Mon, 01 Dec 2025 00:00:00 +0000</lastBuildDate><atom:link href="//localhost:1313/categories/proxy/index.xml" rel="self" type="application/rss+xml" />
+    
+    <item>
+      <title>How to Use Cloudflare WARP (1.1.1.1)</title>
+      <link>//localhost:1313/posts/202512-warp-cli/</link>
+      <pubDate>Mon, 01 Dec 2025 00:00:00 +0000</pubDate>
+      
+      <guid>//localhost:1313/posts/202512-warp-cli/</guid>
+      <description>&lt;p&gt;If you&amp;rsquo;re a student or researcher, you&amp;rsquo;ve likely encountered that
+frustrating &amp;ldquo;Access Denied&amp;rdquo; screen when trying to reach a legitimate
+website, software repository, or gaming service on campus. University
+networks often use strict firewalls or transparent proxies to limit
+bandwidth and enforce security policies, but this can severely hamper
+your ability to study or relax.&lt;/p&gt;</description>
+      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="//localhost:1313/posts/202512-warp-cli/feature.webp" />
+    </item>
+    
+  </channel>
+</rss>

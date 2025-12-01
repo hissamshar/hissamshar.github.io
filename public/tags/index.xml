@@ -7,7 +7,27 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
     <copyright>© 2025 Hisam Mehboob</copyright>
-    <lastBuildDate>Wed, 26 Nov 2025 16:12:08 +0500</lastBuildDate><atom:link href="//localhost:1313/tags/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Mon, 01 Dec 2025 00:00:00 +0000</lastBuildDate><atom:link href="//localhost:1313/tags/index.xml" rel="self" type="application/rss+xml" />
+    
+    <item>
+      <title>Firewall</title>
+      <link>//localhost:1313/tags/firewall/</link>
+      <pubDate>Mon, 01 Dec 2025 00:00:00 +0000</pubDate>
+      
+      <guid>//localhost:1313/tags/firewall/</guid>
+      <description></description>
+      
+    </item>
+    
+    <item>
+      <title>VPN</title>
+      <link>//localhost:1313/tags/vpn/</link>
+      <pubDate>Mon, 01 Dec 2025 00:00:00 +0000</pubDate>
+      
+      <guid>//localhost:1313/tags/vpn/</guid>
+      <description></description>
+      
+    </item>
     
     <item>
       <title>Images</title>
