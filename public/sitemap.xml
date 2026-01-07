@@ -4,13 +4,73 @@
 
   <url>
     <loc>//localhost:1313/</loc>
-    <lastmod>2026-01-06T00:00:00+00:00</lastmod>
+    <lastmod>2026-01-06T15:45:33+05:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>//localhost:1313/categories/</loc>
-    <lastmod>2025-12-01T00:00:00+00:00</lastmod>
+    <lastmod>2026-01-06T15:45:33+05:00</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>//localhost:1313/tags/cli/</loc>
+    <lastmod>2026-01-06T15:45:33+05:00</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>//localhost:1313/tags/email/</loc>
+    <lastmod>2026-01-06T15:45:33+05:00</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>//localhost:1313/categories/git/</loc>
+    <lastmod>2026-01-06T15:45:33+05:00</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>//localhost:1313/tags/git/</loc>
+    <lastmod>2026-01-06T15:45:33+05:00</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>//localhost:1313/tags/gmail/</loc>
+    <lastmod>2026-01-06T15:45:33+05:00</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>//localhost:1313/posts/git-email-setup/</loc>
+    <lastmod>2026-01-06T15:45:33+05:00</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>//localhost:1313/tags/</loc>
+    <lastmod>2026-01-06T15:45:33+05:00</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>//localhost:1313/tags/tutorial/</loc>
+    <lastmod>2026-01-06T15:45:33+05:00</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>//localhost:1313/categories/version-control/</loc>
+    <lastmod>2026-01-06T15:45:33+05:00</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>//localhost:1313/posts/git-email/</loc>
+    <lastmod>2026-01-01T00:00:00+00:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
@@ -34,12 +94,6 @@
   </url>
   <url>
     <loc>//localhost:1313/categories/proxy/</loc>
-    <lastmod>2025-12-01T00:00:00+00:00</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>0.5</priority>
-  </url>
-  <url>
-    <loc>//localhost:1313/tags/</loc>
     <lastmod>2025-12-01T00:00:00+00:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
