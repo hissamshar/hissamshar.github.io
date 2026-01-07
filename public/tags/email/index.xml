@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Email on Hisam Mehboob</title>
+    <link>//localhost:1313/tags/email/</link>
+    <description>Recent content in Email on Hisam Mehboob</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en</language>
+    <copyright>© 2026 Hisam Mehboob</copyright>
+    <lastBuildDate>Thu, 01 Jan 2026 00:00:00 +0000</lastBuildDate><atom:link href="//localhost:1313/tags/email/index.xml" rel="self" type="application/rss+xml" />
+    
+    <item>
+      <title>Setting Up Git Send-Email with Gmail</title>
+      <link>//localhost:1313/posts/git-email/</link>
+      <pubDate>Thu, 01 Jan 2026 00:00:00 +0000</pubDate>
+      
+      <guid>//localhost:1313/posts/git-email/</guid>
+      <description>&lt;p&gt;Using &lt;code&gt;git send-email&lt;/code&gt; allows you to send patches directly from the command line, a workflow favored by many open-source projects (like the Linux kernel and SourceHut). This guide walks you through setting up &lt;code&gt;git send-email&lt;/code&gt; with Gmail and sending your first patch.&lt;/p&gt;</description>
+      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="//localhost:1313/posts/git-email/feature.webp" />
+    </item>
+    
+  </channel>
+</rss>

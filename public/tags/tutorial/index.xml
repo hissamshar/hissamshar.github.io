@@ -6,17 +6,17 @@
     <description>Recent content in Tutorial on Hisam Mehboob</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
-    <copyright>© 2025 Hisam Mehboob</copyright>
-    <lastBuildDate>Wed, 03 Sep 2025 00:00:00 +0000</lastBuildDate><atom:link href="//localhost:1313/tags/tutorial/index.xml" rel="self" type="application/rss+xml" />
+    <copyright>© 2026 Hisam Mehboob</copyright>
+    <lastBuildDate>Thu, 01 Jan 2026 00:00:00 +0000</lastBuildDate><atom:link href="//localhost:1313/tags/tutorial/index.xml" rel="self" type="application/rss+xml" />
     
     <item>
-      <title>Docker Cagent: Runtime for AI Agents</title>
-      <link>//localhost:1313/posts/202509-docker-cagent/</link>
-      <pubDate>Wed, 03 Sep 2025 00:00:00 +0000</pubDate>
+      <title>Setting Up Git Send-Email with Gmail</title>
+      <link>//localhost:1313/posts/git-email/</link>
+      <pubDate>Thu, 01 Jan 2026 00:00:00 +0000</pubDate>
       
-      <guid>//localhost:1313/posts/202509-docker-cagent/</guid>
-      <description>AI agents are growing fast, but most run as fragile scripts tied to a local machine. We built cagent to containerize, standardize, and scale agents the Docker way—and we&amp;rsquo;ve open sourced it.</description>
-      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="//localhost:1313/posts/202509-docker-cagent/featured.webp" />
+      <guid>//localhost:1313/posts/git-email/</guid>
+      <description>&lt;p&gt;Using &lt;code&gt;git send-email&lt;/code&gt; allows you to send patches directly from the command line, a workflow favored by many open-source projects (like the Linux kernel and SourceHut). This guide walks you through setting up &lt;code&gt;git send-email&lt;/code&gt; with Gmail and sending your first patch.&lt;/p&gt;</description>
+      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="//localhost:1313/posts/git-email/feature.webp" />
     </item>
     
   </channel>
