@@ -1,32 +1,22 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Tutorial on N9O</title>
+    <title>Tutorial on Hisam Mehboob</title>
     <link>//localhost:1313/categories/tutorial/</link>
-    <description>Recent content in Tutorial on N9O</description>
+    <description>Recent content in Tutorial on Hisam Mehboob</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
-    <copyright>© 2025 Hisam Mehboob</copyright>
-    <lastBuildDate>Thu, 06 Oct 2022 00:00:00 +0000</lastBuildDate><atom:link href="//localhost:1313/categories/tutorial/index.xml" rel="self" type="application/rss+xml" />
+    <copyright>© 2026 Hisam Mehboob</copyright>
+    <lastBuildDate>Tue, 13 Jan 2026 00:00:00 +0000</lastBuildDate><atom:link href="//localhost:1313/categories/tutorial/index.xml" rel="self" type="application/rss+xml" />
     
     <item>
-      <title>How to Run Stable Diffusion On Your Laptop</title>
-      <link>//localhost:1313/posts/202210-stable-diffusion-tutorial/</link>
-      <pubDate>Thu, 06 Oct 2022 00:00:00 +0000</pubDate>
+      <title>Your First Kernel Patch</title>
+      <link>//localhost:1313/posts/git-email-copy/</link>
+      <pubDate>Tue, 13 Jan 2026 00:00:00 +0000</pubDate>
       
-      <guid>//localhost:1313/posts/202210-stable-diffusion-tutorial/</guid>
-      <description>In the last year, several machine learning models have become available to the public to generate images from textual descriptions. This has been an interesting development in the AI space. However, just recently did this technology became available for everyone to try.</description>
-      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="//localhost:1313/posts/202210-stable-diffusion-tutorial/featured.webp" />
-    </item>
-    
-    <item>
-      <title>How I Created My Homepage (for free) Using Docker, Hugo, and Firebase</title>
-      <link>//localhost:1313/posts/202206-homepage-guide/</link>
-      <pubDate>Mon, 27 Jun 2022 00:00:00 +0000</pubDate>
-      
-      <guid>//localhost:1313/posts/202206-homepage-guide/</guid>
-      <description>Currently, there are several solutions to build and host your personal website. I wanted to challenge myself to see if I could do it with the same set of features as some of the paid solutions out there and for free. Here are the results.</description>
-      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="//localhost:1313/posts/202206-homepage-guide/feature.webp" />
+      <guid>//localhost:1313/posts/git-email-copy/</guid>
+      <description>&lt;p&gt;In our previous post, we covered how to set up &lt;code&gt;git send-email&lt;/code&gt; for kernel development. Now, it&amp;rsquo;s time to put that setup to use. This guide will walk you through the process of making your very first change to the Linux kernel, using the &lt;strong&gt;6.19.0-rc4&lt;/strong&gt; release as our target.&lt;/p&gt;</description>
+      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="//localhost:1313/posts/git-email-copy/feature.webp" />
     </item>
     
   </channel>

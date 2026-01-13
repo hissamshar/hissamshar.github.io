@@ -7,7 +7,17 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
     <copyright>© 2026 Hisam Mehboob</copyright>
-    <lastBuildDate>Thu, 13 Nov 2025 14:58:03 +0500</lastBuildDate><atom:link href="//localhost:1313/tags/kernel/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Tue, 13 Jan 2026 00:00:00 +0000</lastBuildDate><atom:link href="//localhost:1313/tags/kernel/index.xml" rel="self" type="application/rss+xml" />
+    
+    <item>
+      <title>Your First Kernel Patch</title>
+      <link>//localhost:1313/posts/git-email-copy/</link>
+      <pubDate>Tue, 13 Jan 2026 00:00:00 +0000</pubDate>
+      
+      <guid>//localhost:1313/posts/git-email-copy/</guid>
+      <description>&lt;p&gt;In our previous post, we covered how to set up &lt;code&gt;git send-email&lt;/code&gt; for kernel development. Now, it&amp;rsquo;s time to put that setup to use. This guide will walk you through the process of making your very first change to the Linux kernel, using the &lt;strong&gt;6.19.0-rc4&lt;/strong&gt; release as our target.&lt;/p&gt;</description>
+      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="//localhost:1313/posts/git-email-copy/feature.webp" />
+    </item>
     
     <item>
       <title>Understanding the Linux Kernel Development Process</title>
