@@ -4,30 +4,60 @@
 
   <url>
     <loc>//localhost:1313/</loc>
-    <lastmod>2026-01-13T00:00:00+00:00</lastmod>
+    <lastmod>2026-02-10T00:00:00+00:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>//localhost:1313/categories/</loc>
-    <lastmod>2026-01-13T00:00:00+00:00</lastmod>
+    <lastmod>2026-02-10T00:00:00+00:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>//localhost:1313/tags/git/</loc>
-    <lastmod>2026-01-13T00:00:00+00:00</lastmod>
+    <lastmod>2026-02-10T00:00:00+00:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
-    <loc>//localhost:1313/tags/kernel/</loc>
-    <lastmod>2026-01-13T00:00:00+00:00</lastmod>
+    <loc>//localhost:1313/categories/linux/</loc>
+    <lastmod>2026-02-10T00:00:00+00:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>//localhost:1313/tags/linux/</loc>
+    <lastmod>2026-02-10T00:00:00+00:00</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>//localhost:1313/posts/aws-workshop/</loc>
+    <lastmod>2026-02-10T00:00:00+00:00</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>//localhost:1313/posts/aws-workshop-2/</loc>
+    <lastmod>2026-02-10T00:00:00+00:00</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>//localhost:1313/tags/</loc>
+    <lastmod>2026-02-10T00:00:00+00:00</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>//localhost:1313/categories/tutorial/</loc>
+    <lastmod>2026-02-10T00:00:00+00:00</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>//localhost:1313/tags/kernel/</loc>
     <lastmod>2026-01-13T00:00:00+00:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
@@ -40,18 +70,6 @@
   </url>
   <url>
     <loc>//localhost:1313/tags/patching/</loc>
-    <lastmod>2026-01-13T00:00:00+00:00</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>0.5</priority>
-  </url>
-  <url>
-    <loc>//localhost:1313/tags/</loc>
-    <lastmod>2026-01-13T00:00:00+00:00</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>0.5</priority>
-  </url>
-  <url>
-    <loc>//localhost:1313/categories/tutorial/</loc>
     <lastmod>2026-01-13T00:00:00+00:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
@@ -118,12 +136,6 @@
   </url>
   <url>
     <loc>//localhost:1313/posts/202512-warp-cli/</loc>
-    <lastmod>2025-12-01T00:00:00+00:00</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>0.5</priority>
-  </url>
-  <url>
-    <loc>//localhost:1313/categories/linux/</loc>
     <lastmod>2025-12-01T00:00:00+00:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
