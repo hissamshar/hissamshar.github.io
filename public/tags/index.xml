@@ -20,21 +20,31 @@
     </item>
     
     <item>
-      <title>Linux</title>
-      <link>//localhost:1313/tags/linux/</link>
+      <title>Kernel</title>
+      <link>//localhost:1313/tags/kernel/</link>
       <pubDate>Tue, 10 Feb 2026 00:00:00 +0000</pubDate>
       
-      <guid>//localhost:1313/tags/linux/</guid>
+      <guid>//localhost:1313/tags/kernel/</guid>
       <description></description>
       
     </item>
     
     <item>
-      <title>Kernel</title>
-      <link>//localhost:1313/tags/kernel/</link>
-      <pubDate>Tue, 13 Jan 2026 00:00:00 +0000</pubDate>
+      <title>LFX</title>
+      <link>//localhost:1313/tags/lfx/</link>
+      <pubDate>Tue, 10 Feb 2026 00:00:00 +0000</pubDate>
       
-      <guid>//localhost:1313/tags/kernel/</guid>
+      <guid>//localhost:1313/tags/lfx/</guid>
+      <description></description>
+      
+    </item>
+    
+    <item>
+      <title>Linux</title>
+      <link>//localhost:1313/tags/linux/</link>
+      <pubDate>Tue, 10 Feb 2026 00:00:00 +0000</pubDate>
+      
+      <guid>//localhost:1313/tags/linux/</guid>
       <description></description>
       
     </item>

@@ -21,6 +21,24 @@
     <priority>0.5</priority>
   </url>
   <url>
+    <loc>//localhost:1313/tags/kernel/</loc>
+    <lastmod>2026-02-10T00:00:00+00:00</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>//localhost:1313/categories/lfx/</loc>
+    <lastmod>2026-02-10T00:00:00+00:00</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>//localhost:1313/tags/lfx/</loc>
+    <lastmod>2026-02-10T00:00:00+00:00</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
     <loc>//localhost:1313/categories/linux/</loc>
     <lastmod>2026-02-10T00:00:00+00:00</lastmod>
     <changefreq>daily</changefreq>
@@ -34,6 +52,12 @@
   </url>
   <url>
     <loc>//localhost:1313/posts/aws-workshop/</loc>
+    <lastmod>2026-02-10T00:00:00+00:00</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>//localhost:1313/posts/lfxapplication-procces/</loc>
     <lastmod>2026-02-10T00:00:00+00:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
@@ -53,12 +77,6 @@
   <url>
     <loc>//localhost:1313/categories/tutorial/</loc>
     <lastmod>2026-02-10T00:00:00+00:00</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>0.5</priority>
-  </url>
-  <url>
-    <loc>//localhost:1313/tags/kernel/</loc>
-    <lastmod>2026-01-13T00:00:00+00:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
@@ -173,12 +191,6 @@
   <url>
     <loc>//localhost:1313/tags/images/</loc>
     <lastmod>2025-11-26T16:12:08+05:00</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>0.5</priority>
-  </url>
-  <url>
-    <loc>//localhost:1313/categories/lfx/</loc>
-    <lastmod>2025-11-13T14:58:03+05:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
